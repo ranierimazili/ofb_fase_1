@@ -1,0 +1,156 @@
+[
+  {
+    "url": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/personal-accounts",
+    "data": {
+      "data": {
+        "brand": {
+          "name": "banco BV",
+          "companies": [
+            {
+              "cnpjNumber": "59588111000103",
+              "name": "Banco Votorantim S.A.",
+              "urlComplementaryList": "NA",
+              "personalAccounts": [
+                {
+                  "type": "CONTA_DEPOSITO_A_VISTA",
+                  "fees": {
+                    "priorityServices": [
+                      {
+                        "name": "TRANSFERENCIA_TED_INTERNET",
+                        "code": "TED_INTERNET",
+                        "chargingTriggerInfo": "Realização de transferência de recurso por meio de TED pela internet. Nas contas eletrônicas não pode ser cobrada tarifa para este canal de entrega.",
+                        "prices": [
+                          {
+                            "interval": "1_FAIXA",
+                            "value": "0.00",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "interval": "2_FAIXA",
+                            "value": "0.00",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "interval": "3_FAIXA",
+                            "value": "0.00",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "interval": "4_FAIXA",
+                            "value": "0.00",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "1.0000"
+                            }
+                          }
+                        ],
+                        "minimum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        },
+                        "maximum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        }
+                      }
+                    ]
+                  },
+                  "serviceBundles": [
+                    {
+                      "name": "NA",
+                      "services": [
+                        {
+                          "code": "NA",
+                          "chargingTriggerInfo": "NA",
+                          "eventLimitQuantity": "0",
+                          "freeEventQuantity": "0"
+                        }
+                      ],
+                      "prices": [
+                        {
+                          "interval": "1_FAIXA",
+                          "monthlyFee": "0.00",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "0.0000"
+                          }
+                        },
+                        {
+                          "interval": "2_FAIXA",
+                          "monthlyFee": "0.00",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "0.0000"
+                          }
+                        },
+                        {
+                          "interval": "3_FAIXA",
+                          "monthlyFee": "0.00",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "0.0000"
+                          }
+                        },
+                        {
+                          "interval": "4_FAIXA",
+                          "monthlyFee": "0.00",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "1.0000"
+                          }
+                        }
+                      ],
+                      "minimum": {
+                        "value": "0.00",
+                        "currency": "BRL"
+                      },
+                      "maximum": {
+                        "value": "0.00",
+                        "currency": "BRL"
+                      }
+                    }
+                  ],
+                  "openingClosingChannels": [
+                    "MOBILE_BANKING"
+                  ],
+                  "additionalInfo": "NA",
+                  "transactionMethods": [
+                    "MOVIMENTACAO_ELETRONICA"
+                  ],
+                  "termsConditions": {
+                    "minimumBalance": {
+                      "value": "NA",
+                      "currency": "BRL"
+                    },
+                    "elegibilityCriteriaInfo": "NA",
+                    "closingProcessInfo": "PROCESSO DE ENCERRAMENTO – Via Cliente. SOLICITAÇÃO - Enviar carta de encerramento modelo banco. RECEPÇÃO - Incluir a carta para abono via pasta pública e realizar as consultas nos sistemas. COMERCIAL - Posição Consolidada - Saldo em conta corrente e vinculada; Posição de Renda Fixa (CDB) - Posição de Fundos. BACENJUD - Bloqueio Judicial. SISTEMA DE CRÉDITO - GL - Limite tomado. TARIFADOR - Tarifas pendentes. VPEND - Pendências ativas"
+                  },
+                  "incomeRate": {
+                    "savingAccount": "NA",
+                    "prepaidPaymentAccount": "NA"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "links": {
+        "self": "https://sboot-open-base-atom-prod-conta-pf.app.bvnet.bv/products-services/v1/personal-accounts"
+      },
+      "meta": {
+        "totalRecords": 1,
+        "totalPages": 1
+      }
+    }
+  }
+]

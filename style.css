@@ -1,0 +1,93 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.commonTD {
+    /* border: 1px solid; */
+    border-collapse: collapse;
+}
+
+.rightBorderTD {
+    /* border-right: 1px solid; */
+}
+
+.bottomBorderTD {
+    /* border-bottom: 1px solid; */
+}
+
+table {
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+table {
+    overflow-y: auto;
+}
+
+table thead tr:first-child td {
+    position: sticky;
+    top: 0;
+}
+
+table thead tr:last-child td {
+    position: sticky;
+    top: 60;
+}
+
+table thead tr td{
+    padding: 20px;
+}
+
+table thead .commonTD{
+    background-color: #b8daff;
+    /* border: 1px solid #b1b6cf; */
+
+    border: none;
+    font-size: 12px !important;
+
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even):not(table table tr) {
+    background: #CCC;
+    background: #dcedff;
+
+    /*  1px solid gray; */
+
+    border-top: 1px solid #80c9df;
+    border-bottom: 1px solid #80c9df;
+}
+
+table tbody tr td:first-child:not(.bottomBorderTD):not(.rightBorderTD){
+
+
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 400;
+
+    padding: 10px;
+    font-size: 12px !important;
+}
+
+table tbody tr td:first-child:not(.bottomBorderTD):not(.rightBorderTD) a{
+    text-decoration: none;
+    color: black;
+}
+
+table table img{
+    width: 20px !important;
+    padding: 5px;
+}
+
+table table{
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.rightBorderTD, .bottomBorderTD{
+    font-size: 12px;
+}

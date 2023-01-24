@@ -1,0 +1,370 @@
+[
+  {
+    "url": "https://apis.bocombbm.com.br/open-banking/products-services/v1/personal-accounts",
+    "data": {
+      "data": {
+        "brand": {
+          "name": "BOCOM BBM",
+          "companies": [
+            {
+              "personalAccount": [
+                {
+                  "fees": {
+                    "priorityServices": [
+                      {
+                        "name": "CHEQUE_ADMINISTRATIVO",
+                        "code": "CHEQUE_ADMINISTRATIVO",
+                        "chargingTriggerInfo": "POR EVENTO",
+                        "prices": [
+                          {
+                            "value": "0.00",
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "1.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          }
+                        ],
+                        "minimum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        },
+                        "maximum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        }
+                      },
+                      {
+                        "name": "TRANSFERENCIA_ENTRE_CONTAS_PROPRIA_INSTITUICAO_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS_INCLUSIVE_INTERNET",
+                        "code": "TRANSF_RECURSO_E",
+                        "chargingTriggerInfo": "POR EVENTO",
+                        "prices": [
+                          {
+                            "value": "0.00",
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "1.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          }
+                        ],
+                        "minimum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        },
+                        "maximum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        }
+                      },
+                      {
+                        "name": "CONFECCAO_CADASTRO_INICIO_RELACIONAMENTO",
+                        "code": "CADASTRO",
+                        "chargingTriggerInfo": "POR EVENTO",
+                        "prices": [
+                          {
+                            "value": "0.00",
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "1.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          }
+                        ],
+                        "minimum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        },
+                        "maximum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        }
+                      },
+                      {
+                        "name": "TRANSFERENCIA_TED_PESSOAL_OU_PRESENCIAL",
+                        "code": "TED_PESSOAL",
+                        "chargingTriggerInfo": "POR EVENTO",
+                        "prices": [
+                          {
+                            "value": "0.00",
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "1.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          }
+                        ],
+                        "minimum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        },
+                        "maximum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        }
+                      },
+                      {
+                        "name": "TRANSFERENCIA_TED_INTERNET",
+                        "code": "TED_INTERNET",
+                        "chargingTriggerInfo": "POR EVENTO",
+                        "prices": [
+                          {
+                            "value": "0.00",
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "1.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          },
+                          {
+                            "value": "0.00",
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            }
+                          }
+                        ],
+                        "minimum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        },
+                        "maximum": {
+                          "value": "0.00",
+                          "currency": "BRL"
+                        }
+                      }
+                    ],
+                    "otherServices": []
+                  },
+                  "type": "CONTA_DEPOSITO_A_VISTA",
+                  "serviceBundles": [
+                    {
+                      "name": "PACOTE_PADRONIZADO",
+                      "services": [
+                        {
+                          "code": "CHEQUE_ADMINISTRATIVO",
+                          "chargingTriggerInfo": "POR EVENTO",
+                          "eventLimitQuantity": "999999",
+                          "freeEventQuantity": "999999"
+                        },
+                        {
+                          "code": "TRANSF_RECURSO_E",
+                          "chargingTriggerInfo": "POR EVENTO",
+                          "eventLimitQuantity": "999999",
+                          "freeEventQuantity": "999999"
+                        },
+                        {
+                          "code": "CADASTRO",
+                          "chargingTriggerInfo": "POR EVENTO",
+                          "eventLimitQuantity": "1",
+                          "freeEventQuantity": "0"
+                        },
+                        {
+                          "code": "TED_PESSOAL",
+                          "chargingTriggerInfo": "POR EVENTO",
+                          "eventLimitQuantity": "999999",
+                          "freeEventQuantity": "0"
+                        },
+                        {
+                          "code": "TED_INTERNET",
+                          "chargingTriggerInfo": "POR EVENTO",
+                          "eventLimitQuantity": "999999",
+                          "freeEventQuantity": "0"
+                        }
+                      ],
+                      "prices": [
+                        {
+                          "monthlyFee": "0.00",
+                          "interval": "1_FAIXA",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "0.9943"
+                          }
+                        },
+                        {
+                          "monthlyFee": "1000.00",
+                          "interval": "2_FAIXA",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "0.0028"
+                          }
+                        },
+                        {
+                          "monthlyFee": "0.00",
+                          "interval": "3_FAIXA",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "0.0000"
+                          }
+                        },
+                        {
+                          "monthlyFee": "3000.00",
+                          "interval": "4_FAIXA",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "0.0028"
+                          }
+                        }
+                      ],
+                      "minimum": {
+                        "value": "0.00",
+                        "currency": "BRL"
+                      },
+                      "maximum": {
+                        "value": "3000.00",
+                        "currency": "BRL"
+                      }
+                    }
+                  ],
+                  "openingClosingChannels": [
+                    "OUTROS"
+                  ],
+                  "additionalInfo": "A abertura de conta é feita por intermédio do gerente de contas com a entrega de documentos assinados. O encerramento de conta ocorre por meio de carta assinada ou e-mail enviado para o gerente de contas.",
+                  "transactionMethods": [
+                    "MOVIMENTACAO_CHEQUE",
+                    "MOVIMENTACAO_ELETRONICA"
+                  ],
+                  "termsConditions": {
+                    "minimumBalance": {
+                      "value": "0.00",
+                      "currency": "BRL"
+                    },
+                    "elegibilityCriteriaInfo": "Documentação analisada e aprovada pelo gerente de contas responsável pelo relacionamento com o cliente.",
+                    "closingProcessInfo": "Para encerramento deve-se entrar em contato com o officer/banker responsável pelo relacionamento com o cliente via e-mail ou telefone."
+                  },
+                  "incomeRate": {
+                    "savingAccount": "NA",
+                    "prepaidPaymentAccount": "NA"
+                  }
+                }
+              ],
+              "name": "Banco BOCOM BBM S.A.",
+              "cnpjNumber": "15114366000169",
+              "urlComplementaryList": ""
+            }
+          ]
+        }
+      },
+      "links": {
+        "self": "https://apis.bocombbm.com.br/open-banking/products-services/v1/personal-accounts?page=1&page-size=25"
+      },
+      "meta": {
+        "totalRecords": 1,
+        "totalPages": 1
+      }
+    }
+  }
+]

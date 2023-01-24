@@ -1,0 +1,392 @@
+[
+  {
+    "url": "https://openbanking-uber.digio.com.br/open-banking/products-services/v1/personal-accounts",
+    "data": {
+      "data": {
+        "brand": {
+          "companies": [
+            {
+              "urlComplementaryList": "NA",
+              "name": "Banco Digio S.A.",
+              "cnpjNumber": "27098060000145",
+              "personalAccounts": [
+                {
+                  "fees": {
+                    "priorityServices": [
+                      {
+                        "code": "CADASTRO",
+                        "name": "CONFECCAO_CADASTRO_INICIO_RELACIONAMENTO",
+                        "chargingTriggerInfo": "Confecção de cadastro do início do relacionamento",
+                        "maximum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        },
+                        "prices": [
+                          {
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          }
+                        ],
+                        "minimum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        }
+                      },
+                      {
+                        "code": "DEPOSITO_IDENTIFICADO",
+                        "name": "DEPOSITO_IDENTIFICADO",
+                        "chargingTriggerInfo": "Depósito identificado",
+                        "maximum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        },
+                        "prices": [
+                          {
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          }
+                        ],
+                        "minimum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        }
+                      },
+                      {
+                        "code": "TED_INTERNET",
+                        "name": "TRANSFERENCIA_TED_INTERNET",
+                        "chargingTriggerInfo": "Transferência TED via internet",
+                        "maximum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        },
+                        "prices": [
+                          {
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          }
+                        ],
+                        "minimum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        }
+                      },
+                      {
+                        "code": "TRANSF_RECURSO_P",
+                        "name": "TRANSFERENCIA_ENTRE_CONTAS_PROPRIA_INSTITUICAO_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS_INCLUSIVE_INTERNET",
+                        "chargingTriggerInfo": "Transferência entre contas da mesma instituição",
+                        "maximum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        },
+                        "prices": [
+                          {
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          }
+                        ],
+                        "minimum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        }
+                      },
+                      {
+                        "code": "SAQUE_CARTAO_BRASIL",
+                        "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+                        "chargingTriggerInfo": "Saque retirada em espécie",
+                        "maximum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        },
+                        "prices": [
+                          {
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          }
+                        ],
+                        "minimum": {
+                          "currency": "BRL",
+                          "value": "0.00"
+                        }
+                      },
+                      {
+                        "code": "2_VIA_CARTAO_DEBITO",
+                        "name": "FORNECIMENTO_2_VIA_CARTAO_FUNCAO_DEBITO",
+                        "chargingTriggerInfo": "Emissão de segunda via do cartão de débito",
+                        "maximum": {
+                          "currency": "BRL",
+                          "value": "12.50"
+                        },
+                        "prices": [
+                          {
+                            "interval": "1_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "2_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "3_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "0.0000"
+                            },
+                            "value": "0.00"
+                          },
+                          {
+                            "interval": "4_FAIXA",
+                            "currency": "BRL",
+                            "customers": {
+                              "rate": "1.0000"
+                            },
+                            "value": "12.50"
+                          }
+                        ],
+                        "minimum": {
+                          "currency": "BRL",
+                          "value": "12.50"
+                        }
+                      }
+                    ]
+                  },
+                  "transactionMethods": [
+                    "MOVIMENTACAO_ELETRONICA",
+                    "MOVIMENTACAO_CARTAO"
+                  ],
+                  "termsConditions": {
+                    "closingProcessInfo": "https://www.ubercontabrasil.com.br/termos-e-condicoes.pdf",
+                    "minimumBalance": {
+                      "currency": "BRL",
+                      "value": "0.00"
+                    },
+                    "elegibilityCriteriaInfo": "https://www.ubercontabrasil.com.br/termos-e-condicoes.pdf"
+                  },
+                  "openingClosingChannels": [
+                    "MOBILE_BANKING",
+                    "OUTROS"
+                  ],
+                  "additionalInfo": "Pré cadastro no site - Motorista deve ser convidado",
+                  "serviceBundles": [
+                    {
+                      "name": "NA",
+                      "maximum": {
+                        "currency": "BRL",
+                        "value": "NA"
+                      },
+                      "services": [
+                        {
+                          "code": "NA",
+                          "chargingTriggerInfo": "NA",
+                          "eventLimitQuantity": "0",
+                          "freeEventQuantity": "0"
+                        }
+                      ],
+                      "prices": [
+                        {
+                          "interval": "1_FAIXA",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "NA"
+                          },
+                          "monthlyFee": "NA"
+                        },
+                        {
+                          "interval": "2_FAIXA",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "NA"
+                          },
+                          "monthlyFee": "NA"
+                        },
+                        {
+                          "interval": "3_FAIXA",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "NA"
+                          },
+                          "monthlyFee": "NA"
+                        },
+                        {
+                          "interval": "4_FAIXA",
+                          "currency": "BRL",
+                          "customers": {
+                            "rate": "NA"
+                          },
+                          "monthlyFee": "NA"
+                        }
+                      ],
+                      "minimum": {
+                        "currency": "BRL",
+                        "value": "NA"
+                      }
+                    }
+                  ],
+                  "type": "CONTA_PAGAMENTO_PRE_PAGA",
+                  "incomeRate": {
+                    "prepaidPaymentAccount": "Rende 100% do CDI"
+                  }
+                }
+              ]
+            }
+          ],
+          "name": "Uber Conta by Digio"
+        }
+      },
+      "meta": {
+        "totalRecords": 1,
+        "totalPages": 1
+      },
+      "links": {
+        "self": "https://openbanking-uber.digio.com.br/open-banking/products-services/v1/personal-accounts?page=1&page-size=25"
+      }
+    }
+  }
+]
