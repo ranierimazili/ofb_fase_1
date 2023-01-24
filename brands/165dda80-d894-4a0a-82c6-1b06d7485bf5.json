@@ -1,0 +1,644 @@
+{
+  "OrganisationId": "b6b68aba-7b89-5981-8679-28a4244df514",
+  "AuthorisationServerId": "165dda80-d894-4a0a-82c6-1b06d7485bf5",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "33ba6e34-1d96-426c-b54d-9fc31c8eea5c",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "551ea86c-c6af-4881-bae7-9d376c575aa7",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "38a9c4f2-ccf0-490e-9051-a7af53175679",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "5305817b-2d2b-4b0d-bdb5-7c42ab96f92f",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "b643b063-7efe-4cce-9316-9a1570b6852d",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "b494c427-8195-4104-97f1-c44111ae54a2",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "ef0ab98b-db6c-46da-a33d-4f224094ad0b",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Itau_Unibanco_S-Credit-Card.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "549157c6-6562-44fb-ae2d-e8799e0d8f71",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b5999401-18e8-46c8-bf3e-440891d58332",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "d33b11ac-b766-4b82-a84f-429d1db2d5f8",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "46c5e546-406b-4009-addc-fab01a555903",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "c63bcb98-bf95-4c2d-9faa-284374b86116",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "e9d9371c-ade7-4d4f-a32e-0a1048bc2051",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/financings/1.0.4/Itau_Unibanco-API-FINANCINGS-private_key_jwt-03-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "7b349903-12a9-47d1-9cac-37d595cdbe92",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0cfb0b56-fa72-4721-9f49-9514855af472",
+          "ApiEndpoint": "https://secure.opf.api.itau/credicard/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "1fe180d6-a2f3-46ab-acf6-528618d9232e",
+          "ApiEndpoint": "https://secure.opf.api.itau/credicard/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/consents/2.0.1/60701190_Itau%20Unibanco%20Major_consents_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "f689b058-6137-4ba2-8dca-22fe380a3557",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "65a9ee5d-2a06-4a25-923a-65ed5d96e95b",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "bc33b9d7-20b5-41c7-bed9-7f876984bb19",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "c319999b-e5f1-430f-a562-8ceae4d11c4f",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "11b8b386-6bcf-41e4-93ea-b57a111c1fe7",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "681e8feb-d583-4286-890e-65d84c98a098",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "f45b101a-497f-4331-9a3e-8310a9092d20",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "7eea21d5-b6d2-449b-829d-e04d57de39ec",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "98e62461-5766-46b1-a20f-00445c21f1f7",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "7bc1110b-5d67-48e5-a6f2-1882a73d4afa",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "b4a6234e-88a3-4968-937a-020052c68b93",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "8d70c922-2ad3-4255-9343-074826c53403",
+          "ApiEndpoint": "https://api.itau/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "bb0d9974-c04b-445c-9bae-e3f522bdd79f",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "eacffbdd-5cee-4ac8-9f58-6b532a699240",
+          "ApiEndpoint": "https://secure.opf.api.itau/credicard-itaucard/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "6ddbe0b6-a208-47ba-aa09-edfd7cdc72b7",
+          "ApiEndpoint": "https://secure.opf.api.itau/credicard-itaucard/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Banco_Itaucard_S.A.-Baas_Payments_v1-API-PAYMENTS-private_key_jwt-18-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "5f8e92f4-a711-4f11-a90f-81181fbb2bb8",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b0c1f96b-a98c-4b61-abea-5cb15fdc14d8",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "3ed2fd8e-0d32-40cb-a4b2-4c7a4050e753",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "3bedc93f-994b-4ced-b418-062154cd97d9",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/Itau_Unibanco_S.A.-ItauBA_Unibanco_v2.0-API-CUSTOMER-BUSINESS-private_key_jwt-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "994d905f-aa33-4d67-96d9-860cc300de5b",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "30737a26-bb8f-4a20-8628-21be1c5b2cd0",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Itau_Unibanco-API-RESOURCES-private_key_jwt-03-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "dc01e71a-078b-42c6-8fce-3472405da168",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c4c807fe-4cf2-467a-9eec-8f32026caf57",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "7eb558f2-5044-4a7b-8cb3-08aeda986544",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "fa2ce311-d368-4d1c-9309-680d642f942f",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Itau_Unibanco_API-CUSTOMER-PERSONAL-private_key_jwt-03-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "5d1cfbe3-0fae-4f93-a06d-aae71d837bb6",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fa7ec910-4a2f-4c0a-8496-b4609525005e",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "0d3f8bea-cb89-46cf-a0cd-893c61f1ef6f",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "f9ddb94d-5c38-4a14-8478-575a64a01ee2",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "08be7113-8d67-438b-a158-059b06185b10",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "fc393dd5-51fd-437c-ab5c-4a20b171209e",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Itau_Unibanco_S.A.-ItaauBA_Unibanco_v2.0-API-ACCOUNTS-private_key_jwt-19-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "80452e51-6f16-4755-9e34-b124b9add6d4",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "07cd6ed2-0b61-44fd-81cd-e48a29eaddd2",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "db9c6af4-8fa7-455a-b014-1a381507ad04",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "5652ec95-5644-4836-89b7-c98d230b65ca",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/personal/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/60701190_Itau%20Unibanco%20Major_personal_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "9e6356ca-8e9a-454e-96ce-4102b157e961",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0ae93664-a71e-4b52-a22a-be2e9575dceb",
+          "ApiEndpoint": "https://api.itau/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "886f9a6c-3f6d-45ab-bd23-69de9f1a9ded",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ca80eb7b-7e33-4f0a-949e-1ab3451d03e6",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "a580cb86-b48b-4170-bc3a-ccdb09b1a9db",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "44770f21-70b3-4a17-bf6e-b9b1ab8d6a45",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "27796a59-79c3-402d-b7e5-5ff754ade97c",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "8e4257bf-97f7-497a-9f91-97e54430f5e0",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Itau_Unibanco_S.A.-ItauBA_Unibanco_v2.0-API-LOANS-private_key_jwt-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "3ecc27a8-226c-42e4-8c11-167615eb81cf",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "72efaec7-43e7-4994-9308-1f73e342db7d",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "306f2235-7662-4c95-94c4-1e59f7c61fd3",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "9ee26c26-bfff-4d6e-895b-4d48d113e73a",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "36eb4a46-5066-44de-994f-941bee7702f3",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "8b97f1ff-8d52-4ff8-a7a9-3c8204d5468e",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/loans/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/60701190_Itau%20Unibanco%20Major_loans_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "a9e17786-e94f-4f0c-b318-01aad87b287b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e0779d36-cedc-4eda-9420-1f62f9b5dd34",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "4d16d8ae-6332-4323-99bb-87345641e8ac",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "8288b6e7-1a16-4654-9da0-06659ec4f8e8",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "874e7c23-733b-40e2-ace1-53dac72b61e9",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "bb30bf44-a80c-4f83-957e-9888598215bf",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/financings/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/60701190_Itau%20Unibanco%20Major_financings_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "bb13f90e-899f-482f-9f65-71329c28e10b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4dc7669b-045c-4143-94aa-dc53215f6ed0",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "a24035b2-91db-4268-bf79-7d610f688f45",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "a956c55f-bcd0-47b8-8c08-ab513c14dad5",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/customers/v2/business/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/business/2.0.1/60701190_Itau%20Unibanco%20Major_business_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "469c7d58-6790-4fe1-b754-0d61ff341d95",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1f771688-925b-4813-a510-6cee3eecbe7b",
+          "ApiEndpoint": "https://api.itau/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "6984c01e-7c18-4c32-acdb-5206f9601479",
+          "ApiEndpoint": "https://api.itau/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "785e67a0-85bc-4588-a3b0-0336ce5139be",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "bca52179-bd0a-4dc7-bda1-70503b94d7f1",
+          "ApiEndpoint": "https://secure.opf.api.itau/credicard-itaucard/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "f858b546-0e21-461d-bdf0-16c3d335d729",
+          "ApiEndpoint": "https://secure.opf.api.itau/credicard-itaucard/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Banco_Itaucard_S.A.-Baas_Payments_v1-API-PAYMENTS-private_key_jwt-18-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "07088efa-cf06-492c-8b14-89b84e6b6021",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f2c09cc7-c39a-48ac-b754-1c22f1938be4",
+          "ApiEndpoint": "https://api.itau/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "6c372c9b-725b-4fe1-b76e-da699a8ff45c",
+          "ApiEndpoint": "https://api.itau/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "bf2bff92-4f54-40a8-9405-bb6e1d54aaa9",
+          "ApiEndpoint": "https://api.itau/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "7d845186-4063-425f-a7db-e8774e9de404",
+          "ApiEndpoint": "https://api.itau/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "c778b753-143c-4a5e-aa55-aa44a5341ab8",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6cf01809-e3a2-4cbf-baeb-6e7816eba8aa",
+          "ApiEndpoint": "https://secure.opf.api.itau/credicard/consents/v1/consents/{consentId}"
+        },
+        {
+          "ApiDiscoveryId": "44d756a2-ca84-4d25-b458-7c636451e682",
+          "ApiEndpoint": "https://secure.opf.api.itau/credicard/consents/v1/consents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Itau_Unibanco-API-CONSENT-private_key_jwt-03-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "c4556575-52af-42b9-a688-b6ad9a142121",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5e38227a-750c-40f4-893f-b6d4d5e59384",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "c935546c-adce-4bd4-931e-5010321a9d02",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "264b33d9-3887-4742-81c9-713e27e35a7f",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "07e02cc0-116d-4dda-8e8c-d680da07c9a2",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "f682d2dc-acff-4064-ad87-de6796f8dce5",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "e6f61e60-a20f-4f5e-8555-809db83ac1b5",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/60701190_Itau%20Unibanco%20Major_accounts_v2-OL_13-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "f3cd2676-5455-4444-858e-5183d611c843",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f809a17b-ea2f-452d-8bcf-6a48e76d3752",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "bca30bc5-5102-4395-892c-29649b832a76",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "deb6eb49-51fa-4543-85a7-fd408df7f31c",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "3490eb3e-76ad-4065-8f29-c415e733fdd5",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "630ae2ab-fcec-47e6-8499-a3325d938a5e",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "6f97e60c-e2e2-419a-acee-3794457e6b93",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/60701190_Itau%20Unibanco%20Major_credit-card_v2-OL_13-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "216b4a0f-9517-4122-8352-895fff2d31f1",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2670300f-686a-44ce-b501-126a89afe7cc",
+          "ApiEndpoint": "https://secure.opf.api.itau/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/60701190_Itau%20Unibanco%20Major_resources_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "resources"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "19/11/2021",
+      "CertificationExpirationDate": "19/11/2022",
+      "CertificationId": "9f254619-fc1b-41ef-a3e7-49fa61baef20",
+      "AuthorisationServerId": "165dda80-d894-4a0a-82c6-1b06d7485bf5",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Itau-FAPI-v4-Itau_Unibanco_S.A.-BR-OB-Adv.-OP-DCR-Private_Key-19-Nov-2021.zip"
+    },
+    {
+      "CertificationStartDate": "06/07/2021",
+      "CertificationExpirationDate": "06/07/2022",
+      "CertificationId": "9d06361d-3c77-4b20-92db-c76983e75255",
+      "AuthorisationServerId": "165dda80-d894-4a0a-82c6-1b06d7485bf5",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Itau_Unibanco-Itau_Identity_v1.0.0-BR-OB-Adv-OP-Private_Key-PAR-06-Jul-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "A Credicard, uma marca do grupo Itaú, é uma plataforma digital de produtos financeiros com cartão de crédito sem anuidade e conta digital gratuita. Nossas soluções orientam caminhos inteligentes para todos serem protagonistas de suas vidas financeiras.",
+  "CustomerFriendlyLogoUri": "https://www.itau.com.br/assets/dam/publisher/07_itau_empresas/13_open_banking/logos_regulatorio_bacen/opb_log_reg_bac_credicard_img_01.svg",
+  "CustomerFriendlyName": "Credicard",
+  "DeveloperPortalUri": "https://developer.itau.com.br",
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://id.credicard.opf.itau.com.br/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://id.itau.com.br/credicard/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

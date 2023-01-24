@@ -1,0 +1,602 @@
+{
+  "OrganisationId": "4a7250ec-eac5-5d8f-b7eb-dc0e8e880203",
+  "AuthorisationServerId": "702595cb-d881-40b7-8ba7-17db7843f499",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "0d0cc787-0224-498e-9ded-b554888fbe05",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "89eb3c06-bb54-4bba-a86e-6f4d3aabcfa4",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "16063dd5-3c71-4535-8a60-3e9a685cae5e",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "f41febba-120f-4229-9861-7fe484efc389",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "36dbf7de-a3f6-466c-b63c-9c3824e162a4",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "e503051d-b65c-4720-8113-10c14863305d",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "70539d4c-446f-40f2-9875-6c2a27ec127a",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "08e5ba53-afde-4f22-92e1-acbf05ce1615",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "6421c169-3c53-40b9-9bba-e3bd222c3d1b",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/products-services/v1/business-invoice-financings"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "e3115258-707a-4c0a-8314-ca2c7e05e7ff",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1d9347b6-16d4-4d4b-8dca-9ae5ec33cfc8",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "e0bcd759-3fe3-4817-bbb3-4ad439aeca9d",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/15114366_BOCOM%20BBM%20Open%20Banking%202.0.1_consents_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "1a600e02-ca05-4290-8177-f1d177951e04",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0335e175-8b52-456d-93de-6db18a0c1019",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "d86efae5-b0ae-42df-a8ee-984c5b6a38e8",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "7eb92f51-429a-41cb-b94d-e8318bc19958",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "31eff5fd-7469-4e25-af19-96d2d9fba1fc",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "1c1fac7b-417c-4520-9dae-1b9006018732",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/2.0.1/15114366_BOCOM%20BBM%20Open%20Banking%202.0.1_invoice-financings_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "3dd73640-1b8b-456d-a4ef-96e83b677e98",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ae01d557-b921-410a-8de8-063de80db769",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Resources_api_test-mtls-by_value-plain_response-gtAtOQrmol44q-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "51768c98-33de-466d-8625-88e06621dfb2",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9e241bda-ea46-4520-85e5-ada1b039d6aa",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/consents/v1/consents/{consentId}"
+        },
+        {
+          "ApiDiscoveryId": "da71765a-8c74-4dc6-9f2a-d2bb2439f8a2",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/consents/v1/consents"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Consents_api_test-mtls-by_value-plain_response-QSqqNKtcenTjY-03-Jan-2022.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "d4331405-1195-4580-b6a1-ea5e6bd31b04",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e22252c0-1e1f-44e4-b184-0367d0ee6b27",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "efc48d84-1a5b-4787-8f9f-b5812c137a13",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6711978a-337a-40e6-8431-59316e21c8f9",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "8cc195db-7028-4e72-90e6-3d67fd40ea4d",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "d9767482-a6bc-4304-9990-bdfd1d4228c6",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "2b164a0d-4d54-4d21-a266-cf438e455a78",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/channels/v1/branches"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "fc09e3f2-7790-4808-81f5-374c615b39c8",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c46ed1cb-fcbc-4d51-9cd2-302fd9d1dd56",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/15114366_BOCOM%20BBM%20Open%20Banking%202.0.1_resources_v2-OL_13-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "13/10/2022",
+      "CertificationExpirationDate": "13/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "43db0e9a-5aad-417b-833e-531a1c339a95",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "74b16c90-2cde-4bd5-8628-584d81d35de6",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "bb2b2a1a-47b2-4d81-b3f9-d8f34df502e5",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "232b9603-0a86-4f43-92a8-9c528a616d64",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "aeb2ed0a-11a5-461d-9535-30d91d9115cb",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "2f6f61f5-35e2-45c7-8bbc-8346272a703d",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/15114366_BOCOM%20BBM%20Open%20Banking%202.0.1_loans_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "21d0d5fe-04f9-4afd-85bf-c3c052f3a50a",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1b9b95ef-a092-4b3a-a142-16fbdbe361a3",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "0434cbfc-7291-484b-b775-3ec18621e851",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "2d24be67-3e94-49bb-8dc4-993383bac8c7",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "724b90c5-7e14-4c6c-ac81-03af50a49f38",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "7da33890-d171-42d9-883a-bdf81243e063",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/loans/v1/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Loans_api_test-mtls-by_value-plain_response-WnTwFLIzsLiVY-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "2b001df1-11a5-41f6-b933-ea5cc2ad3b85",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7ee25f1d-92e3-44a1-ac74-b89c853793b6",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "1f0be947-4ba0-44a6-bca8-aa16be100c14",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "27c4ab73-86c9-4249-abe2-6b6e46f0cd41",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "2453a345-6283-43d6-a1ec-a628617a76b0",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "bf5e9a91-06de-41fa-848d-d48529ea05e4",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/15114366_BOCOM%20BBM%20Open%20Banking%202.0.1_accounts_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "c04760da-d693-41c4-b229-18ba1e4a9c7b",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f4f3ad96-5929-4799-ad5b-47ff40f5632c",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "af7c5f2f-2f32-4143-b686-338752cf39da",
+          "ApiEndpoint": "https://apis.bocombbm.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "3f27d2a6-f90a-4750-905e-4d41654bf631",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5205180b-a688-4452-ae77-77806c8f7417",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "338c6324-41a1-4e06-8dc4-ff42652839d8",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "be268ff7-841c-4a22-b0fa-f4d9af66d467",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "619303de-7aa3-4e2f-97b0-7125da8cdd65",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "2a69cef4-4982-4007-87e0-7126e68be1e9",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Account_api_test-mtls-by_value-plain_response-k7vfL41COsCTM-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "d9a8777e-5c00-42e1-9bf0-bba47c8ded33",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "670bbc73-1a5c-4b7f-b0da-ff24e3060d4a",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v2/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "5c96a346-6a84-40d8-b3a4-9ec932ab9632",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "ed8ac55e-1506-4bb4-86ef-456d58eadf11",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v2/personal/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/15114366_BOCOM%20BBM%20Open%20Banking%202.0.1_personal_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "80682cbf-856e-49d9-b24f-ad9ff7eb4415",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "57b5a9b6-b026-4a24-9b73-f2b6d45f59a7",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "f8ef439e-00c1-4392-bc0b-977f435bafec",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "3fcf83d6-2a9d-4469-a01b-e41fe04a2ee0",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "0ee46f56-a25e-4043-8b25-6714524078b1",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "de07d250-cce3-4184-b710-a57ea485733f",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/invoice-financings/1.0.4/Credit_operations_discounted_credit_rights_api_test-mtls-by_value-plain_response-21DN2MnCve4JQ-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "f183fc78-1bf9-49d9-ae9a-2b8a04b05d41",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "886d6742-4a37-4036-bf3b-7cf77da83ae4",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "df2c50df-d44f-421f-be5c-a19a7e3e6aa1",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "b61b0233-6c36-4f8a-9f66-deed7ffc0ae2",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "1568678a-f7a0-44ae-82d4-820a602dd775",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "8274edbb-aeeb-43fa-b5f7-a84bcc24c7df",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/15114366_BOCOM%20BBM%20Open%20Banking%202.0.1_financings_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "8d2b5ec1-f1e9-48bc-b1d2-63e6cfe9f842",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "94f3d041-af62-44a9-bf49-b7d15e0bc9bd",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "3089b2de-9e04-4abe-8104-d782603b243b",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "d76d0c17-b42d-4acc-9f63-a047c5a0c4de",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "2361bdcd-388f-403c-817c-f7bb290d23ac",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "5132e952-2fee-4c77-a910-62ae44f31471",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/financings/1.0.4/Financings_api_test-mtls-by_value-plain_response-6s7q9arManEJD-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "1aa9c787-584a-4a75-895e-e94e076d8ffd",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7aca5409-e540-4e7c-bda3-0b14c8121d99",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "acdefb5d-613d-413a-b490-20fb5adae3ca",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "19122f2d-3b15-410f-8065-6dd7018dc276",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v1/business/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/Business_Customer_Data_api_test-mtls-by_value-plain_response-PzzPT9XEiMPpl-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "6e6343e9-d774-4d34-9650-ed973812f461",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4fdd1894-620b-4ba9-8104-a8d0fab64d4d",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "26f0ff6d-54ac-4b84-9cfd-2275a941a9b8",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "24b23442-c735-4b96-ad87-b7eb0114f52a",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v1/personal/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Personal_Customer_Data_api_test-mtls-by_value-plain_response-oPo4xFRkR7CF8-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "e3e3aef1-77a4-45ab-ab8d-63372fef31e7",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "187c1762-1d14-4511-a944-64408bcf88fa",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v2/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "16fd85e5-07ca-4896-85d4-262cc48b683e",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "888c5770-938b-4f41-a45a-6533b5d29a72",
+          "ApiEndpoint": "https://matls-auth.bocombbm.com.br/open-banking/customers/v2/business/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/15114366_BOCOM%20BBM%20Open%20Banking%202.0.1_business_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "ApiFamilyType": "customers-business"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "CertificationId": "befe398e-6a42-4d53-b1da-d895d8decc06",
+      "AuthorisationServerId": "702595cb-d881-40b7-8ba7-17db7843f499",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/Banco_BOCOM_BBM_SA-BOCOM_BBM_Open_Banking-BR_OB_Adv_OP_w_MTLS-08-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "20/10/2022",
+      "CertificationExpirationDate": "20/10/2023",
+      "CertificationId": "e5e8ed58-360a-473b-9689-6eddde7ff814",
+      "AuthorisationServerId": "702595cb-d881-40b7-8ba7-17db7843f499",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/Banco_BOCOM_BBM_SA-BOCOM_BBM_Open_Banking-BR_OB_Adv_OP_DCR-08-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "08/11/2021",
+      "CertificationExpirationDate": "08/11/2022",
+      "CertificationId": "c283e780-25dd-4003-b871-6965879a05ce",
+      "AuthorisationServerId": "702595cb-d881-40b7-8ba7-17db7843f499",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Banco_BOCOM_BBM_SA-BOCOM_BBM_Open_Banking-BR_OB_Adv_OP_DCR-19-Nov-2021.zip"
+    },
+    {
+      "CertificationStartDate": "19/11/2021",
+      "CertificationExpirationDate": "19/11/2022",
+      "CertificationId": "9c2c59d2-aab7-450e-ad80-f836c6675a5d",
+      "AuthorisationServerId": "702595cb-d881-40b7-8ba7-17db7843f499",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Banco_BOCOM_BBM_SA-BOCOM_BBM_Open_Banking-BR_OB_Adv_OP_w_MTLS-19-Nov-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "O Banco BOCOM BBM faz parte da rede global do Bank of Communications, um dos 5 maiores bancos comerciais da China. Oferecemos serviços e linhas de crédito corporativo; e na gestão de recursos de pessoas físicas, aplicamos soluções personalizadas.",
+  "CustomerFriendlyLogoUri": "https://www.bocombbm.com.br/A2_BocomBBM_CMYK.svg",
+  "CustomerFriendlyName": "BOCOM BBM",
+  "DeveloperPortalUri": null,
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://auth.bocombbm.com.br/jans-auth/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://auth.bocombbm.com.br/jans-auth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

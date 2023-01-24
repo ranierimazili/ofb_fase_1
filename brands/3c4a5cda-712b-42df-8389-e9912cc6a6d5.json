@@ -1,0 +1,153 @@
+{
+  "OrganisationId": "b185ecfd-53b1-51ac-86bf-51d6cd66d828",
+  "AuthorisationServerId": "3c4a5cda-712b-42df-8389-e9912cc6a6d5",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "55cd6b79-0826-4af6-9f46-07d73113e19a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c2e46f3c-3f8a-4cc8-bf1e-5c62a03f3a8e",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "2247ef5f-f7d0-4903-8e9b-8370f531eb1f",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "fe500e51-8000-46d1-a7d8-2472d84e91da",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "cdf9c7fa-5cb5-4c02-b9a3-16d776e298ed",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "4bdae682-84ac-4dfb-8542-24645ec29d08",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "154867e2-bfd8-4404-ad4b-ac484d5cf776",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "63c87ce8-50de-43f7-a77b-7ff43609e68c",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "d2975976-0e24-4bdf-9164-38958fb6ef27",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "338daef8-4390-4f24-9a7d-b6d7edcbde55",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "f3df078e-fc21-4086-b276-650acc48ff3b",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "01999378-6af4-4162-a814-c7ede548fdc3",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "78a42f6a-1aa6-4de8-bdb4-259741063daf",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "487f7fd2-e0ca-4fc3-9ea7-ebb266e4dc66",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "becd6cb2-ffaf-456a-a495-a3a8a4080d39",
+          "ApiEndpoint": "https://ob-api.uniprimebr.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "86cad462-e078-4014-be93-87b8dfc8d9ab",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "08bf56d6-232e-435f-a2d7-655b6f3eaf14",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "9d826982-2a2a-442a-bc32-0aa520a7d5b0",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "765679d7-0dac-4d1a-8df9-da0c6ee51a49",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "76eb5453-c1b6-4f0c-ba61-9ba46bc05e2e",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "4e3ebb23-efaa-4833-84c5-7203dc824100",
+          "ApiEndpoint": "https://ob.uniprimebr.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "9dc887e4-65f6-4e2c-83c2-44aee609f9d6",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9046645c-0bec-4414-a3ec-7383bb5cf3de",
+          "ApiEndpoint": "https://ob-api.uniprimebr.com.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "357398fd-2a71-4e0f-a9c9-e2a1069b67f6",
+          "ApiEndpoint": "https://ob-api.uniprimebr.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "A Uniprime do Brasil é uma cooperativa de crédito fundada em 1997 que atende os cooperados em suas agências de forma presencial nos estados de São Paulo e Paraná e em todo o Brasil através dos seus canais digitais.",
+  "CustomerFriendlyLogoUri": "https://www.uniprimebr.com.br/logo-uniprime.svg",
+  "CustomerFriendlyName": "Uniprime do Brasil",
+  "DeveloperPortalUri": "https://portal-uniprimebr.sensedia.com",
+  "TermsOfServiceUri": "https://www.developers.uniprimebr.com.br/naoseaplica.html",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://www.api.uniprimebr.com.br/naoseaplica",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://auth.uniprimebr.com.br/jans-auth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

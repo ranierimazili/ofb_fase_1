@@ -1,0 +1,406 @@
+{
+  "OrganisationId": "e5f4ae4a-9732-5a9d-86f6-31509e7dd46a",
+  "AuthorisationServerId": "759feeba-2c5e-41b9-81dc-f68d65f69087",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "1cbf9a17-f698-45cb-857e-b5fa7749b103",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7a90b13d-a9fa-4f2d-a563-7723bd50e069",
+          "ApiEndpoint": "https://hyundai.api.santander.com.br/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "e09baaf1-0358-42a4-b1c9-a16da9f634b8",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "25467171-e947-4b2d-b92b-8009189cc3e4",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "703b9018-5b2e-4da9-886a-a80a3b0e3542",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "178c6241-22c0-4dd3-843d-9a0174dce4f2",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "6746128f-fc7b-4d4f-9971-e81654485b3f",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "3503c095-d8fd-4e99-baa7-3f4bad9a2e75",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "3eb2d54d-541e-4720-b886-12376ec0e942",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "1ba619d3-15c5-46b9-91a5-bde185355ce1",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_financings_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "11740635-3e4d-402c-9c02-362f084ea7c5",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e4617a48-dbea-4021-bbc2-3ac70b263467",
+          "ApiEndpoint": "https://hyundai.api.santander.com.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "9c2e714b-d361-4e04-9d2d-fa9cf35e9f96",
+          "ApiEndpoint": "https://hyundai.api.santander.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "95d4a5ae-425f-4a6b-86fe-c7fbfec6849e",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e0bbfce4-ecb0-4352-8f2b-ec43e0ee8874",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "f51abf17-f10c-488f-b6f9-7a12a57f2322",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "adb2132b-cd1a-4743-b077-9a8d5fe4218d",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "7ef85cf9-dc9f-476c-89fd-d03c5fd7c3db",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "18c37451-ec89-4935-bd1b-17669b504642",
+          "ApiEndpoint": "https://hyundai.api.santander.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "79e8e981-b64c-40a3-b746-ed35102c246c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "872d5523-f206-4ebb-82b0-31f137908e4b",
+          "ApiEndpoint": "https://hyundai.api.santander.com.br/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "0ea791f9-f344-4f64-a7d6-c4cb2820d1ae",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f7d1509c-4659-4449-bb75-78ba8ea5981d",
+          "ApiEndpoint": "https://hyundai.api.santander.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "11c5a48c-a918-46fd-bc40-a4256a272d62",
+          "ApiEndpoint": "https://hyundai.api.santander.com.br/open-banking/products-services/v1/business-financings"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "ce9890e6-164f-408e-a87a-2be1a3163111",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7ec7f428-930d-4b24-95bc-335e72f3448f",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "f0d7965f-7199-4dff-83a8-402b2a12c65b",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "ff7be21f-9da4-44f3-b380-64e63292b7ac",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_business_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "abdec73d-765f-4d77-bb8a-bc43b5033e74",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "564204aa-f845-4ce4-8806-8171a9ba3140",
+          "ApiEndpoint": "https://hyundai.api.santander.com.br/open-banking/channels/v1/electronic-channels"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "72b5a491-c4a7-4201-b287-59eb2785e204",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "efe4db94-3c8c-4176-8468-609fb09eb795",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "e2e25a1f-abac-43e3-904d-4f28ab60326c",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "bdfbc41f-ca8c-4d51-a895-43c85e31ff7a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1f1a0b09-1cca-4642-a1ae-a4d3b757f7d3",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "fa31830b-a6f2-4bb5-8765-35aac3380f66",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "535aac73-7ad7-4a25-ab20-3cc1dce22a02",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "01df0b9e-a33e-4750-93b2-63ab2ac72d07",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "d1c45a55-0784-48c1-b167-9cde292aca11",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/1.0.4/BCO_SANTANDER_do_Brasil_S.A-Financings_api_test-mtls-pushed-plain_response-96NBYrBdgGAA2-17-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "72a77f01-382e-4752-90a5-4a5dd55efcbd",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fa34e3d9-4654-4b32-9b70-ea2d035c9773",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "39e5956b-d28d-41ee-a19f-052cad8faed7",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "7ae89a40-12f9-49a4-9fa6-566992aed8c4",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_personal_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "e3eb155b-25df-4f66-904b-71d303a151ef",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "13db04ba-716b-4ef4-9773-3fb57ea55d14",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "b3d5ffd6-254c-44b9-835a-1af164af9240",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "6ca610e4-acd1-4821-9f30-a6b01f913f13",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "43ae9019-9066-4abe-8a7c-52fd41827f8b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2bc053d7-92e8-45b0-9822-335114904ef8",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_resources_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "6d5f503d-b4e3-41cb-a03b-a6d57863c6de",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c2536246-0163-4eb5-9d78-43b7f6b2dbb7",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "45030360-633d-4da8-9854-87f375369d2f",
+          "ApiEndpoint": "https://trust-hyundai.api.santander.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_consents_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "consents"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "07/11/2022",
+      "CertificationExpirationDate": "07/11/2023",
+      "CertificationId": "851379d9-c23a-4ae8-9371-d5b4c3fa9bd1",
+      "AuthorisationServerId": "759feeba-2c5e-41b9-81dc-f68d65f69087",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response-6Y2gBUXbXVhth-08-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "07/11/2022",
+      "CertificationExpirationDate": "07/11/2023",
+      "CertificationId": "5de5ea59-9f97-4b11-bd07-ef2e80c29e6b",
+      "AuthorisationServerId": "759feeba-2c5e-41b9-81dc-f68d65f69087",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response-6Y2gBUXbXVhth-08-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "18/11/2021",
+      "CertificationExpirationDate": "18/11/2022",
+      "CertificationId": "42785ee6-fd8c-4afc-9669-15eecf372791",
+      "AuthorisationServerId": "759feeba-2c5e-41b9-81dc-f68d65f69087",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BCO_SANTANDER_do_Brasil_S.A-FAPI_ADV_OP_DCR-18-November-2021.zip"
+    },
+    {
+      "CertificationStartDate": "06/07/2021",
+      "CertificationExpirationDate": "06/07/2022",
+      "CertificationId": "fc4c1a69-1d8d-42fd-88aa-6f6aa7e70d0c",
+      "AuthorisationServerId": "759feeba-2c5e-41b9-81dc-f68d65f69087",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_Santander_do_Brasil_S.A-Santander_Open_Banking_1.0.0-fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "A Hyundai Financiamentos é a marca comercial do banco da montadora Hyundai no Brasil. Fundada em 2019, a instituição atua no financiamento de veículos novos e usados comercializados na rede de concessionárias por meio de plataformas e canais digitais. ",
+  "CustomerFriendlyLogoUri": "https://www.cliente.hyundaifinanciamentos.com.br/portalclientehyundai/logo-hyundai.svg",
+  "CustomerFriendlyName": "Hyundai Financiamentos",
+  "DeveloperPortalUri": "https://developers.bancohyundai.com.br/naoseaplica",
+  "TermsOfServiceUri": "https://www.bancohyundai.com.br/naoseaplica.html",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.api.santander.com.br/open-banking/security/v2/hyundai/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://openbanking.api.santander.com.br/open-banking/security/v2/hyundai/JWKS",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

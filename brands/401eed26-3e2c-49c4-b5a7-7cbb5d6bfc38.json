@@ -1,0 +1,308 @@
+{
+  "OrganisationId": "7d1cf083-fae2-559b-b6ed-d01a7230062f",
+  "AuthorisationServerId": "401eed26-3e2c-49c4-b5a7-7cbb5d6bfc38",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "81020fde-76c9-4864-85e4-2b48df1abc7d",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d1d48750-abd8-446f-a03a-65b4dbb6f612",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "e3666297-7163-42f3-b1fb-4c2e60cf6095",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/1.0.3/BNDES-BNDES_Open_Banking-API-CONSENTS-02-Dez-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "2dd794fd-1413-4358-9707-3879beea4f09",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "83156b15-dd00-43dc-92ec-37faf21ea132",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/1.0.2/BNDES-BNDES_Open_Banking-API-RESOURCES-11-Dez-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "a4c71fec-4ca1-4215-b158-40e1fba6f6ae",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7ff57e3b-8342-455a-83d1-43c8789fc4e6",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "f2f3a493-68a3-402a-bd78-498a57f58446",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "de928cd4-8932-4df2-90de-daa00a001c8f",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "019ce50a-66d4-4e76-b1b8-deabd5ec267a",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "eddddd64-7b63-4b57-8da9-6e7dd5d1cd10",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/33657248_BNDES%20Open%20Banking%201.2.0_financings_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "88ca7dbb-319e-4e6d-bfe9-14322266a6af",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4cfc1d4d-9137-463b-92e4-8ef14da344da",
+          "ApiEndpoint": "https://api-openbanking.bndes.gov.br/open-banking/products-services/v1/business-financings"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "1a590c8e-1846-491f-a4d5-3e0e9c3df302",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "44ea7a7a-2d78-4b3d-aeb8-4e21a373af2c",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "ab00ffdb-bcf1-4e81-ae00-f075fb62c9df",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "5015069b-1eac-499f-abf1-83dfa0c0e11a",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "6b78c6dc-ebd2-40a9-8cf2-52efbc229c09",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "3b207d90-56b5-42e1-a786-abbd29958992",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/1.0.4/BNDES-BNDES_Open_Banking-API-FINANCINGS-02-Dez-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "aebdba6b-62fc-41f6-9d73-69cdc8bcfaad",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "93b1328e-3316-4192-a42b-270c6a50f0e5",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "bcd58478-236a-4f84-84fa-b7c5427d58d4",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "0e3d94a3-581a-47b2-9ede-e75ce8419cf3",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/1.0.3/BNDES-BNDES_Open_Banking-API-BUSINESS-CUSTOMERS-02-Dez-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "263e497e-b5c2-4a56-9eec-474727ae1bb0",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b21acded-20dc-43df-aca6-8c990cd130bb",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "d9504ae4-4cbe-4c01-93e2-6319ee7c9a16",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "1f56ce22-4db6-4898-a340-fd6f6384f0df",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/business/2.0.1/33657248_BNDES%20Open%20Banking%201.2.0_business_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "6dab10c0-0960-497c-ad32-425766927ecf",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "df80f757-b013-4223-b078-9ecfa6b40747",
+          "ApiEndpoint": "https://api-openbanking.bndes.gov.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "83d8a7a3-f2a1-48dd-b2cf-60980cdaf85e",
+          "ApiEndpoint": "https://api-openbanking.bndes.gov.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "f8c534fa-89c7-41a9-9591-5c969417f6ea",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1c99af38-eade-42ee-9cce-49b85d25ef74",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "3744dc30-e834-484e-a396-f3e530e44e24",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/consents/2.0.1/33657248_BNDES%20Open%20Banking%201.2.0_consents_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/09/2022",
+      "CertificationExpirationDate": "29/09/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "9c21e5a8-2e83-4429-af65-ce3208ee3417",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ad1a894d-e057-44bb-a985-15371fcda564",
+          "ApiEndpoint": "https://api-openbanking.bndes.gov.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "79e0c6c8-41aa-41a7-998f-4983241f46a2",
+          "ApiEndpoint": "https://api-openbanking.bndes.gov.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "37fbd404-ddd0-45ab-a34b-1c2c9c45fd0d",
+          "ApiEndpoint": "https://api-openbanking.bndes.gov.br/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "269552d2-5830-4b60-99d7-c97763e9d6ff",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "03c2bd5a-af6f-40c8-ae6b-d8d034dbbdd2",
+          "ApiEndpoint": "https://openbanking-gw.bndes.gov.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/resources/2.0.1/33657248_BNDES%20Open%20Banking%201.2.0_resources_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/09/2022",
+      "CertificationExpirationDate": "29/09/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "7d5f6ad4-83d0-4ee5-95cf-7eb9656df575",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d1cb8800-4771-42c1-80f9-f9ed44791d9c",
+          "ApiEndpoint": "https://api-openbanking.bndes.gov.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "06/08/2021",
+      "CertificationExpirationDate": "06/08/2022",
+      "CertificationId": "4d38da89-b468-4ee1-b542-8b40deb5b9c8",
+      "AuthorisationServerId": "401eed26-3e2c-49c4-b5a7-7cbb5d6bfc38",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/08/BNDES-BNDES_Open_Banking-FAPI_BR-OB_Adv_OP_Private_Key-06-Aug-2021.zip"
+    },
+    {
+      "CertificationStartDate": "13/12/2021",
+      "CertificationExpirationDate": "13/12/2022",
+      "CertificationId": "09d19473-a1d9-4ee6-a92c-a89fcfe937aa",
+      "AuthorisationServerId": "401eed26-3e2c-49c4-b5a7-7cbb5d6bfc38",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/12/BNDES-BNDES_Open_Banking-FAPI_BR-OB_Adv_OP_DCR-14-Dec-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Fundado em 1952 e atualmente vinculado ao Ministério da Economia, o BNDES é o principal instrumento do Governo Federal para promover investimentos de longo prazo na economia brasileira. Suas ações têm foco no impacto socioambiental e econômico no Brasil. ",
+  "CustomerFriendlyLogoUri": "https://www.bndes.gov.br/arquivos/openbanking/BNDES_arquivo_marca.svg",
+  "CustomerFriendlyName": "BNDES",
+  "DeveloperPortalUri": "https://developers.bndes.gov.br/",
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking-iam.bndes.gov.br/oauth2/token/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://openbanking-iam.bndes.gov.br/oauth2/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

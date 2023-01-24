@@ -1,0 +1,280 @@
+{
+  "OrganisationId": "73d7035b-3c09-40ab-b4c2-900d9f7a5f1f",
+  "AuthorisationServerId": "ba22382b-5690-4107-8e39-af8437627513",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "44d943a2-cec7-4a2e-8998-107b8ec9a802",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1e2bd776-96ab-41b8-b2fc-ed0173a08dd5",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Resources_api_test-private_key_jwt-pushed-plain_response-j7lt2lFKe7Dyv-19-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "19/07/2022",
+      "CertificationExpirationDate": "19/07/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "43963b47-2980-4ca1-a37a-e2dbaa6a19c6",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cd8543e4-1af8-424d-a0a6-b338ae47491f",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v2/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "db7b90c6-f608-4ad6-8233-ede75b37747a",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "551f59b5-323c-4c74-b470-025fb06b5155",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v2/business/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/42064545_Quanto%20Open%20Banking%20Opus%20Services%202.0.0_business_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "c64f6286-0e68-4088-9661-f66a36819276",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b87f40d8-fd35-4229-b34f-407897130a59",
+          "ApiEndpoint": "https://openbanking.api.quanto.network/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "acfd0f2b-4bb7-42af-9521-1af2b4fbb060",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "640088ea-d3cb-4f27-856a-8a2190a6f760",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "0a871755-9dfb-49af-9bc2-91d7ed70958a",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v2/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "eff210c4-2a93-4dad-9174-f4a6dd5d644b",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v2/personal/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/42064545_Quanto%20Open%20Banking%20Opus%20Services%202.0.0_personal_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "211bd782-d236-4366-a1bc-b9621905d94b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a5f6c7f1-cab6-44b3-ac75-5aa3b2f4577a",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/consents/v2/consents/{consentId}"
+        },
+        {
+          "ApiDiscoveryId": "c0309cb5-ae96-460c-b0f8-30fff951ec25",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/consents/v2/consents"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/42064545_Quanto%20Open%20Banking%20Opus%20Services%202.0.0_consents_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "3bc1ccd2-fbc6-4e76-a7f6-24fa5cf4a627",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "10146fa3-21f0-4987-82b6-1d274eed9850",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/consents/v1/consents/{consentId}"
+        },
+        {
+          "ApiDiscoveryId": "f768cc64-3fc6-4034-b7a9-ddbff984dec8",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/consents/v1/consents"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Consents_api_test-private_key_jwt-pushed-plain_response-g2HyNrzSrIeH5-19-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "19/07/2022",
+      "CertificationExpirationDate": "19/07/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "0592b641-84cd-4e63-a7a7-740d7ef182e0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "049836cd-1adc-4b85-b65d-39107e7c9cda",
+          "ApiEndpoint": "https://openbanking.api.quanto.network/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "f33e3034-6d00-40f6-bd69-f2311b015253",
+          "ApiEndpoint": "https://openbanking.api.quanto.network/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "f7f68856-fbbe-4ab0-a1fc-2f2474bf2988",
+          "ApiEndpoint": "https://openbanking.api.quanto.network/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "a057d112-9334-4c69-8fb3-16f789bdb9e7",
+          "ApiEndpoint": "https://openbanking.api.quanto.network/open-banking/channels/v1/branches"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "4da279a5-6ffa-4f9f-a970-bade39bbf314",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b996dd83-8e30-4306-aab2-2521dc60c5b7",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "ea2d1eac-5add-402c-9777-fdec4009d935",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "b23541e6-8306-4f0b-ac4f-bea522f950a2",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Personal_Customer_Data_api_test-private_key_jwt-pushed-plain_response-UdEO5SmgzEpcl-19-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "19/07/2022",
+      "CertificationExpirationDate": "19/07/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "ad811bfb-c782-471d-99be-d4ff06851951",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a9c606e7-7e5a-4474-9370-a8aab2814a9e",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/42064545_Quanto%20Open%20Banking%20Opus%20Services%202.0.0_resources_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "876b420d-50cb-4b39-87fa-3ec532931981",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7423d916-8bde-4666-865d-598e4c98f17e",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "e3a39de6-f012-46e5-90e5-166f7a2233e3",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "f7a61338-6c4e-49b9-a005-68ebac49527d",
+          "ApiEndpoint": "https://mtls-openbanking.api.quanto.network/open-banking/customers/v1/business/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/Business_Customer_Data_api_test-private_key_jwt-pushed-plain_response-R6RIcUMSfNvwb-19-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "19/07/2022",
+      "CertificationExpirationDate": "19/07/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "0843391c-4f43-4cc9-9dc0-4a558d6a1dec",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e31ef2a3-c993-481a-9bd4-ef967878c377",
+          "ApiEndpoint": "https://openbanking.api.quanto.network/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "4731d372-23c2-4c88-a3c2-30ce9a735e08",
+          "ApiEndpoint": "https://openbanking.api.quanto.network/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "09/05/2022",
+      "CertificationExpirationDate": "09/05/2023",
+      "CertificationId": "0b4a9bd2-8cd3-4d8d-8d38-2423e0661d6c",
+      "AuthorisationServerId": "ba22382b-5690-4107-8e39-af8437627513",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/05/Quanto-Opus_Open_Banking_v1-BR_OB_Adv_OP_DCR-09-May-2022.zip"
+    },
+    {
+      "CertificationStartDate": "09/05/2022",
+      "CertificationExpirationDate": "09/05/2023",
+      "CertificationId": "1bf26b09-c2c9-493e-b8a9-503721cfc5bf",
+      "AuthorisationServerId": "ba22382b-5690-4107-8e39-af8437627513",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/05/Quanto-Opus_Open_Banking_v1-BR_OB_Adv_OP_w_Private-Key_PAR-09-May-2022.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Somos a plataforma de Open Finance que conecta o futuro das soluções financeiras aos bancos, empresas e usuários de hoje através de inteligência de dados.",
+  "CustomerFriendlyLogoUri": "https://d3b4noneqt9wwl.cloudfront.net/quanto.svg",
+  "CustomerFriendlyName": "Quanto",
+  "DeveloperPortalUri": null,
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.api.quanto.network/.well-known/openid-configuration",
+  "Issuer": "https://openbanking.api.quanto.network",
+  "PayloadSigningCertLocationUri": "https://api.platform.prd.contaquanto.net/quanto-network/v1/transmitter/api/v1/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

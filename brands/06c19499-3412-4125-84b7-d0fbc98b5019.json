@@ -1,0 +1,586 @@
+{
+  "OrganisationId": "926e3037-a685-553c-afa3-f7cb46ff8084",
+  "AuthorisationServerId": "06c19499-3412-4125-84b7-d0fbc98b5019",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "eefed6aa-1718-4ed0-bd8e-6420f4c90760",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3c422b59-b2e4-43bf-b9b9-5cf85ff7a635",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "a80462d6-f365-4575-9c02-f4c0a2b34382",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "94866bb2-f9bb-43cc-89ac-b8f650a8f025",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "1a07f0ee-cc65-4844-b90c-a44aec3f6740",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f237bf37-16fb-492a-bf13-cc6cae6557e7",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Resources_api_test-private_key_jwt-by_value-plain_response-xuE4T0gBAJD00-27-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/08/2022",
+      "CertificationExpirationDate": "29/08/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "107c7490-8ed2-400b-aacb-62743766cb90",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7519dfdf-12aa-4661-951d-3574ad091761",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "09bfe93a-4bf7-4e8a-a64c-32fd0578b8a1",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "b1002955-8b5c-44f7-90b6-0aef08e9c3c9",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a27a47b9-ce96-4d7c-a8f7-d2ad10a9bc8a",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "64e3a1fa-ad41-442b-8fb4-59d1d7072b1b",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "a453e347-7b71-4f79-88c4-d1133aecf447",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "b2e0081b-28a2-4895-bdfa-246f26e82edd",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "b4531784-46df-4cb5-b8e6-186336bd3260",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Loans_api_test-private_key_jwt-by_value-plain_response-qMp1S44FPs9UR-27-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/08/2022",
+      "CertificationExpirationDate": "29/08/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "7732949f-6a81-44f5-98bc-f2de8fb84936",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "26e8e0ce-4cdc-4775-95db-b1577f632c13",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "972c6cf2-3cac-4044-9c8c-ce22b9f4f6ec",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "c3e12ff2-3899-4516-936f-45e2c7b3834b",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "5205dac6-1b9f-4326-898b-bcc5e48d4531",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "eb643605-b64b-481c-83e2-1b9cbf853357",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Account_api_test-private_key_jwt-by_value-plain_response-3479Pzf4Ztwsb-27-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/08/2022",
+      "CertificationExpirationDate": "29/08/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "da0f803d-c853-4aa9-b0ce-fd1a45c2e8d4",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b1b4835e-797b-4b1f-9058-60933c623ac5",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "3e375146-dce9-4769-b682-f2e52bec7fa1",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "f0f71c3a-b1cc-40ae-b958-4810a4d3075a",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v1/personal/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Personal_Customer_Data_api_test-private_key_jwt-by_value-plain_response-lwryrOxcYI0e4-27-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/08/2022",
+      "CertificationExpirationDate": "29/08/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "c6dfdb36-0b64-4fdc-bb3a-ed0f92d82994",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "631a47f9-e943-431d-962a-a7450004dc1e",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "31409825-a878-4bc7-94b2-627584531b07",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v2/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "033a1381-4814-44db-8a6e-1be601faf4e1",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v2/personal/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/18236120_Nu%20Open%20Banking%201.0.0_personal_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "8365dec5-15ab-4aeb-9d7f-fcda3ecbb4a5",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b96ad3e9-52df-472a-9a35-4ee076043a76",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "5b00b302-0cd8-49ae-84c7-29e3a1bf5f7c",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "60dff310-080a-4081-9189-b237f122f2b5",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "b5f8cc50-042c-422d-b997-7c1096723cac",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "304ae098-7bd7-436b-8349-7945ce2dd3e9",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "0e02f19e-ab99-4fe1-bca2-c6ed392c7894",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "3837b0ac-f89c-4425-bc16-8d4998b5561d",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/18236120_Nu%20Open%20Banking%201.0.0_credit-card_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "63be8ee3-fd7e-4a91-88a2-faf743a755b0",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "92753361-2478-493f-bc31-c3ccc4fdd9df",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "e1b49b9f-2501-402b-b75f-cf2e581996b5",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "bfd0b9fa-dbd3-4430-94e4-1cce894e9857",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v1/business/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/Business_Customer_Data_api_test-private_key_jwt-by_value-plain_response-N5jChnrIdxOIn-27-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/08/2022",
+      "CertificationExpirationDate": "29/08/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "ad4de617-362f-44e9-be2f-9b986a3efd2f",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8b5aafa9-d3df-4d0a-8ed9-df2ac50d0840",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "ea822533-a656-4077-be1f-66bf3d674097",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Consents_api_test-private_key_jwt-by_value-plain_response-HYiJnkzhqPdVx-27-Jul-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/08/2022",
+      "CertificationExpirationDate": "29/08/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "cb96358b-256b-4c23-a7be-4f9e8c783ef3",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "eb993ca9-7b44-46d0-b2d5-699724553de0",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "2b2ca6dc-36b2-4e97-9217-2c6c5fb72957",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "bbf0d750-172a-458e-8646-e395567f8f33",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "5cf26d53-4d8a-4eb3-a7ef-4245d2e176f2",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "ce0a1ce7-8aad-4c52-b776-00d0e34f533c",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "f3e825e5-19d4-40fc-bce9-208f37bf477c",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "53f72dea-d552-4b65-9074-575af123401d",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "b49319a6-c84b-4237-8052-9ca65aa78d8a",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "59da4034-11ac-4777-8273-9a03311b3b0a",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "8a55f3c8-8a8e-47a8-b441-17007fa8117d",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "37179045-669b-41fb-beca-7078426d0c1b",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "b7dc9589-e749-4fc1-b679-9d16423676d3",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "33484474-7759-426b-8131-596f79f5df78",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/18236120_Nu%20Open%20Banking%201.0.0_resources_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "fc26a880-032b-43f1-9c19-09fd8e5cd0d3",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ea29679e-8d96-4030-a003-14a93fdfd48f",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "1666a96c-6b0c-460f-9f08-68e311797f4a",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "a8b12d23-da03-49a0-b434-a8490e908b6b",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "52c9def9-2eb7-4955-bba2-20ce493183c5",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "7a965ef9-0e87-45ff-9167-a85386f16de6",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/18236120_Nu%20Open%20Banking%201.0.0_loans_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "b8c05950-e2d6-4411-baa7-077f122db3eb",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "627546a6-7220-4753-b8b7-d4cea263ec6b",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "5c982d5e-ff3e-4457-a58a-9da5d0bd4a08",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "bbf77f63-7b35-4f29-8298-6667069136b6",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "8227ede6-7e16-4275-8968-afd92bcc5cc8",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "dd4ad3da-6937-48a4-ac62-17f0e0435c88",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "af4f3f69-7d30-4000-a574-3f33ec7db90e",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/credit-cards-accounts/v1/accounts"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Banco_NU_Credit_card_api_test-private_key_jwt-by_value-plain_response-O18C2mtt8bkRv-04-Aug-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "29/08/2022",
+      "CertificationExpirationDate": "29/08/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "0493ca79-5a9e-4391-8a77-2b0b68ca1863",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3d0fed95-942c-47b8-850d-e1b0bcf7cf64",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "8e76083c-fa04-4191-9fd7-04036b7b0bf0",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/18236120_Nu%20Open%20Banking%201.0.0_consents_v2-OL_17-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "17/10/2022",
+      "CertificationExpirationDate": "17/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "9776a638-e4b6-4e56-af4a-f4c754095d51",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f21f4ced-a61b-4b9f-929c-816b738cbcac",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "5268ef1c-3e52-4acf-aafc-6c2f23ee865d",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Payments_API_Phase_1_-_NuPagamentos.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "27d586d0-edbd-48b0-a165-8d80f609450a",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6af3cee1-7bf0-4172-9cef-2e774437192e",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "09941db6-e2a2-435b-ab37-5394e2016ac1",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "92893b99-1817-47a4-ad26-b3cb8f362d16",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "07bd417b-9075-4460-a734-9bd7a1050261",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "47fefc04-6944-4c4e-a66b-fe9798113fb7",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "2da6e871-6c4e-4221-a854-0584894f9d7a",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/18236120_Nu%20Open%20Banking%201.0.0_accounts_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "156f88d8-b696-4ad6-83fe-d8ca9a6f551a",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0adfa860-9cde-4ccc-91d5-1a1b0b8eb4e8",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "9bbb207e-0956-4739-a6c7-489d313f8a69",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v2/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "cf4607e6-0b19-401e-86c2-c43b889e90bc",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/customers/v2/business/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/18236120_Nu%20Open%20Banking%201.0.0_business_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "5d27354b-73d9-4a37-a449-d86c94c4533b",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9b89e59c-c425-4a73-9032-53dae857789d",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "d4911820-69fc-43ff-98c6-bafac06f251f",
+          "ApiEndpoint": "https://openbanking.api.nubank.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Payments_API_Phase_1_-_NuPagamentos.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "25/10/2021",
+      "CertificationExpirationDate": "25/10/2022",
+      "CertificationId": "74a96fc6-acd7-4b6b-8039-3e5fa7556d21",
+      "AuthorisationServerId": "06c19499-3412-4125-84b7-d0fbc98b5019",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 4,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/10/Nu_Pagamentos-Nu_Open_Banking_1.0.0-BR-OB_Adv_OP_DCR-25-Oct-2021.zip"
+    },
+    {
+      "CertificationStartDate": "27/09/2022",
+      "CertificationExpirationDate": "27/09/2023",
+      "CertificationId": "081df446-7f47-4054-84c2-a65b27a6c6b0",
+      "AuthorisationServerId": "06c19499-3412-4125-84b7-d0fbc98b5019",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 5,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Nu_Pagamentos-Nu_Open_Banking_1.0.0-BR-OB_Adv._OP_w_PrivateKey-10-Oct-2022.zip"
+    },
+    {
+      "CertificationStartDate": "23/10/2021",
+      "CertificationExpirationDate": "23/10/2022",
+      "CertificationId": "9c02d2d3-4815-46e5-add0-1a1f46ac399e",
+      "AuthorisationServerId": "06c19499-3412-4125-84b7-d0fbc98b5019",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 4,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/10/Nu_Pagamentos-Nu_Open_Banking_1.0.0-BR-OB_Adv._OP_w_PrivateKey-23-Oct-2021.zip"
+    },
+    {
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "CertificationId": "237da412-5a7d-477b-bc37-83910ae8a415",
+      "AuthorisationServerId": "06c19499-3412-4125-84b7-d0fbc98b5019",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 5,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Nu_Pagamentos-Nu_Open_Banking_1.0.0-BR-OB_Adv_OP_DCR-30-Sep-2022.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Simples, transparente e seguro: o Nubank é a empresa líder em tecnologia financeira na América Latina que já reinventou a vida financeira de mais de 40 milhões de clientes com conta digital, cartão de crédito, empréstimo, investimentos, seguros e mais.",
+  "CustomerFriendlyLogoUri": "https://nuapp.nubank.com.br/open-banking/logo.svg",
+  "CustomerFriendlyName": "Nubank",
+  "DeveloperPortalUri": null,
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.api.nubank.com.br/api/pub/.well-known/openid-configuration",
+  "Issuer": "https://openbanking.api.nubank.com.br/api/pub/",
+  "PayloadSigningCertLocationUri": "https://openbanking.api.nubank.com.br/api/pub/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

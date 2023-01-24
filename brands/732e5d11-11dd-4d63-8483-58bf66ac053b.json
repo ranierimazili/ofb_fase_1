@@ -1,0 +1,125 @@
+{
+  "OrganisationId": "5702d43c-be28-5b7b-921e-ab8ab9ea3048",
+  "AuthorisationServerId": "732e5d11-11dd-4d63-8483-58bf66ac053b",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "45766a4e-f37c-475c-8196-34115834c5fe",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "e0161700-5b94-420d-8382-3fe368073fe7",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Payments_API_-_INIC_DICT_MANU_QRES_QRDN-mtls-by_value-plain_response-BeSf80eESqYSd-30-Nov-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/11/2022",
+      "CertificationExpirationDate": "30/11/2023",
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "502265b3-5df6-4aaa-af77-d9c5ff4d3fa4",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Payments_API_-_INIC_DICT_MANU_QRES_QRDN-mtls-by_value-plain_response-BeSf80eESqYSd-30-Nov-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/11/2022",
+      "CertificationExpirationDate": "30/11/2023",
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "f1d48c2f-867b-45fe-ab68-516daa7a5230",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "5965653e-855c-4f71-8c6a-75391a41d72a",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "be6564b4-bb0f-44d3-96b0-b6a896e819ad",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "CertificationId": "3e5e115a-cb35-4cb8-8da4-cb414b9574cb",
+      "AuthorisationServerId": "732e5d11-11dd-4d63-8483-58bf66ac053b",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/CCR-COOPAVEL_CredicoopavelAuthorizationServer_BR-OB-Adv-OP-MTLS-PAR-06-Oct-2022.zip"
+    },
+    {
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "CertificationId": "2a3a0683-fdeb-46e1-aab0-1ad12b678030",
+      "AuthorisationServerId": "732e5d11-11dd-4d63-8483-58bf66ac053b",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/CCR-COOPAVEL_CredicoopavelAuthorizationServer_BR-OB-Adv-OP-DCR-06-Oct-2022.zip"
+    },
+    {
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "CertificationId": "21ac19f1-50f0-43b4-a2dc-1b29d3083367",
+      "AuthorisationServerId": "732e5d11-11dd-4d63-8483-58bf66ac053b",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/CCR-COOPAVEL_CredicoopavelAuthorizationServer_BR-OB-Adv-OP-MTLS-06-Oct-2022.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Servidor de autorização CrediCoopavel",
+  "CustomerFriendlyLogoUri": "https://openbanking.credicoopavel.com.br/logo.svg",
+  "CustomerFriendlyName": "Credicoopavel-AuthorizationServer",
+  "DeveloperPortalUri": "https://openbanking.credicoopavel.com.br/developer",
+  "TermsOfServiceUri": "https://openbanking.credicoopavel.com.br/tos",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.credicoopavel.com.br/auth/.well-known/openid-configuration",
+  "Issuer": "https://openbanking-homologacao.credicoopavel.com.br/auth",
+  "PayloadSigningCertLocationUri": "https://openbanking.credicoopavel.com.br/jwks.json",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

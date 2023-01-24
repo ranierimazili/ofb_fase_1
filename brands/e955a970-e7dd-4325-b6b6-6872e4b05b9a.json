@@ -1,0 +1,588 @@
+{
+  "OrganisationId": "a60b7fb5-f7f3-5536-a41f-1bff137f47d1",
+  "AuthorisationServerId": "e955a970-e7dd-4325-b6b6-6872e4b05b9a",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "47149e5f-c6ba-4e61-a776-c385e44fef95",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2556f2a4-9eca-4c8b-832f-844a5fd387d7",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "3d34719a-27c1-4e39-b876-aa04230ddc1c",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "12a7ee58-266a-4ed2-b779-67f0fb128449",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "66e3ab5a-b81a-4c4f-8d01-69e957d93cdb",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "7a9b2c7e-bc2c-4359-aac8-26a8a07c408b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0bbf714e-dee2-4645-bd7a-7b8b6dfddabb",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "39a5f208-e9a2-495d-8981-ba09056c689d",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "a27ddf5d-9925-4cce-86ce-5e543ebf0302",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "f1823069-ee28-4bad-87a0-ab31a65c1c31",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "c45ff330-9690-411a-9371-2c4dbafc5eeb",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "444a0204-503a-43a1-b66c-c1e1722ab047",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "0d3296c8-6b74-4631-8f8e-ac36368cefde",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/07237373_BNB%20Open%20Banking%20Brasil%202.0.1_credit-card_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "477471f8-a52c-4c2f-b724-b09610636b40",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "904a7a31-2975-4cb2-87ac-41d4623698dc",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "a11164bc-1494-4b22-8d0b-bfc2e364dc24",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "c448f6cb-cf68-4bfa-919f-bf1c93dd294d",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/07237373_BNB%20Open%20Banking%20Brasil%202.0.1_personal_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "ef355d16-ba4c-44ca-abce-299f7c97c035",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2577abe5-540d-4373-87e5-8d4e4216ca65",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "2a97c086-2118-4942-a3b4-d01562833832",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/bancoNordestePayments_api_phase_1_test-mtls-by_value-plain_response-pzYCTAj42icgS-16-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "3af97b8d-f55b-457d-bfef-971a061b84fe",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "67631957-9c14-4f9d-afec-5837a0fae036",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "747a62de-fd41-4a84-b768-5f6d3b4023b8",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fd8f5a83-1a97-4215-80c2-4681d4f6cdde",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "568bda8b-db3c-4650-a121-878f615c8da3",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "d2fff3ed-0998-4522-9c20-beef336a63de",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/Business_Customer_Data_api_test-mtls-by_value-plain_response-6pzI2UoIiv34c-24-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "5621359e-3496-41d5-a126-8cce93b3d665",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "206da264-09f7-4a89-87ad-20a227993cd4",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "07d45054-40c2-4624-93eb-6ba0fa361914",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/bancoNordestePayments_api_phase_1_test-mtls-by_value-plain_response-pzYCTAj42icgS-16-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "078055d2-43c8-446e-a398-db85c3004f0c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7732ad0e-ed77-486b-9976-2b122a5693ab",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "4c9ed1db-b471-44ed-b4c6-ab3c698880cd",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "ff9a8a17-43e6-422e-b735-5b35e74bf116",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "aabacdec-955c-4c06-a84a-e16f86be6c03",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "55ad70f1-2c44-4461-9541-ac46407c8fb0",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Account_api_test-mtls-by_value-plain_response-K9sbPyRJmPjQk-24-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "a161d9c9-d764-4947-a4a0-b63a949ca7e1",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "43ac5e0d-2573-4fd6-aaba-64afc0a1a058",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "249d061e-4ea2-4d11-b4e8-35f9addbdfeb",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "912205ba-b26d-4420-a666-b29517f6811f",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "8e5d8698-b0de-4642-8973-0f554935883f",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "0f862215-87b9-4cdf-81f5-38364097e2e0",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "462fc5bb-b4a7-4093-bd7f-6a7b7ca8615b",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/07237373_BNB%20Open%20Banking%20Brasil%202.0.1_accounts_v2_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "ae2e7719-522a-44bd-9528-0fa42bdb94e5",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c90a0702-850e-43d0-b93d-c659771886d8",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "39cae968-389f-4d1c-8b16-e7d41b337df1",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "24488f06-c942-48a4-a1d5-5c5af9b8fd87",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Credit_card_api_test-mtls-by_value-plain_response-u6RR3oL4tXmNv-30-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "84144405-9b87-4fdd-b60b-04f64a06f64c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "95be5a95-72f6-49a1-82cf-ecd63a27eecc",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "44c1080a-5e6c-41c8-9223-b3b205b6a0e2",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "c6e74301-9f66-4203-9848-593ca7ff30d7",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "add8900e-a533-482f-96f2-e698e8d123fd",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Resources_api_test-mtls-by_value-plain_response-SpyhfNmQL6gZ1-24-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "1767834a-0356-41aa-9e25-28a0d0a4530f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "aa0471c7-c079-4fd6-8726-d01d621c267e",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "59cd769e-6a41-4fe3-8171-9d2735191e4c",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "ea15aef3-347c-4443-a9fd-1d3b48a7aa73",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "815da1d4-507e-440d-baf7-6c3a93408cbd",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "76a3960c-8aef-401f-b79b-b4974540c892",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "126fdde5-a26f-45b0-8b74-5bdf05cd31e1",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Credit_card_api_test-mtls-by_value-plain_response-u6RR3oL4tXmNv-30-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "a477a34e-3bee-404a-9171-ee96b71b4df2",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b51bd278-9f9e-4e9a-84e4-1b8e27e09029",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "0a00c64d-b016-4891-825e-5d43836dcb71",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/07237373_BNB%20Open%20Banking%20Brasil%202.0.1_consents_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "a1618b35-de97-4eb0-9d7f-7b5498e933a9",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ca4fa86f-e9b2-42cd-807f-5a08f5fb705d",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/07237373_BNB%20Open%20Banking%20Brasil%202.0.1_resources_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "0aea9141-44d4-48e3-ac0f-3888a87338dd",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a85b62f2-0931-49e7-8fe3-e5364bb1ff18",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "c41d91fb-e16f-4a88-ad3d-d8ca620a9886",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Consents_api_test-mtls-by_value-plain_response-Y8C8uHBZEIWWn-24-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "4008ec3e-4735-4392-8a25-22d5a0ac914a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4c8ff2b9-8142-4c64-884a-bdd37cf1e822",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "fac5f0c0-efcd-4539-b479-dd5c4b216780",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "7d400b81-a9fa-429f-b65b-f79039913797",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "5c97e876-b0b2-479d-b38e-206924548421",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "56a26b7f-f751-45d8-927d-72b138c00d97",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "1a3c39a6-3271-4ed1-b81a-5a6e220406c2",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "ef5eaace-ec4b-4de4-b1ca-771d6a6a7259",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "ce975351-7558-4d52-b25f-9b34f329e7a4",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "4cfd89c2-4ffe-46ca-a0ca-7f058d90d12b",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "c4df403d-db50-417e-8294-8cd8c9d335ee",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "39abdc21-13b0-4cfe-82b5-35845861c353",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "19a9d0ae-93c0-43bb-ba73-8109879383af",
+          "ApiEndpoint": "https://api.bnb.gov.br/open-banking/products-services/v1/business-credit-cards"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "f83342f8-ed6c-4b36-b587-26ad916b69bb",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6b5c4f54-aae4-458e-b46c-9c87986fb074",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "7a44102d-154a-4d60-a095-1a0860a1635e",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "57bfa0ce-1607-42c8-b88a-19599b8136de",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/07237373_BNB%20Open%20Banking%20Brasil%202.0.1_business_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2023",
+      "CertificationExpirationDate": "30/10/2024",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "04a90395-b16a-4403-8939-6b17eb44a261",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d287d5a2-2973-48b7-9d04-9bbb0b47a050",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "4c4d035d-c5ed-40b0-8376-758c739e1f4f",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "8fc35f5e-1dc7-462c-a61d-de8668d4c56c",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "93aab5e6-b2c1-4256-a5f4-016e0dfa3555",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "625a1e84-ce94-4a5f-a55b-5319571c4d8a",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Loans_api_test-mtls-by_value-plain_response-aBOUogtVjfRkC-24-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "611d3a08-d6b3-4f62-96e2-9f4995561f09",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3943bf4a-ce30-457d-9130-6784c8a3ee19",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "f631b47e-bd44-41da-881c-167cd158d847",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "0b411525-aa02-4c44-8d13-316f83f13068",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "6aacc6d4-68b9-4209-b6da-f22a4dc243a3",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "129ac6cc-27f9-452c-9738-b33e4d534b54",
+          "ApiEndpoint": "https://api.openbanking.bnb.gov.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/07237373_BNB%20Open%20Banking%20Brasil%202.0.1_loans_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "loans"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "24/07/2021",
+      "CertificationExpirationDate": "24/07/2022",
+      "CertificationId": "7363a500-d4be-402e-b885-852c3fc0bfcf",
+      "AuthorisationServerId": "e955a970-e7dd-4325-b6b6-6872e4b05b9a",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_do_Nordeste_do_Brasil_FAPI-BR-OB_Adv._OP_w_MTLS-24-Jul-2021.zip"
+    },
+    {
+      "CertificationStartDate": "16/11/2021",
+      "CertificationExpirationDate": "16/11/2022",
+      "CertificationId": "a83fbee5-4e84-4048-9eba-fdf555d6edc8",
+      "AuthorisationServerId": "e955a970-e7dd-4325-b6b6-6872e4b05b9a",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Banco-do-Nordeste-do-Brasil-fapi1-advanced-final-brazil-dcr-test-plan-mtls-by_value-plain_response-cxAH7h1cKw37J-18-Nov-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Nos 1.990 municípios onde atua, o Banco do Nordeste oferta crédito com taxas diferenciadas, promovendo a competitividade das empresas e apoiando empreendedores individuais por meio do microcrédito (Crediamigo e Agroamigo).",
+  "CustomerFriendlyLogoUri": "https://openbanking.bnb.gov.br/s643-consentimento-web/resources/img/logo_dcr.svg",
+  "CustomerFriendlyName": "Banco do Nordeste do Brasil S.A.",
+  "DeveloperPortalUri": "https://bnb.gov.br/asdf",
+  "TermsOfServiceUri": "https://bnb.gov.br/assdf",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.bnb.gov.br/auth/realms/OBanking/.well-known/openid-configuration",
+  "Issuer": "https://openbanking.bnb.gov.br/auth/realms/OBanking",
+  "PayloadSigningCertLocationUri": "https://sso.openbanking.bnb.gov.br/auth/realms/OBanking/protocol/openid-connect/certs",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

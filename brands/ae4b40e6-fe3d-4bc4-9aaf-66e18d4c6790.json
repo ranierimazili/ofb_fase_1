@@ -1,0 +1,290 @@
+{
+  "OrganisationId": "f444d7d4-95a8-4910-8641-532832a5552d",
+  "AuthorisationServerId": "ae4b40e6-fe3d-4bc4-9aaf-66e18d4c6790",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "5fdd55ca-f33d-4219-921f-97ef443f518b",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "74000913-b256-4ae8-9bf3-73c1cda9c165",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "75c5605a-7bcb-4f69-933e-1a021a5e83a1",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "ad491547-f77f-4c44-935c-445b404b236a",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7c89bad5-ce10-4a09-a752-0e08bc148aaf",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "74ba9277-83ca-430c-b541-b34182c4b06a",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "97a866b7-edeb-40f6-80cf-af478f9d982d",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_personal_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "416fc886-dc99-47f3-bb7e-0d71b0309741",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a3c17400-bb20-4ee3-bc03-8ea119355910",
+          "ApiEndpoint": "https://caceis.api.santander.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "538bf69b-2b93-45a7-ba42-55eb3f80b5a6",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6b85816d-1778-42d5-aba9-47c3b33f651c",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "f63e4019-2dc6-4f50-8bc5-c97d7b7c6609",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "9ac17905-c0f5-496b-8620-4fc08137d9d1",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "244a084f-b08e-4929-a31d-2df622e112f5",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3934bc26-e70c-4276-bf0d-a6edbdeed803",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "c4da6979-2393-44ff-9d5a-5dcce38f24a1",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "dab220b1-5aa3-4b29-bd7e-afbc8e5874e5",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "682f249e-99ce-4831-a10c-4e51ab8f7d5b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8d5240fc-7880-4bcf-b4bc-0bb2960e6b71",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "2d2a7034-b53e-4f09-adc7-f9a311392d36",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "26cac023-fb65-4add-960f-d6a91d6a1b06",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_business_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "abf39eac-7796-40c8-87ba-5d1726cc5754",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "29189bf2-c53c-42df-a1f0-93db847a617b",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "4e125ff0-38d5-4339-9010-efb9fa2fb8a4",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_consents_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "e822fda8-2838-441a-9d5f-d2ff1fd3109c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d87488d9-2993-4b95-abdd-d656bffd8ab5",
+          "ApiEndpoint": "https://caceis.api.santander.com.br/open-banking/channels/v1/branches"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "9b766c4d-2c29-4435-8f1b-8907b6a9fb0e",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c9a4e18a-0e45-4f81-ba73-8bc4fb425b44",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_resources_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "e936fadc-ff09-46f4-9c0f-1635d5e06188",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "68f09f37-603c-4a3d-b92e-62c447ee9be1",
+          "ApiEndpoint": "https://caceis.api.santander.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "3af2c8bf-1938-4832-8ae8-aab9aa08d23a",
+          "ApiEndpoint": "https://caceis.api.santander.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "f73b2c82-61a8-4b9b-a968-e088f61d1792",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6cc734bc-8556-454b-96a3-01efe8d4b85c",
+          "ApiEndpoint": "https://trust-caceis.api.santander.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "06/07/2021",
+      "CertificationExpirationDate": "06/07/2022",
+      "CertificationId": "ec2502ef-32b8-473d-8066-731c55a7a664",
+      "AuthorisationServerId": "ae4b40e6-fe3d-4bc4-9aaf-66e18d4c6790",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_Santander_do_Brasil_S.A-Santander_Open_Banking_1.0.0-fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response.zip"
+    },
+    {
+      "CertificationStartDate": "07/11/2022",
+      "CertificationExpirationDate": "07/11/2023",
+      "CertificationId": "bd544f3f-f8f1-49d6-af4f-dc66c3f13460",
+      "AuthorisationServerId": "ae4b40e6-fe3d-4bc4-9aaf-66e18d4c6790",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response-6Y2gBUXbXVhth-08-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "07/11/2022",
+      "CertificationExpirationDate": "07/11/2023",
+      "CertificationId": "1cee5ebc-015e-42f9-9e6a-7d9e0df7cbe9",
+      "AuthorisationServerId": "ae4b40e6-fe3d-4bc4-9aaf-66e18d4c6790",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response-6Y2gBUXbXVhth-08-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "18/11/2021",
+      "CertificationExpirationDate": "18/11/2022",
+      "CertificationId": "3d558589-96f7-4e87-9243-09dcb4b6371d",
+      "AuthorisationServerId": "ae4b40e6-fe3d-4bc4-9aaf-66e18d4c6790",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BCO_SANTANDER_do_Brasil_S.A-FAPI_ADV_OP_DCR-18-November-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "A S3 Caceis é um provedor de serviços para a indústria de fundos de investimento oferecendo serviços de custódia, controladoria de ativo e passivo e administração fiduciária.",
+  "CustomerFriendlyLogoUri": "https://openfinance.s3caceis.com.br/assets/img/logo-caceis.svg",
+  "CustomerFriendlyName": "S3 CACEIS Investor Services",
+  "DeveloperPortalUri": "https://developer.s3dtvm.com.br/naoseaplica",
+  "TermsOfServiceUri": "https://www.s3dtvm.com.br/naoseaplica.html",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.api.santander.com.br/open-banking/security/v2/caceis/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://openbanking.api.santander.com.br/open-banking/security/v2/caceis/JWKS",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

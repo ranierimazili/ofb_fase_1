@@ -1,0 +1,617 @@
+{
+  "OrganisationId": "062c5edb-4e83-5002-9981-e2a96c5ad41e",
+  "AuthorisationServerId": "4831632d-07f1-472a-a402-ecc4f37b5727",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "6b568808-af36-4eee-b6d3-7d08bf4cf1db",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ee8e7b3c-80d2-4e52-9d88-2d03ec710435",
+          "ApiEndpoint": "https://mtls-internet-banking-openbanking.bvopen.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "f11a6703-6f8b-4721-822e-f57d33477895",
+          "ApiEndpoint": "https://mtls-internet-banking-openbanking.bvopen.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "4b43dc25-70d1-415d-bdf4-cd480ddc480c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "92a4919b-bcca-43e8-9148-51aea2534111",
+          "ApiEndpoint": "https://mtls-internet-banking-openbanking.bvopen.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "0a934516-b996-4e09-9fb9-175e01a4b2f8",
+          "ApiEndpoint": "https://mtls-internet-banking-openbanking.bvopen.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/59588111_BV-OpenFinance-2.0_consents_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "fe5890af-cb81-45bd-9a2b-8bafb298201b",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0143c080-afdd-4c85-aa4c-b627fccda785",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "72605ac5-079e-4af4-a788-d2198f384a47",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "c8131090-71c6-4557-85eb-1ff370e6f747",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "2099336c-a4cf-4986-a239-4927011e6cd5",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c83d20ee-f668-4838-9020-858317f584c5",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "7f042e12-4d5d-48a3-afca-74af6c206f76",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "fdb98b76-b044-45fe-9723-74e23ae0391d",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "d316bb40-45bb-444c-abc3-0db5a0de4888",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "27ccc081-2ee3-43d9-8087-d676ebe00a72",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/unarranged-overdraft/1.0.4/BANCO-VOTORANTIM-SA_BV-Openbanking_API-UNARRANGED-OVERDRAFT-06-Oct-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "c13bd939-9603-44a0-9e5c-2fa62e811413",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cd2d12d4-0d5a-49b1-b442-d6993c4378c7",
+          "ApiEndpoint": "https://mtls-internet-banking-openbanking.bvopen.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "fedb8e11-46a7-4138-998f-42be4509ee62",
+          "ApiEndpoint": "https://mtls-internet-banking-openbanking.bvopen.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Payments_Api_Phase_2_-_QRCodes-mtls-by_value-plain_response-rW2X4uKU72IUI-11-Jan-2022.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "29f7d76e-f4c1-46db-a981-a6c2e8d34f1b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "caa666bb-2cd9-4d4b-91e7-25e31471ebe3",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "faa3e5ab-6a94-42d3-ba3b-edeeac8ff1e2",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "164e3eaf-3edf-4851-9b47-ace049480765",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "90c212d6-6882-44a2-9777-5e0a161dff24",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/2.0.1/59588111_BV-OpenFinance-2.0_unarranged-overdraft_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "967eb68e-2c37-4b82-8b7b-67772c7c982f",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1ec0d6bc-9602-434d-bfc9-cf006060c174",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "ddf24293-c83e-487c-943a-909d180251df",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "86d7c92a-314e-4d5b-a072-a3f8af8e0452",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "f32c4e99-7905-4f44-93dd-2a771f94d698",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "55208db2-515e-4bf1-a248-66513f0d7ff4",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "6a2176ab-dbe3-491a-8790-a65be950f8e7",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/59588111_BV-OpenFinance-2.0_accounts_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "f44f3088-4d29-4363-8e55-6b613866e6b4",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6b550418-ba8e-44d6-a71c-c5db1459ea75",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "4190bc86-d183-4fd3-8094-65fd03e9ea7a",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "a8a92b7d-c2b5-4f49-8028-69ea37bb5fd9",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "8ac9b556-865d-4d80-bbb6-95eabccfc04c",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "748834e6-bb66-439e-98c8-1d9cdee704fb",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/59588111_BV-OpenFinance-2.0_loans_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "7b392b42-6b76-494f-b523-d20d39402cf4",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a5e7ddbf-54a6-47df-89c7-4ce293d33be2",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "b1274827-cbcc-4875-9514-a390afcce7ec",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "96507a92-410f-42c5-b9dd-985ed71b11bb",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "452d6afe-f1ae-4d01-8e86-17d4e1c3478a",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "07c56365-e88f-4a7f-a938-9feab7d6e5a3",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/2.0.1/59588111_BV-OpenFinance-2.0_invoice-financings_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "15c23159-2124-46b6-a971-4a1f20957ded",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8086ab0b-d400-42c1-b359-61b31f82124c",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "ab54b7a9-b2d3-4555-bf94-b9433b687ba9",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "aabd42ec-6816-491d-8008-011de7cdea10",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "bbe28e20-cc2c-4cde-bfe8-7d659526f460",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "47e3d4dc-c655-4020-9159-bd9e8653eb88",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/invoice-financings/v1/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/invoice-financings/1.0.4/BANCO-VOTORANTIM-SA_BV-Openbanking_API-INVOICE-FINANCINGS-06-Oct-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "7cd51755-1bb2-4220-abbb-72dc8a3ac325",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "05afa073-2928-410a-80be-c91bb0f530b6",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "98e2488e-8dc3-4c82-a0e4-56341e866d70",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Payments_Api_Phase_2_-_QRCodes-mtls-by_value-plain_response-rW2X4uKU72IUI-11-Jan-2022.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "e052e7d2-6b24-4163-85f3-b6170b02c8d9",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6b651be5-0733-406e-8944-e85a7c7894e6",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/59588111_BV-OpenFinance-2.0_resources_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "6b21accb-a259-4014-aba2-5e72a600fdd6",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7b029e83-6231-4725-93b0-7f48407ac877",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "cce5441f-9631-4003-a51f-32613f696691",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "a49a0813-e265-45fa-87a7-a56971fb77d4",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "70164940-387d-4a2c-96e3-7068c83a8471",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "378f6205-a58f-4bcf-b92f-db9d514cb1ee",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/BANCO-VOTORANTIM-SA_BV-Openbanking_API-LOANS-23-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "6b53eaa2-956c-4190-b67c-4fc4e9ee8cdc",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "da002ff5-1344-4b70-b965-28dcb74d0db1",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "07fbe794-fb27-41eb-8499-46bc96caf230",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e3943599-c86f-44ed-9eac-9124e72a1e0a",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "d8cdbf00-47b3-4f99-ae60-d584e04bf9aa",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "dcb7a38f-72fe-43c5-ad36-0ad8c4203bc2",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "d4a99140-3d44-486f-8487-6c4ad515fcb6",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "722da49a-63c8-4d9e-9c7c-f503a14ce93e",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/financings/1.0.4/BANCO-VOTORANTIM-SA_BV-Openbanking_API-FINANCINGS-23-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "56397174-935b-451b-865d-96ba99fa0fab",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b88195fa-8a04-4b90-8c91-fc33626963dd",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "ab3eee50-e6f5-4a9a-be29-de7555180d46",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "69a582e9-5d27-4629-b5d8-1497d3404477",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "ab4312fe-f792-44c1-82f0-a7254bc31616",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "14cfb5b0-4da6-4371-80ec-1114b21fc439",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/BANCO_VOTORANTIM_SA-BV-Openbanking-1.0.0-API-ACCOUNTS-06-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "ff1918d5-94c9-4182-a809-976f01846371",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "58d33f67-412a-4993-8caa-ecff303c5d92",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "7299557c-5bf5-4c58-9f94-c69e7dd3b72c",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "b1a470be-744b-4952-9891-08669a755911",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "afe347ac-6554-4d28-9fe0-1910da698c4a",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "5ac03fcf-917a-4789-90e3-c002527a5a34",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "a353921e-5abd-4a3e-89ad-20705d1dd582",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "b43e8279-2ce8-45a4-87c4-8a0394d7c140",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "75a0283b-3f15-40dd-9861-5298e26d4486",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "7a3e7838-e11d-42a7-bd8a-3ebb39c8f97a",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "36d32d0d-5b39-41d8-9a54-05e5bf1edd1a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5d5fb730-0e32-4520-9998-bb4116daf895",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "6cbe7dbe-b3f7-4f29-8a7c-44d98d41e595",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "eeb2dda3-ace6-405f-9f69-f3ecbea231ff",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "d999fc96-7ab1-46c2-9b02-6855bc654fed",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "bbce8e4f-430f-482f-b39f-f015c1734c94",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "54e1fb64-a933-4b1e-9122-9149a90dfc0d",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "18d50093-3683-4d24-b94a-df1e948132ce",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "614fc880-81dd-4906-8edb-312361b8813a",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "a0b17648-5a09-4798-9875-08e3d0666f3a",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "207edaad-c662-4c71-86f3-0e72b5653c23",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/59588111_BV-OpenFinance-2.0_business_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "a1a9b1c2-a5d3-4968-b480-fc00106c4395",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d9ee7329-cd0b-465b-a1cf-ce3ad3e4cef5",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "f91653d0-2c27-4b91-85da-36e9f9e52e43",
+          "ApiEndpoint": "https://api-openbanking.bvopen.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "bcea1f23-7baa-4681-9983-5af0e2c5bf6a",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "91533ce7-0fe8-4b06-82cf-3a07f3f292ae",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "48c087cd-8960-4118-81a5-973284da8518",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "1f3b923a-1d87-476b-9dce-f9cff3a8c8b8",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "e08d7a05-1389-4bda-afcf-3cebe0ec0780",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "ecad3cd1-c296-411b-b192-40b68737e1ff",
+          "ApiEndpoint": "https://mtls-api-openbanking.bvopen.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/59588111_BV-OpenFinance-2.0_financings_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "financings"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "Estruturamos soluções sólidas e inovadoras para nossos clientes, proporcionando mais segurança e praticidade. No seu IB é possível acessar seus dados cadastrais, produtos de crédito, câmbio e investimentos, além de informações de movimentação de sua conta",
+  "CustomerFriendlyLogoUri": "https://www.bv.com.br/site/resources/images/home-nova/logo.svg",
+  "CustomerFriendlyName": "BV - Corporate",
+  "DeveloperPortalUri": "https://www.bvopen.com.br/",
+  "TermsOfServiceUri": "https://www.bv.com.br/resources/arquivos/open-finance_termos-e-condicoes_v4.pdf",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api-openbanking.bvopen.com.br/oidc/v1/internet-banking/.well-known/openid-configuration",
+  "Issuer": "https://api-openbanking.bvopen.com.br/oidc/v1",
+  "PayloadSigningCertLocationUri": "https://api-openbanking.bvopen.com.br/oidc/v1/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

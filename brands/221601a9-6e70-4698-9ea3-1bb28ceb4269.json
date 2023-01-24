@@ -1,0 +1,784 @@
+{
+  "OrganisationId": "c160a6f5-e5df-5067-9e97-ec6fba62fd87",
+  "AuthorisationServerId": "221601a9-6e70-4698-9ea3-1bb28ceb4269",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "2c49c834-564d-4155-8847-ac2da3b7b74a",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1cac34cc-4551-4c14-a25c-cf457106cec1",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "8ed6dfad-4b0f-4351-bef7-d0b5948a8f27",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "a37463c8-656a-469e-a893-85425df9671f",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "05ed6b02-03b1-45bc-b77b-33830fbd0493",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "dafc6be4-b35c-445b-a6ef-3e9dabeb57d7",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "d9c39b0f-2dc9-42f0-bfde-0232382f15ad",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "e61dbcd8-3c83-4138-8f56-95fe22b01b42",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_credit-card_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "2aad9c98-1f68-4a12-b65d-3f6bc32365d9",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3fdb2c9c-c420-4fc1-a6e6-cad02f0c711b",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "31c826bf-a178-4b81-a13f-b3170ae3419b",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "a7bdf611-d8d8-49cf-89d3-bfab01294b2f",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "87b66dba-ba14-41b5-bc41-f79d1ed9e94e",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "9522442e-8b32-4f59-88b9-e11cca32be0c",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v1/accounts/{accountId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "bc9b3e89-569b-486e-bf09-03d5aad3fc6a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "973ff06a-885d-4297-9afa-89bc10049457",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "f9e8f2d5-4234-47da-a482-1cdef5046ca5",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fe8d7688-bc66-437b-b04a-8020d98fd2b5",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "1885058f-7dc0-43c3-ac6b-5157e3e99c60",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "5d645d00-1ee7-41c5-8b85-2d5b76cf427a",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v1/personal/identifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "239a69e2-c2c7-4ca6-b024-4933b20de6ba",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0fb33137-559e-488e-8b0a-b9bada3eea33",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "b2bac5cf-aa83-4139-9455-e4711018f32d",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v2/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "57985dfc-dee6-413e-bf5c-cc68141c5e45",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v2/business/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_business_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "88b8fa97-e706-4dfc-9fa5-8be6d66744fc",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "53361ee6-8884-4fa4-ba43-ab78ec50dd57",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "7e47b557-bd7e-4572-ab1e-aef547844bad",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "2d6b4fd2-ac31-45e4-a6d1-de85c2689e53",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "bd93dcbb-3552-442f-b292-9ca8c8115f2c",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "f37ab59b-d756-43cb-9783-45561338d49e",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v2/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_loans_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "38839dab-8953-4d3c-8338-7331bd03d8da",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2023dd8f-337a-43ca-9a77-9f8c99ce1363",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "ef7d95f8-6e53-4bc1-b24c-e842511ce2c7",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "f38a64fe-7b9a-4fe4-bb9e-54f24568dbdd",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "045d8d73-080e-4922-aaed-81918e2bb9d7",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "d306de69-6865-4e1d-9462-187113fce75f",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "6ef0e81f-15c3-462b-93ab-517506b86a55",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "bb83d478-263a-44c2-895f-a732c0cc0c34",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "9382d917-345e-4de1-a271-38d87e313ec5",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/unarranged-overdraft/1.0.4/CAIXA-SIDPN-API-Unarranged_Overdraft_-private_key_jwt-23-Sept-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "5032830c-eee8-4467-b6ab-89b91e718aa0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "43db9701-5711-46a1-b548-f68e04c562ae",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "35db1481-ea00-4619-93bb-30958d44fcdd",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "1b4d1b13-1c18-4477-8324-cfc1bd263ab7",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "8d470aa4-d7e6-4c71-a69e-9cde39a9f401",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "63b2a73c-ae24-4af1-8885-ca3ec9dfc363",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/CAIXA-SIDPN-API-Loans-private_key_jwt-20-Sept-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "01c4a76d-bbc6-4f49-bbb6-42b7c6b5b62c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0e09e58e-7f15-4b49-998c-4fbd2a067a4a",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "42c79883-cd65-4189-9cc1-cc765ea02505",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/CAIXA-SIDPN-API-Payments-private_key_jwt-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "da9d5778-e69e-4133-b661-26d5fbdfc594",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "23c32d38-241d-4c60-b26f-6ab0050cbfa6",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "a7eb94fa-f55b-448c-afe5-831b92bbc4d8",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "55867c7f-ac1a-49f1-917b-e491b37d3b03",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "61430b60-2d2a-4ea9-ae97-e6b0c55d0f59",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "0040bd04-93f3-48a4-88c6-c2872bb900a8",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v1/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/financings/1.0.4/CAIXA-SIDPN-API-Financings-private_key_jwt-20-Sept-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "ac8a6ee9-e1a0-4234-8866-ee6bc379c30e",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b067cafa-8a4e-4fd1-8721-2b83d0572fff",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "3c3c45ee-432c-4458-b4fb-07e8bbab8f0e",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/CAIXA-SIDPN-API-Payments-private_key_jwt-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "6d5089bf-1052-442a-8ade-75dfccc31e59",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "65a85082-03d0-4e0e-99a0-2a482c3c340f",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "9bfca834-7b67-4141-913d-0e1442e4723e",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "65322d08-313d-4ccf-97b6-32e8b198b6e9",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "eb77703d-4c91-43ec-9d82-2f905f998e5c",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "bb205ffa-cf52-4a5f-aae4-e364a604e955",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_invoice-financings_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "e4828d9b-56af-43da-a236-2f1036c5db22",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fd278498-013c-449d-a4fb-fa4955ed0b59",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "afb2ca6f-630a-454e-98c1-b5c10b511f4e",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "b76b7eb7-63b1-45c2-967e-7b9a85225cac",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "822bf8d7-f7df-46b2-85ae-48b964e60741",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "74a58cb3-ad4f-4b5a-a006-95f7524e4e95",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v2/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "bc1a80b0-61f9-417a-bf4b-517da75652ca",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v2/personal/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_personal_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "62656bd2-2f48-41e2-87f5-745b3626d20d",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7b8b2fa2-d1c3-4167-8873-4e4a20bd7522",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_resources_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "b76bba19-6b8a-4110-81e7-c5fec5177f1d",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b6bd9195-d64c-4932-b8ca-8ae4183aa0c9",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "dabd2c60-0061-471b-ab9d-989acc18ef04",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "c3d1bd96-e34c-4fe7-b37f-337f7e3c2369",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "613ad312-7b07-4e5f-ae03-db0d13ff61dc",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "8bb9a42a-d7de-462c-bd0d-56c16c82f236",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "d14f384a-5313-421b-a12c-70cd9eeedcd0",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_accounts_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "926882a2-9f80-4ae9-be46-c9032e5e253a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5474b036-6083-476f-962d-42a6c8bedc41",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "c6d148c3-f8a7-4a96-883d-4853115b0456",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "f31fd360-e2c9-4b26-a795-4dd925da2714",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "5bba7f8a-3b45-427c-9e1d-ae1d099b9408",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "e672ebf2-2185-4bc7-b516-e8f03e116d6f",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/invoice-financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/invoice-overdraft/1.0.4/CAIXA-SIDPN-API-Discounted-Credit-Rights-private_key_jwt-23-Sept-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "4078cd97-6294-4b50-8401-9b93acfbe429",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e8a25a74-c09a-4f64-a30b-a53c081c8ab2",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "791789de-28de-43eb-86b4-01bdbcba3ed2",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "bad838eb-a9f5-4ce0-a19b-dd0b58208a5c",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "49203d10-3cce-4512-b655-17d63f93be89",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "ddaddb46-97f6-428a-9762-d572516de2f2",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_financings_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "8b987172-9a9d-4a99-8569-181d6261b839",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "84af8092-8244-423f-bb55-3988be1a0737",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/consents/v2/consents/{consentId}"
+        },
+        {
+          "ApiDiscoveryId": "b233eb51-fcf3-4ff1-826c-0ac30be0da75",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/consents/v2/consents"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_consents_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "9ca14c40-39bc-4a24-b706-77c942d31601",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d7155cd6-9030-415d-9632-eaaaf42c4e06",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "8a5b5745-d92d-4c8e-ab2a-270673423838",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "9cd6ab20-eb1e-4c98-8960-e7977bce3f9b",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "dfcdba81-3f2b-4638-906f-07e19f3b416b",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "f7c60354-45f1-43f7-9b2e-5e246392c54d",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/2.0.1/00360305_Caixa%20Econ%C3%B4mica%20Federal_unarranged-overdraft_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "c53700e8-21c5-4a8e-be08-a7014c68757e",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f11367bf-d03b-45a7-9c64-06ff33af13b6",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "f04795e3-ba6b-4dbd-92ed-42da3688dd21",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "f9ef6096-8426-439a-9271-866a01754bbb",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "95942cd2-82f6-4cd0-97ce-f2771780c47b",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "f238110b-a3a7-4b5a-9e30-4233cb76e844",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "0e27a00d-f4be-49ca-ba3f-1730016fa8ad",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/1.0.4/CAIXA-SIBSA-API-Credit-Card_key_jwt-24-Sept-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "b9e5a9b1-1f5c-4a1d-80a5-d19d95e226fd",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "74799315-e72d-49f4-9bf8-800d016361c3",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "6f544414-7c55-4c64-a6d0-632653337a41",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "a06fc29d-7345-43c6-a3ad-808ff7179226",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "642bfaa7-88b3-418b-a744-04ac2ec1717e",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "72f212ee-c578-4c49-9512-e9f4c68a2fd2",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "d41f2ea0-ce86-4ee9-9876-23485b6e5953",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a152f613-bc26-40db-86e6-5ec6425f12d6",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "2e8de31b-6aa0-45ea-807a-b275a5ef2524",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "2a04fdbd-af7c-4ff2-bc5e-cf885298790b",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/customers/v1/business/identifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "9ac69646-6fd7-4c80-922a-e8061ea694bd",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b15dbf9c-e263-468a-bb17-db30b2faafad",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "2de05414-f331-476f-b839-423e1b28424b",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f89c0489-1e96-473a-a605-2052d7f89ae3",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "34487792-0685-4ba3-8035-d3f078a6efbc",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "830a8178-cc1d-40d9-8b64-edba35e449cc",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "bdff957d-49ce-4aef-9843-c3bde3281f46",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "cfa82887-d4ee-461b-b877-39053f67d5b5",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "da544117-47f7-494e-a1e2-ebe56e3e0c62",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "dd54236f-0057-461c-9312-db659f64de00",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "559b6281-5c43-47b8-9a22-3160c6de0814",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "0b91fa89-cb17-4ade-a88a-a683e72a4cb9",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "249a77f4-abb9-4899-88f2-1b7d13603fca",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "d411443f-4853-4b68-b89b-04e292987b98",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "015dc7c2-4b33-4e86-adc6-3e90a71e1445",
+          "ApiEndpoint": "https://api.openbanking.caixa.gov.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "26/10/2021",
+      "CertificationExpirationDate": "26/10/2022",
+      "CertificationId": "06f30e7f-5864-4f96-86e4-6d47a9e2bb12",
+      "AuthorisationServerId": "221601a9-6e70-4698-9ea3-1bb28ceb4269",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/10/CAIXA_ECONOMICA_FEDERAL-CAIXA_Open_Banking-BR-OB-ADV-OP-Private_Key_PAR-27-Oct-2021.zip"
+    },
+    {
+      "CertificationStartDate": "26/10/2021",
+      "CertificationExpirationDate": "26/10/2022",
+      "CertificationId": "b76e8cce-a2f4-4f3e-bb4d-56225b225d94",
+      "AuthorisationServerId": "221601a9-6e70-4698-9ea3-1bb28ceb4269",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/10/CAIXA_ECONOMICA_FEDERAL-CAIXA_Open_Banking-BR-OB-ADV-OP-DCR-27-Oct-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "A CAIXA tem as melhores soluções para você e sua empresa. Além de crédito, investimentos, habitação e outros, a CAIXA realiza sonhos e acompanha sua jornada para empreender. Seus dados estão seguros e você tem a solidez do banco de todos os brasileiros.",
+  "CustomerFriendlyLogoUri": "https://consentimento.openbanking.caixa.gov.br/assets/images/logomarca_caixa.svg",
+  "CustomerFriendlyName": "CAIXA",
+  "DeveloperPortalUri": "https://desenvolvedores.caixa.gov.br/",
+  "TermsOfServiceUri": "https://www.caixa.gov.br/aviso-de-privacidade",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://login.openbanking.caixa.gov.br/.well-known/openid-configuration",
+  "Issuer": "https://login.openbanking.caixa.gov.br",
+  "PayloadSigningCertLocationUri": "https://login.openbanking.caixa.gov.br/ext/oauth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

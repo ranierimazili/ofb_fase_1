@@ -1,0 +1,496 @@
+{
+  "OrganisationId": "a72a6d4f-79be-5362-afb6-f8d9c9c39cf5",
+  "AuthorisationServerId": "ba185564-2e26-420e-b6bb-af5bc7102480",
+  "AutoRegistrationSupported": false,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "33b62577-0077-45a4-b62d-d10e3ec174aa",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "92fa5bc1-8d39-4976-b677-060288374bc2",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "93ddcb6b-5aa1-43b2-94dd-ccb2141331f8",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0ef5d893-12df-4a16-8a98-c403f749ca16",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Bradesco-NextPF-API-RESOURCES-23-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "f4b48f43-762f-4609-8e9b-25dc62f379b4",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "eeed1a37-05b7-4ed0-8653-b968e2975e93",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/resources/2.0.1/60746948_next%20-%20Open%20Finance%20Brazil%20v1.0%20_resources_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "382900f8-d78d-4bed-b0f0-e7c6bf7806a2",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "72dc01b2-cc71-47e4-82eb-7bafcf386410",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "e0e3fd74-7749-419e-bb27-2c1aafe8d82b",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "11878f08-2a21-43ac-9fc7-736a3c103dfd",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "37f0df27-1e79-4b68-ae61-6d86cf95ff16",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "5e898cd9-4693-4396-acf2-ab3096cd7c0e",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/60746948_next%20-%20Open%20Finance%20Brazil%20v1.0_loans_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "8a083d50-3f92-48b2-a0fd-ef206835ba68",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3d3178cf-5e9b-4a8e-be33-878dae15831b",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/consents/v1/consents/{consentId}"
+        },
+        {
+          "ApiDiscoveryId": "6a2aed93-611f-47c0-a3a3-2668b4182216",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/consents/v1/consents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Bradesco-NextPF-API-CONSENTS-17-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "8899b81c-c386-4f03-b48d-a961208ba6ff",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0f30f29d-ed65-4d85-94a8-83a4ac05de38",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "398c97cb-7fb1-4eb7-be2d-2d1dd45ddafb",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "8535bd83-02dd-4ab2-bb4a-5d92251371e5",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "4a63d88f-3259-4ccd-bbf9-e56d0e93460c",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "06a66314-7176-41ca-b3a7-5605986381bf",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "5600a25b-658a-484e-9a4c-11b5fe31aac3",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "e51dfdb8-3a68-4908-9aeb-cc290ace2ff0",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/60746948_next%20-%20Open%20Finance%20Brazil%20v1.0_credit-card_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "faa92dba-d4a6-49ab-bf9e-e0c86b0e4c66",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "01ccf507-c0a2-45cb-a57e-7a879980e75c",
+          "ApiEndpoint": "https://api.bradesco.com/Next/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "0c418fc9-524e-4bae-82cc-8ea33e646ed4",
+          "ApiEndpoint": "https://api.bradesco.com/Next/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "6a4d11fd-140a-4a6a-92c8-ed038d2aad09",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4add9e68-fed3-425a-b5d1-68d06b300718",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "f05fdfa2-579b-4d71-bc0a-f6ab8575ed30",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Bradesco-NEXT-API-PAYMENTS-18-DEZ-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "401b6450-a337-4a3d-8631-3008536d384e",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9b4495f5-b9e0-40c9-b03b-97fdbf89dc7a",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "0340811b-3a9c-4596-b6ba-2d0a75c3acfb",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "d8019782-19da-4405-a69e-f10af925d776",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/60746948_next%20-%20Open%20Finance%20Brazil%20v1.0_personal_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "3b3b86f0-4fe4-4926-88be-e965e6d27099",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c8d738a4-ab13-48a9-9085-a817d4bf361e",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "86b01e7f-e0d7-45c6-81bd-5f5eb71c185c",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "85637922-3762-4508-b882-fbb94b5ed3c6",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/customers/v1/personal/identifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Bradesco-Next-API-CUSTOMER-17-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "bd40004b-6d0b-486f-a49a-9dce30eefbfe",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d4909da3-e0b5-4d44-88d6-e1fe182dd3e1",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "c88ebb2d-4e5c-4cc5-ba88-2684e4ffcc79",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "e74671b3-7cb4-4bf6-9fc4-8f1fc800385e",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "d74c1656-a2ca-48c6-bd8e-bbb2fb7a9c55",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "1ec11d73-0918-49b6-8f9f-42afb26e73cf",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "34c41d53-1823-4b37-8bb2-2601e373ec29",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Bradesco-NextPF-API-CARDS-25-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "aece4f48-255e-45de-8ffa-9bac7d3155a0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "052538a7-4a1a-481c-a3ec-c5f1bd8df268",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "0a1cba02-59b5-43eb-b54a-b64d89417da2",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Bradesco-NEXT-API-PAYMENTS-18-DEZ-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "c7cee415-453a-41fc-bb0a-514489129845",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3f0fc332-1795-4f5b-8bde-5cb19ca1bc16",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "4ea69ed0-5b8c-4ebb-b145-945ca894ddf4",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/consents/2.0.1/60746948_next%20-%20Open%20Finance%20Brazil%20v1.0_consents_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "172ccea0-5c4b-4792-96c9-e74a87c49c4d",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e23b0d12-e826-4678-995e-dae8d56f4f8e",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "bea83d58-b169-423d-bc47-f691527dd5aa",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "55e4c115-0dc3-4df5-80a3-fd53a097f1c5",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "1fa09a72-9a06-4ee5-9f98-7ff01da19ace",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "2e2b3606-c1d0-417a-9539-26e31c7c3695",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Bradesco-Next-API-ACCOUNTS-17-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "191cbaf5-e4bb-49c1-ac04-a84278f793d3",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2301419d-0240-444e-84e9-25eb766e2939",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "5d18d8be-bfcb-4479-8348-576322f388ae",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "fb588f16-6085-4553-8368-8cc69faa5616",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "929b98ab-f13c-422e-9b84-6de34b7d82e4",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "e0941749-a498-467f-adc1-79e472dd8b6f",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Bradesco-Next-API-LOANS-17-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "29e41b5f-d499-4a7c-acf5-b8c145174da1",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c4383ff1-ee4a-47fd-ad73-8eee17b5fddf",
+          "ApiEndpoint": "https://api.bradesco.com/Next/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "5e82e2d8-2446-428b-b57d-72ba05093554",
+          "ApiEndpoint": "https://api.bradesco.com/Next/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "45f57937-9c7c-4c90-a27e-a28b94544d30",
+          "ApiEndpoint": "https://api.bradesco.com/Next/open-banking/products-services/v1/personal-credit-cards"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "5f8b75ab-03ae-45a0-9a08-eb701cbac73c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f186894b-c61f-4abd-bd16-e88ce8a2f350",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "0de1a15b-87e2-48d8-bd76-2cbd564d52f8",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "d45063b5-abc3-4a07-b541-ca9de092e186",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "c0591bb5-0ce0-4afb-a927-df9644e6becf",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "66a0a6f3-f3a3-4050-9a2f-548cb61ec34a",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "d0eeef80-57ba-46f5-8713-b9cf09d9895e",
+          "ApiEndpoint": "https://api.bradesco.com/next/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/accounts/2.0.1/60746948_next%20-%20Open%20Finance%20Brazil%20v1.0_accounts_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "09efb865-5666-4cd9-b4b2-94d957a340b6",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d81f67dd-1f7b-4168-8510-b7ea51a84753",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "865cc1ee-c7de-4c58-bd33-1b87ff78a0a5",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "08/08/2021",
+      "CertificationExpirationDate": "08/08/2022",
+      "CertificationId": "f7b8597e-3906-4cfd-a71f-41ede1848b8f",
+      "AuthorisationServerId": "ba185564-2e26-420e-b6bb-af5bc7102480",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/08/Bradesco-Next-BR_OB_Adv_OP_w_MTLS-8-Aug-2021.zip"
+    },
+    {
+      "CertificationStartDate": "19/11/2021",
+      "CertificationExpirationDate": "19/11/2022",
+      "CertificationId": "b23faa9d-254f-4919-9e0e-96387c66a12d",
+      "AuthorisationServerId": "ba185564-2e26-420e-b6bb-af5bc7102480",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Bradesco-Next-OP-DCR-Advanced-Final-19-Nov-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "O next é um banco digital completo e gratuito, criado para facilitar a vida das pessoas e ajudá-las a conquistar seus objetivos. Além de conta-corrente e cartões, oferece investimentos, crédito, empréstimos, seguros e promoções com lojas parceiras.",
+  "CustomerFriendlyLogoUri": "https://next.me/_/assets/images/openbanking/logo_next_verde.svg",
+  "CustomerFriendlyName": "next",
+  "DeveloperPortalUri": "https://developers.bradesco.com.br",
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.bradesco.com/next/open-banking/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.bradesco.com/next/open-banking/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

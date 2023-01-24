@@ -1,0 +1,149 @@
+{
+  "OrganisationId": "25f7932a-a188-5491-896c-5bda5f4fd789",
+  "AuthorisationServerId": "f7289672-301a-4053-8716-bdcc671767ad",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "31667a72-96f2-42c1-964a-31c5d4db0164",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0e389136-79f2-48f2-936b-1b80573cb46e",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "e296e098-8172-4c79-8d54-b8c0e098a539",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "13c58252-2d6d-477e-9d3b-232613b86649",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5b0cd462-6c41-4a9a-ad13-a64b2e844ac6",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "ef44f47e-3131-49ab-8f3c-70fb70507051",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c95ca8ec-d67a-40e7-bc5a-68da3c5a4e20",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "7a4cbdc7-73b8-47b8-8d68-98ac6a2562ed",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "5b3d074d-f9ac-454b-a09b-8739352554fe",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "a235606a-ac54-45aa-9ab4-6125653c9c42",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "46b59c14-67a8-48f9-a3e8-0918614ec74d",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "7b81aee0-5cf2-4c9f-9fe9-300898cb8056",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "02c29bef-a2a6-44e5-ad4d-d4e8e758a93f",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "b38fe6c3-63fd-46e5-9f44-2a401bd0dbbf",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "03393759-b16b-4923-8b6a-3c9e7d5922fb",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "9583a483-2073-4a05-861b-a79ec9c7447c",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "7b138e71-d169-4628-806b-1548dd5bc6b9",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "f73a75fc-658a-4bd5-ac0f-499bd8c94651",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1f0dcc75-50e6-4efb-bcd1-4b49f9594757",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "55d8cb2c-65dc-4047-a451-7b0f531698c6",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "fc0699a2-d6e2-4f0a-9637-fc88d21bcbff",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "93781a03-a875-4de7-807f-e8a2dafaf678",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "879e4150-4736-4e4c-be52-bf4665b11fa1",
+          "ApiEndpoint": "https://api.sulcredi.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "A Cooperativa atua desde 2006 no meio oeste de Santa Catarina, oferecemos serviços de pagamentos, crédito, serviços de conta corrente e aplicações financeiras para pessoas físicas e jurídicas,  atendimento presencial, pelo app e web.",
+  "CustomerFriendlyLogoUri": "https://api.sulcredi.com.br/logo.svg",
+  "CustomerFriendlyName": "IBIAM",
+  "DeveloperPortalUri": "https://api.sulcredi.com.br/open-banking/naoseaplica",
+  "TermsOfServiceUri": "https://api.sulcredi.com.br/open-banking/naoseaplica",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.dev.ibiam.hub.cashway.fsapps.io/orgs/ibiam/.well-known/openid-configuration",
+  "Issuer": "https://api.dev.ibiam.hub.cashway.fsapps.io/orgs/ibiam",
+  "PayloadSigningCertLocationUri": "https://api.dev.ibiam.hub.cashway.fsapps.io/orgs/ibiam/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

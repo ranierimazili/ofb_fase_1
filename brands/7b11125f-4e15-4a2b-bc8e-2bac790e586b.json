@@ -1,0 +1,193 @@
+{
+  "OrganisationId": "1a7178ab-ed8d-5475-89b7-5f1f9c6a3e25",
+  "AuthorisationServerId": "7b11125f-4e15-4a2b-bc8e-2bac790e586b",
+  "AutoRegistrationSupported": false,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "29197e12-efa7-4e63-9c0f-d9067450e17e",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f1fd196c-b1ed-470e-96f8-153f8a1a1518",
+          "ApiEndpoint": "https://mtls.openbanking.numbrs.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "e5a00c82-0209-498e-b059-101d40fc1778",
+          "ApiEndpoint": "https://mtls.openbanking.numbrs.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Certificado_de_Conformidade_Funcional_-_Numbrs.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/07/2022",
+      "CertificationExpirationDate": "04/07/2023",
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "fa0a8c4c-ebd8-4168-ba6e-510e339b0b3f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "28541d53-c198-421b-abb7-fe1921744420",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "0c9e04d7-a190-4038-8117-b20555d2f0f7",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "5e921f4b-51d6-42bc-8aa7-ea56eccaf6ff",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "37b81d8f-6c74-4206-9d59-4388ac0558a5",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        },
+        {
+          "ApiDiscoveryId": "2063ff9e-9b5e-4d5d-8599-4ec4d91f29b6",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "a2c7830e-bbc1-4d48-b298-312a9beaace0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4dc26034-524d-4201-84d7-7fd94c532169",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "0200f4d7-a66f-4a75-9d8b-a7afffc59a31",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "89be2378-1066-43f6-acd8-37a0049077e5",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "167ce0c6-e582-4d82-ab18-48168c81bfa0",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "a6874ada-d053-488e-8c6b-94dddd261e74",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "c90e9edb-0c99-4873-a934-7817cae410b6",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "f21a5052-57f1-481b-bedb-9b82103a73de",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "12c54a51-c3df-4e51-9e74-fa4951febb76",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "cdf06ebe-38cd-4f6e-be7b-d536feb9b4ed",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "ced22fd1-9aa3-416d-a149-269f854111c7",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "d2740811-f886-42bc-919d-22144bc6a3dd",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "0c8f59a5-c6b5-49ac-b9d2-3299c72959c6",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "c1dc11a8-45be-428d-b86f-1af562168297",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4e83fd42-f811-49b0-86c1-db617e73fa61",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "a7f0ffdb-cabb-479b-8483-495a3bb17e08",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "6d2ad2e6-172c-48a6-9a0b-ff3f7d3d0854",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "da28ea41-d72c-465b-b975-8219d969755f",
+          "ApiEndpoint": "https://api.numbrs.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "3a106ff7-4241-49cf-84f0-36bcb62c8372",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "318b7ddc-78e8-40a3-9dc9-437440e7a02a",
+          "ApiEndpoint": "https://mtls.openbanking.numbrs.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "1096eb8d-d143-43c4-bc6a-a46432b7aef4",
+          "ApiEndpoint": "https://mtls.openbanking.numbrs.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Certificado_de_Conformidade_Funcional_-_Numbrs.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/07/2022",
+      "CertificationExpirationDate": "04/07/2023",
+      "ApiFamilyType": "payments-pix"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "A Numbrs é uma fintech de crédito que nasceu em 2020, com o propósito de reescrever a história dos empreendedores digitais e criar um novo futuro para nosso Brasil.",
+  "CustomerFriendlyLogoUri": "https://numbrs-static-files.s3.sa-east-1.amazonaws.com/numbrs-logo-pink.svg",
+  "CustomerFriendlyName": "Numbrs",
+  "DeveloperPortalUri": "https://www.numbrs.com.br/naoseaplica",
+  "TermsOfServiceUri": "https://www.developers.numbrs.com.br/naoseaplica",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.numbrs.com.br/orgs/numbrs/.well-known/openid-configuration",
+  "Issuer": "https://api.openbanking.numbrs.com.br/orgs/numbrs",
+  "PayloadSigningCertLocationUri": "https://openbanking.numbrs.com.br/orgs/numbrs/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

@@ -1,0 +1,597 @@
+{
+  "OrganisationId": "e5a1c7ad-11d4-560d-914c-611003a39219",
+  "AuthorisationServerId": "9326f9b2-ae57-42c4-a0d9-acc4ba434696",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "173914df-0a86-428e-bbc5-3c9038029dd5",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f81791db-0ed0-4031-a6b9-0844785141b5",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "09aee5eb-87fa-4f5b-8011-d10caef6d032",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "39a3a534-d1e6-4ccd-8cc7-17d6226d25b2",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8513fb4c-c682-42be-a307-fbaec4437065",
+          "ApiEndpoint": "https://api.mercadopago.com/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "32e55f95-973e-4a55-adf8-8e9d5df5558a",
+          "ApiEndpoint": "https://api.mercadopago.com/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "9dce87d7-4a03-4b8f-a279-3f1dfe13a92f",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "56d190cb-1df1-4844-bb01-9d727e39c8f6",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "b67b889e-b27a-496e-bc4f-5cc41c038179",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "5616e6b8-d79c-4390-96ac-b99e700e6c94",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "3e25d57a-3c87-4e6a-bf05-936c16e0a04a",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "25bcdac2-c815-4b03-90f8-aca8a4f5739b",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "94e21d32-9b18-444e-b040-7a1c93234b41",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v1/accounts"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openid.net/wordpress-content/uploads/2021/11/MercadoPago-AuthorizationServer-BR-OB-Adv-OP-DCR-9-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "8ebe0f99-6303-4a4b-9e04-730a38d62c2a",
+      "ApiVersion": "2.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "82edc100-747f-4876-a30b-507b1480d06e",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "4a32cf95-84c6-49fa-83cd-9ab7758728fb",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "ac3a5f66-b8d0-44f4-a84f-0812656f708d",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "33a60edd-0028-4bd6-9559-42d7fdc7d009",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "9bfe9830-02d2-4f6a-a180-2c3ee88d82c3",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/10573521_Mercado%20Pago%20Open%20Banking%20v2.0_loans_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "9dec66d7-e091-407d-83a4-2095a5dacca0",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "190780ff-35a6-43e8-b22d-7eaf13bf13e0",
+          "ApiEndpoint": "https://api.mercadopago.com/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "7ae93068-c0a6-4f35-a762-75594a52542c",
+      "ApiVersion": "2.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "56567512-2fed-4436-b6ac-39015360d60d",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "7af5c5de-48a8-4069-af8c-c0b11e70dc84",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "ba0649d9-9e64-4333-ad11-6352b86291f3",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/10573521_Mercado%20Pago%20Open%20Banking%20v2.0_business_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "c6e854b4-a095-4261-a089-aae90b258f8d",
+      "ApiVersion": "2.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ddc87d8a-ffc7-4edd-8609-0f25bbb3d79d",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "bef39a83-f820-483a-aec0-72df338eb84a",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "763aeb7c-30b1-40c3-8abc-1a6f0e3da00d",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "4af37284-4df6-454a-bf90-7b6af9bfc5b0",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "e628a8ef-6db2-4cec-828c-30a86220af52",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/10573521_Mercado%20Pago%20Open%20Banking%20v2.0_financings_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "c1cce679-e44a-489c-b8cb-abffa8460ca9",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9509024e-bbee-4faf-9b48-30bec194840f",
+          "ApiEndpoint": "https://api.mercadopago.com/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "f5be97a0-b26f-459e-b60c-47129222e034",
+          "ApiEndpoint": "https://api.mercadopago.com/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "ea888c5d-180f-4c32-a84c-4d6bb5a239e9",
+          "ApiEndpoint": "https://api.mercadopago.com/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "ed379454-4716-46bc-95df-ed368538bf1b",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b753d54a-408f-4284-a7be-699cc036cae5",
+          "ApiEndpoint": "https://api.mercadopago.com/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "7689b50c-292b-42b3-a65c-c9e27e3863f4",
+          "ApiEndpoint": "https://api.mercadopago.com/open-banking/products-services/v1/business-accounts"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "1025d017-10b8-4b83-a0e3-b75876e265e5",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b6abee0a-4753-4513-96bd-3a5f9e7d6f2c",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "56e2d36e-a915-4700-b76b-1451cd849792",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "412efb58-9983-4903-bd40-0bc8d6121fb0",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "33a41e0b-4273-4fde-a337-041409377341",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "adb638d2-6abb-42db-99be-4360a46191d3",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openid.net/wordpress-content/uploads/2021/11/MercadoPago-AuthorizationServer-BR-OB-Adv-OP-DCR-9-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "8bda2646-5c9b-426c-bc77-9bd1cbcfe89e",
+      "ApiVersion": "2.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c28ba429-2628-4575-9e96-a668a526ecc0",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "c313273a-8731-4ac7-b38c-2f588d283152",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/10573521_Mercado%20Pago%20Open%20Banking%20v2.0_consents_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "58deb1bf-64a5-403d-82cf-99ec6befdd64",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1a23fd8d-25b8-4144-bb6b-3904ffdea7b5",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "8084e1e1-2e60-4f91-b926-4c467532a2cf",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "9f56411c-18ce-448e-ae67-66433e232455",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "989868bc-62f6-434a-9e3a-f7d83afeac7a",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "5ce5e915-6038-4380-b01e-11cea37d15bd",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openid.net/wordpress-content/uploads/2021/11/MercadoPago-AuthorizationServer-BR-OB-Adv-OP-DCR-9-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "805879e2-5861-4b3d-a76b-076b4ec1f8ce",
+      "ApiVersion": "2.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f7c5ff88-33a6-42e7-8704-973f758fa43e",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "0c3a2347-0557-4dc3-991a-f48e67c2abaf",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "6f67e764-e184-4d7e-9171-93873377404b",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "1831fada-33f0-49f2-b788-b37572cd3654",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "df5070d0-f4d2-4a25-a858-3e491d3f6aec",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "616ab253-577d-4cb9-b8e2-c1e38ea78474",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "c71a3b99-1572-4333-b33c-4f466aeb004b",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/10573521_Mercado%20Pago%20Open%20Banking%20v2.0_credit-card_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "2af2ece7-e592-4898-b877-8024bc620d1d",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4871668c-8065-4bac-ab82-ce65ea3404d4",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "bebebec0-a59e-4058-80c7-8a99b1f0f51e",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "6ff0ba79-83f4-4793-9a9b-dcccbcabb7e3",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v1/business/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "66f01c6d-3913-4afe-bd13-f5286e32e634",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b549cbc1-8fef-4106-a41e-93c0d6ca5d7c",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "68cb8631-b995-4c1d-96a6-d7de28d08c7a",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "127c2d1b-4e13-4b9b-a1e1-3722247e2c42",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "cedc4d5f-6679-4654-b5f7-966466d165d9",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openid.net/wordpress-content/uploads/2021/11/MercadoPago-AuthorizationServer-BR-OB-Adv-OP-DCR-9-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "9909e98b-7f05-4861-a639-c45b050d1477",
+      "ApiVersion": "2.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7e4acd3f-5c7d-4627-8cfc-b772cd74d92b",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "aca51d4c-afb9-4e89-bf39-0ef340f0d5c6",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "5168ec6e-8daf-4391-aa88-6ddc45a97bdf",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "dcd43abd-3e7b-42e7-9385-febced3183a7",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "5b48fbd3-09bf-495e-a8ab-b2b8053e923a",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "d9b4e515-0f3d-4cfe-bdcb-3fafeeb1e1fb",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/10573521_Mercado%20Pago%20Open%20Banking%20v2.0_accounts_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "f65b2df6-d63c-43b1-8487-e3a9d1198eb5",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0a3fde81-f6ad-4874-874a-768a290397bb",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "40b7e7cf-8eb9-497b-a200-7db6524d790d",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "e5159424-fe48-499f-8f37-a0bed24ca274",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "34dc1727-f9a2-4425-943e-cf58ce93f502",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "c4d8ce4b-9d4e-43bf-aeed-a9f28bf7aa91",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/accounts/v1/accounts"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openid.net/wordpress-content/uploads/2021/11/MercadoPago-AuthorizationServer-BR-OB-Adv-OP-DCR-9-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "21c056c7-dbe2-4988-be41-14eaf3546471",
+      "ApiVersion": "2.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "79ab0553-d6dd-4efa-8a05-3b8858e65e98",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/10573521_Mercado%20Pago%20Open%20Banking%20v2.0_resources_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "f8a3e41f-6df3-4b96-8efd-538c9a1ded7c",
+      "ApiVersion": "2.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0468b659-3687-4245-9a6a-121bb957c6ef",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "32da03ca-fc26-4516-a012-937a61f6f9ae",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "cb90e39a-c77e-4e7d-b7de-1bde07efb1a1",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/10573521_Mercado%20Pago%20Open%20Banking%20v2.0_personal_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "ebd7a5cb-8449-4059-ac90-73b1743f2ae8",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5a4701ef-4f71-4f39-a538-20e1708b2324",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "860ff836-a9c2-4338-be49-407c1b9ab0e2",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "e05b41ec-ae67-4bfb-a72a-36a67ace05a3",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "fead43f8-e453-4988-9f3d-99a44ca17d25",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "668f6fdf-0f0a-4b7f-a0ba-780e15f90526",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "ce36553c-f21f-4a2f-8327-72c865e0ff04",
+          "ApiEndpoint": "https://openbanking-br-api.mercadopago.com/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openid.net/wordpress-content/uploads/2021/11/MercadoPago-AuthorizationServer-BR-OB-Adv-OP-DCR-9-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "09/11/2021",
+      "CertificationExpirationDate": "09/11/2022",
+      "CertificationId": "21a8bfd8-c775-4c8a-a997-2c2b56173746",
+      "AuthorisationServerId": "9326f9b2-ae57-42c4-a0d9-acc4ba434696",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 4137,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/MercadoPago-AuthorizationServer-BR-OB-Adv-OP-DCR-9-Nov-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "O Mercado Pago, maior fintech da América Latina, atua no Brasil desde 2004 e tem como missão democratizar o acesso aos serviços financeiros e de pagamentos, contribuindo para a inclusão financeira e fomentando o poder de empreender na região.",
+  "CustomerFriendlyLogoUri": "https://http2.mlstatic.com/frontend-assets/opb-logos/logo.svg",
+  "CustomerFriendlyName": "Mercado Pago",
+  "DeveloperPortalUri": "https://www.mercadopago.com.br/developers/pt/guides",
+  "TermsOfServiceUri": "https://www.mercadopago.com.br/ajuda/termos-e-condicoes_299",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.mercadopago.com/prod/open-banking/oidc/v1/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.mercadopago.com/prod/open-banking/oidc/v1/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

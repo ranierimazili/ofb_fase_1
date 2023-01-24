@@ -1,0 +1,358 @@
+{
+  "OrganisationId": "27aea8f6-2119-55f8-9553-5ad4b08eeb17",
+  "AuthorisationServerId": "f9cabb03-876d-4eea-974c-0d8ce4bd4860",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "31a70b68-c18e-4532-a459-2302d68f9ecf",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b1407f07-62d8-4300-a1f1-e42b8abbd689",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "a0348fce-e77e-4c59-bdf7-c971e78a63db",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "96f23a5b-20d1-4d5e-9b6b-6769ee799c25",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "1c1a345f-e023-43ea-a8a1-1456639faa22",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "26ce2483-ff3e-4945-9f06-e98722277282",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/82c2384221cdcabf22d3b7088ec75dcf0f445557/submissions/functional/loans/2.0.1/27098060_Digio%20-%20F2%20Opus%20OOB%20v1_loans_v2-OL_23-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/01/2023",
+      "CertificationExpirationDate": "04/01/2024",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "ee616f29-6cc2-429c-bfce-cb9f4930e88b",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "270b7fb6-12f9-4841-92ac-1127215686c0",
+          "ApiEndpoint": "https://openbanking.digio.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "980f4ac7-d997-4907-9f0e-f1944df27c7b",
+          "ApiEndpoint": "https://openbanking.digio.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?public=true&plan=uMkDh41Yuevfj",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "21/07/2022",
+      "CertificationExpirationDate": "21/07/2023",
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "0917848b-0995-4ec2-b789-bb366ed02fea",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8341bf86-2bb1-46d3-92ef-a67b0f7ce65b",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "bf784527-f103-4cc7-8780-b349fed2a249",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Payments_api_phase_1_test-private_key_jwt-pushed-plain_response-lBw4yFVpn7cej-16-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "dc1b8c8a-acaf-4861-a3fc-3204fe64ce9c",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "64b2f135-d970-4568-aea0-a779aefe4455",
+          "ApiEndpoint": "https://openbanking.digio.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "dfa134c9-a037-4b6a-a962-abb4a6e37db1",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "09d6dced-a496-4952-8e9f-fafb64bf0117",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "b29ba992-d474-485e-9df5-beed205e4d35",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "4132ce44-336a-4c50-9ca8-3c8e4de2cffe",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/27098060_Digio%20-%20F2%20Opus%20OOB%20v1_personal_v2-OL_14-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/12/2022",
+      "CertificationExpirationDate": "28/12/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "00d1ecd9-8d77-4d26-b354-495f69e13697",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "22c678e9-6b40-4106-96e6-fedb67d7a1d2",
+          "ApiEndpoint": "https://openbanking.digio.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "6a110542-2065-4e64-885b-7bdca5004799",
+          "ApiEndpoint": "https://openbanking.digio.com.br/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "bcc0e74b-447e-4448-823e-6016fbc4b931",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "68a4ef51-9f78-4470-933b-386d312359c3",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/82c2384221cdcabf22d3b7088ec75dcf0f445557/submissions/functional/resources/2.0.1/27098060_Digio%20-%20F2%20Opus%20OOB%20v1_resources_v2-OL_23-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/01/2023",
+      "CertificationExpirationDate": "04/01/2024",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "8377bc0d-8fad-4fa2-b5d3-1e07abf051fe",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9ba7b9ad-7d81-4aa0-95d1-cf60cfcdc25a",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "2d3f62f0-d839-43bb-9b51-ce563ed90933",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Payments_api_phase_1_test-private_key_jwt-pushed-plain_response-lBw4yFVpn7cej-16-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "f7a0417f-9a3f-4b62-bbf7-9e1ec8c4905c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c0ec4d96-5491-49ab-827c-ff69ccf3e9b2",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "f17af811-1793-4f9f-8523-87446224f20a",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/27098060_Digio%20-%20F2%20Opus%20OOB%20v1_consents_v2-OL_14-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/12/2022",
+      "CertificationExpirationDate": "28/12/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "27364942-1759-47de-bcd3-6108663eba53",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "dbda7a6c-32b3-4081-8326-89d9771f5a70",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "07045e77-e895-4c96-b1e9-fc080e7e5172",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "eed294cf-5e1f-4b7f-81fa-3c1060a7789b",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "8b4a8ce1-82ec-4726-afb9-0f0aa4b9cc49",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "bb2fac4d-4f1e-4f6c-959b-a7a25d75dd1a",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "83cd618e-fd00-4367-b870-a8bd81a3dee5",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/27098060_Digio%20-%20F2%20Opus%20OOB%20v1_accounts_v2-OL_03-01-2023.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/01/2023",
+      "CertificationExpirationDate": "04/01/2024",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "1368dce8-e965-4584-a24d-1eab9d4ab263",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e5bdba1f-07e4-4b99-9fcd-b220793a11b5",
+          "ApiEndpoint": "https://openbanking.digio.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "24d0cde2-35db-4285-899d-d7c37ce65788",
+          "ApiEndpoint": "https://openbanking.digio.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "6d881a02-46d8-4bde-a0c4-cc5004a8284f",
+          "ApiEndpoint": "https://openbanking.digio.com.br/open-banking/products-services/v1/personal-credit-cards"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "358792ff-3c26-497f-ae85-fe6d2fd716c0",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cc12d701-1acf-4744-9f63-bb215243d7bb",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "7f6d9050-50ff-4e85-a7cb-c433727f3dbc",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "c7daf6e7-ee62-4442-bd9a-7db562a3ee5d",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "4d04ff5e-159a-4104-9971-46c748740f46",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "7d69aebe-cd4f-4338-9d34-b16ed2829941",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "3344dbd8-36c6-4bff-8586-0a7da2411d6e",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "cf3f860a-5b05-466a-9fda-da53e852950e",
+          "ApiEndpoint": "https://matls-openbanking.digio.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/82c2384221cdcabf22d3b7088ec75dcf0f445557/submissions/functional/credit-card/2.0.1/27098060_Digio%20-%20F2%20Opus%20OOB%20v1_credit-card_v2-OL_23-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/01/2023",
+      "CertificationExpirationDate": "04/01/2024",
+      "ApiFamilyType": "credit-cards-accounts"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "08/09/2022",
+      "CertificationExpirationDate": "08/09/2023",
+      "CertificationId": "4c765d4d-36a6-4ec3-8c7f-61f86ea6d54a",
+      "AuthorisationServerId": "f9cabb03-876d-4eea-974c-0d8ce4bd4860",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Digio-Opus_Open_Banking_v1-BR_OB_Adv_OP_w_Private-Key_PAR-07-Oct-2022.zip"
+    },
+    {
+      "CertificationStartDate": "08/09/2022",
+      "CertificationExpirationDate": "08/09/2023",
+      "CertificationId": "1a390330-e3b1-421d-b01f-6ec99779df93",
+      "AuthorisationServerId": "f9cabb03-876d-4eea-974c-0d8ce4bd4860",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Digio-Opus_Open_Banking_v1-BR_OB_Adv_OP_DCR-07-Oct-2022.zip"
+    },
+    {
+      "CertificationStartDate": "02/11/2021",
+      "CertificationExpirationDate": "02/11/2022",
+      "CertificationId": "471fae82-e9e2-4f7f-b4b1-fad06fd82ff2",
+      "AuthorisationServerId": "f9cabb03-876d-4eea-974c-0d8ce4bd4860",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BancoDigio-Opus_Open_Banking_v1-BR_OB_Adv_OP_DCR-28-Oct-2021.zip"
+    },
+    {
+      "CertificationStartDate": "24/09/2021",
+      "CertificationExpirationDate": "24/09/2022",
+      "CertificationId": "b2ec9093-2856-431a-8284-ada9a61eb3f6",
+      "AuthorisationServerId": "f9cabb03-876d-4eea-974c-0d8ce4bd4860",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/09/BancoDigio-Opus_Open_Banking_v1-BR_OB_Adv_OP_w_Private-Key_PAR-22-Sep-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "O Digio é mais que um banco digital, é uma bantech. Pois conta com a solidez de um banco e agilidade de uma fintech. Com tecnologia, buscamos cumprir nossa principal missão: transformar a vida financeira dos brasileiros com segurança e transparência.",
+  "CustomerFriendlyLogoUri": "https://www.digio.com.br/logo.svg",
+  "CustomerFriendlyName": "banco Digio",
+  "DeveloperPortalUri": null,
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.digio.com.br/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://openbanking.digio.com.br/auth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

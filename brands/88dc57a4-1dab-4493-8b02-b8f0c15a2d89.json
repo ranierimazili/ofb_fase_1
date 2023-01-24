@@ -1,0 +1,784 @@
+{
+  "OrganisationId": "2a01e202-e8f0-5f5a-9651-ebc257371e6e",
+  "AuthorisationServerId": "88dc57a4-1dab-4493-8b02-b8f0c15a2d89",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "94c49dfd-15e3-4a70-917f-1a181d1e469c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1e8497eb-656e-435f-a69a-cb7c82807637",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "d46de60a-ca76-46b0-8f7f-099684af6f2c",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "10fb4658-b1e1-49bd-b502-ca8746a3e3bd",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "045a6a8a-5ccc-44f9-b5d3-a98bd834b709",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "c7ef6a84-28ed-4cc6-a131-de4e580441ec",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_loans_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/09/2022",
+      "CertificationExpirationDate": "30/09/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "0e045444-46cc-4b94-9857-8c198e10d0a4",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "88d7e7d5-17ab-4e1b-84d3-4adc47b8e994",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "3e17a5bb-ee7c-4d3b-9dab-3c3853bf6860",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "53082019-770b-4dbf-b63d-a59bfd4a9e2e",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/1.0.3/Banrisul-Banrisul_Open_Banking_Brasil-API-BUSINESS-CUSTOMER-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "2ec55b3f-2267-400a-b487-848dc76b5dc0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b5463493-e0df-46ee-a578-c7be02d08f01",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "656de846-de8b-4935-89f5-2937f413d16d",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Banrisul-Banrisul_Open_Banking_Brasil-API-PAYMENTS-private_key_jwt-08-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "43584f13-2a2c-4547-8441-b9f640a917ef",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2fdefe7f-4112-45d8-99af-a25db9f2d14a",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "1e1e5c30-1ae7-40c4-b14a-8d30068c7564",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "5b1ef3d8-7056-4e41-97b9-04a4d1b4c874",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "2ea8b489-d2ea-4099-885a-61242d9f4be4",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "96690f57-3b6f-4dc5-82c3-9d1d958944e0",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/1.0.3/Banrisul-Banrisul_Open_Banking_Brasil-API-ACCOUNTS-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "04b2f5cc-0b67-4217-9e6d-7f1bd0f923b4",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d5e28880-1b2b-439e-8bc7-b20d93a7fdfb",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "babfeabf-814f-4f97-a47f-349b385dfd3b",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Banrisul-Banrisul_Open_Banking_Brasil-API-PAYMENTS-private_key_jwt-08-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "d905c33e-5974-4073-8d43-49765e48d7d8",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ce58ff6f-3c30-46d4-9e66-0813453f8401",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_resources_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/09/2022",
+      "CertificationExpirationDate": "30/09/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "580d50c3-7763-4b9d-b9e5-d2683b8ee339",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4ff04df9-f442-4c34-bdf3-e7f640f648f6",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "63e30c03-522a-40c1-a975-162ff386bac4",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "0f44eab3-5e91-4f75-b160-adab7a8b1866",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "82bd21d7-58dc-42bc-b001-26365e2b6c02",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "f3610c34-e7a4-44f3-8249-abe3e757a270",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/1.0.4/Banrisul-Banrisul_Open_Banking_Brasil-API-FINANCINGS-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "71df5e55-ee27-43e1-847e-249ca375b6ba",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1da85863-442c-495b-b6d4-daac29cd56f3",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "70f8d850-6941-4907-95bb-905b3cf4ce98",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "70d5302f-5e7e-4c8d-8fdb-e1cb46a1f4b8",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "87d892aa-7706-4c00-b826-e4ef54509164",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "7b6b91eb-12a5-487e-9f4d-f29bda7020f0",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_unarranged-overdraft_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "13639d15-6406-4814-b588-131baee843b8",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cc51fdc8-54b9-42f5-ae0f-63b9e991ae5e",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "1f0f671a-bf11-4f27-a132-e93761075c3f",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "97fdc1ec-6bff-46a4-b5c3-9fa32feee981",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "95d71754-898c-465a-be06-69b4e02dec02",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "ddf7ee5d-2766-4cb3-b312-b1407ed2293c",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "5340dbad-7039-4572-bf36-706ec54c2389",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4d796720-328e-48ba-a40f-b5a0d2f156d0",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "d086ce70-51ed-4bbd-9d97-1ddfc29e064c",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "d792d31b-adb1-4d47-b832-d9168b07edbf",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "86b63086-02ab-4387-a430-8822cb48f775",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "a6a7fee2-dec4-4e6b-969c-4a1ad7a8881d",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_financings_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "6eb43d01-2107-4ccd-8d20-df37fa54b8bb",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "885fdaff-f07b-483e-8918-c7d7cc4adca3",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "e03ffd23-f8cb-499f-9024-606e1ce17421",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "47b7224f-607a-40c1-8df8-df7f9f14cdf6",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "4591d252-24a6-4b3a-a534-b48a815febe9",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "3633bcac-9b54-4abe-b80e-cd2e063bbbf5",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/1.0.4/Banrisul-Banrisul_Open_Banking_Brasil-API-LOANS-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "c669ec4c-d537-4530-9521-e824b89e7254",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4bbc188b-6b07-4906-9d58-f7c772c1ffbb",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "e8cc41cb-0efe-4553-897b-2cd257737944",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "8094b3ca-3e21-4bac-b88b-89e0cf4eadef",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/1.0.3/Banrisul-Banrisul_Open_Banking_Brasil-API-PERSONAL-CUSTOMER-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "ef01eba3-b645-461f-bc3f-d033dfa5efef",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c8215544-f3ec-4840-9f83-2eb574dafc4b",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "a06fd6b6-d092-494b-b00f-673137c5c574",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "935eb5a2-17a9-4c60-a588-66c8aa9d6c40",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "4aa03165-2fc1-4f60-97cd-09add28646fa",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "dcf72d3d-1fc3-409b-964b-82fe5ef7bb7f",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/1.0.4/Banrisul-Banrisul_Open_Banking_Brasil-API-UNARRANGED-OVERDRAFT-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "09a88749-67d2-49e7-9d90-5c258f8a25b2",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b6577f68-a01f-4f60-8ca6-bae8a97dd0cc",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "0916d6fd-6296-4110-9a4a-3bfaf8230ced",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v2/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "6516073c-3926-43e9-b896-fdeb809ef287",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v2/personal/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_personal_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "d68a2146-f434-48bf-9246-a7bb2bcdb7dc",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ff593e79-b337-4c2e-a175-b99963b62950",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "df4b1936-15f6-449a-9db2-d019d35391d2",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "e08acaf4-7545-438b-91d7-ea30e02d972d",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "9e8b40d5-ddad-4033-9bfd-fdd2170a880f",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "67f7d1f5-ad11-4ecb-99f8-8d8e046a0aa9",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "692d592c-f350-446e-9d32-318f948e8b1f",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_accounts_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "296d89d0-8b55-4da6-8882-44827220d126",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e9444858-4306-479e-a5b1-8cc65c89917c",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "9e89aa9e-9042-43fd-9f0a-51276c2dc1ca",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "1e4d2b34-91c4-4972-b459-1f64fc4dc0d6",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "deefaf70-34b0-4847-8a9f-2e640c4b5351",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "87b4a759-c8c5-4c87-8129-2dea22666da8",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "8d157f44-1fab-4f0a-97b6-7f835b17f8d9",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "bec78df1-8e86-46bd-9eef-f8aeab90b2aa",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "0271018a-aa71-4cb6-8d33-0cdcde47e157",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "892024e5-eaf3-41bc-aa5c-f86b268efc56",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "351bc8d1-9e0e-4dff-9007-3f735032ea5b",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "3f137375-1942-4c83-a180-e59a92c563d1",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "c35c5d71-9a1c-4025-9596-c4cf1fff2ab4",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "a52f0782-12fc-4996-9c85-b42d0d0d3b64",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1c742661-b29a-4b26-82e8-9486028972cd",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "64abc2f9-22e3-443e-8166-98d93b2bfc1d",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "27e91df0-8279-4ac9-8f55-910f7b5c529c",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "b655a5c7-77bc-4417-bc34-14afa53d98c5",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "5754ea5d-d0e5-42d6-a04c-cc1e7ae3b5dc",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/1.0.4/Banrisul-Banrisul_Open_Banking_Brasil-API-INVOICE-FINANCINGS-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "e9a529b4-7348-4113-9dab-243d2e0a04f5",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ff669311-3555-4704-b2fe-8e9a870dced3",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "55ad4d7f-73bd-43fe-ad43-1ca67ebbad47",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "6ee67bbe-dce7-4a74-8e31-552577b9c8ea",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "79c3c9f8-f460-4a47-bcce-58134b4bb741",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/1.0.2/Banrisul-Banrisul_Open_Banking_Brasil-API-RESOURCES-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "0a64a7ad-bde5-48e1-8ded-4965efa2303f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "aaf4e55e-ffab-407e-bce1-e4a7e6701053",
+          "ApiEndpoint": "https://openbanking.banrisul.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "f5bb009a-4132-4faf-9c49-99ac3667389f",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "adb99d61-8b45-48a4-902e-6936aa67a46a",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "a384b37c-0d7a-43d4-8576-4624d7e1479a",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "904e6678-9704-4060-acbd-d8ab38f2164a",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "1b0b9b5a-79fd-428a-9d41-cdb9cfaeb7e2",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "178d7ee1-21ad-469e-abc1-e01502b6eadb",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "5f3323d3-28c5-48d8-9baa-532f436eaec2",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "3682cea0-59bb-4481-b0d0-048eb969824e",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_credit-card_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "b451ce9a-3251-426f-9431-5ed4dc5debda",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "eb0d48fa-5f66-4890-af8e-d049db29cbd7",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "a9344671-33da-4d6f-bdbe-663c26fd7d01",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "30e3af5d-30cb-4176-a992-aacf20b30d65",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "54110c17-1336-45f3-aac8-f81da922d7a6",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "3335241a-35dd-4f00-b438-65f4cf976cc0",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "7dacff0a-eadb-4258-a393-5343041d547a",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/1.0.4/Banrisul-Banrisul_Open_Banking_Brasil-API-CREDIT-CARD-private_key_jwt-15-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "86acda34-f661-45d7-a2aa-f8f0443b1e3f",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b958830a-c42f-470d-b353-599f2905e0bf",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "f5e35665-e6b5-448a-9f5b-69f33a90c057",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "bee6a9ef-0546-4c6d-a08f-51d17c6fc373",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "e1a1219e-b625-4b53-ad2a-db5893517e55",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "6da7d5e1-000d-4ece-89de-68bd2aa9a67d",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_invoice-financings_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "535ddc3c-61d1-4950-82f7-e71df2bf6f0e",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8a5631ec-6551-4bc2-ad80-1bca4ca36851",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "49b70af7-6291-4e24-9e95-9c1857575494",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "a26e25da-c9cf-4a08-b586-085c0d664bec",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_business_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "843e6822-b059-4e2d-9603-d76d89ed4971",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6925eb3e-244e-4399-9580-27b7f24514bd",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "6bc85754-2a84-408b-830e-0ad8968d8822",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/92702067_Banrisul%20Open%20Finance%20v2.0.0_consents_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/09/2022",
+      "CertificationExpirationDate": "30/09/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "29aa08f0-d2d6-48a3-bc98-147809daa39d",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7e75b53a-2d9c-40db-b4b0-1c0f59fc660d",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "1f7fdc3d-0040-41b0-a97b-f0534460e2dc",
+          "ApiEndpoint": "https://mtls-openbanking.banrisul.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/1.0.3/Banrisul-Banrisul_Open_Banking_Brasil-API-CONSENTS-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "17/11/2022",
+      "CertificationExpirationDate": "17/11/2023",
+      "CertificationId": "b520873b-1690-4520-8190-690604434fec",
+      "AuthorisationServerId": "88dc57a4-1dab-4493-8b02-b8f0c15a2d89",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/Banrisul-BR-OB-Adv-OP-DCR-17-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "17/11/2022",
+      "CertificationExpirationDate": "17/11/2023",
+      "CertificationId": "fecf4b2e-0c2d-4912-bcb9-8397545a9517",
+      "AuthorisationServerId": "88dc57a4-1dab-4493-8b02-b8f0c15a2d89",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/Banrisul-Banrisul_Open_Finance_Brazil-private_key_jwt-openbanking_brazil-17-Nov-2022.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Seja na facilidade do Banrisul Digital ou em uma das 500 agências espalhadas pelo Rio Grande do Sul e pelo Brasil, o Banrisul é o parceiro ideal para você e para o seu negócio. Compartilhe os seus dados com o Banrisul.",
+  "CustomerFriendlyLogoUri": "https://banrisul.com.br/bob/data/Simbolo-Banrisul.svg",
+  "CustomerFriendlyName": "Banrisul",
+  "DeveloperPortalUri": "https://developers-openbanking.banrisul.com.br",
+  "TermsOfServiceUri": "https://developers-openbanking.banrisul.com.br/naoseaplica.html",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.banrisul.com.br/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://openbanking.banrisul.com.br/naoseaplica",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

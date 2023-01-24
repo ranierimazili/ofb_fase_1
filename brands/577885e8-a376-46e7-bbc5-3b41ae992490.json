@@ -1,0 +1,157 @@
+{
+  "OrganisationId": "37ec98b8-55de-5abe-8928-9d3540d1bbae",
+  "AuthorisationServerId": "577885e8-a376-46e7-bbc5-3b41ae992490",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "9f882a7c-615d-4213-a696-56083c457bf0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6be8d70b-6e65-4d3d-be8a-4b4a1d171afc",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "bfd77980-dc74-4e87-9c4c-4f5c82869b6e",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "d678007d-b299-404a-aafc-5bf7065a8d97",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ce8c6e1d-5e52-4e00-bf20-73e170907151",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "e422384d-ae11-42e8-a69f-f89157314c2f",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "0d9f5fed-d083-495b-aa66-e3c9f6b925dc",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "49df49f1-2ce8-4581-8df4-f4c6bd0aca8b",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "953bd502-4e45-4158-bd41-8b0e971d2501",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "5d305356-3dc2-4f9e-bb64-d12e68b165de",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "d075bcde-df8c-4953-bc74-90c38d2c1c3a",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "5edd2fe6-3769-4a3a-9ecb-42dc144a8324",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "bc8e9cd7-2c46-4fc7-b088-0e10ac5487c3",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "1a9424f9-fd40-48de-b856-348793086079",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "3a9bd0f1-7167-48d6-a25d-966fc89d3e6f",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "c11798d4-e8f8-40ef-bb80-7c5521111715",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "a4f2ddb2-0847-4fa8-8b5e-aa6bdb7434a3",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/products-services/v1/personal-accounts"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "8d835e53-118a-452b-b961-3c5a1ed4414b",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "22b75f01-3771-4612-b114-6d0e395a29b5",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "b075efb7-eff3-46e5-b72e-1fe550ea8297",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "da76d22c-2659-465d-bbad-6fb76dd850e8",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "5fbf2973-ecc7-4cb6-bc3a-00d7a438f5db",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "7d9f5535-07cc-4f6f-9ae0-24a50974acb0",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "b4d590ef-7a3b-44f9-9a5f-da507cd9cbf8",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5f81c241-ac56-4e35-b2d6-76ee678004d5",
+          "ApiEndpoint": "https://api.crehnor.coop.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "Open Banking por CashWay",
+  "CustomerFriendlyLogoUri": "https://api.crehnor.coop.br/logo.svg",
+  "CustomerFriendlyName": "CREHNOR LARANJEIRAS",
+  "DeveloperPortalUri": "https://api.crehnor.coop.br/open-banking/naoseaplica",
+  "TermsOfServiceUri": "https://api.crehnor.coop.br/open-banking/naoseaplica",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.crehnor.coop.br/open-banking/naoseaplica",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.crehnor.coop.br/open-banking/naoseaplica",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

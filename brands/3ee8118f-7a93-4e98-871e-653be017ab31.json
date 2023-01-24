@@ -1,0 +1,452 @@
+{
+  "OrganisationId": "99aff3b0-5617-5fad-bc6e-66e320a217fc",
+  "AuthorisationServerId": "3ee8118f-7a93-4e98-871e-653be017ab31",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "ed5bd9a6-7dbc-47f6-84a6-c61573cb04b3",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6c8a17b5-ab87-41fe-9fd9-06ee79934605",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "abacb870-3c81-450a-82d4-3072d83ca9f0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c58a93b9-34cb-40ab-a4fd-cd9898f9ed58",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "658e4e13-3552-4a1a-9c2f-104e1b1e9743",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "4a093cb7-204e-4fda-aa75-15f827563ceb",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/BancoPaulista-Banco_Paulista_OpenBanking.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "0109818e-bda1-4b26-aaa3-344d67e8cdbb",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fab419f4-ade1-4881-98b2-96ea75b06855",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "23a6aa7f-a1bd-468e-9368-ac10c032ed82",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/9e1e188325cde2ef6e9821f7697a7e22bbe6c27c/submissions/functional/consents/2.0.1/61820817_Banco%20Paulista%20Open%20Banking%201.0_consents_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/11/2022",
+      "CertificationExpirationDate": "10/11/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "d82fbcea-5862-4c11-8cd8-959b97b48b4c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9b4fc6e9-0ccd-417b-95d6-ef2c0d6aaabb",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "6c8c8f8e-f44a-4910-a45a-7f6aa3781c96",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "4fc48df7-fa87-4725-ae63-43c3d72ec46a",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "2bb99c03-44ad-4f11-a34f-145e8c6aae24",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "f591cfa8-eaf0-4202-af50-b3f878a6db50",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/BancoPaulista-Banco_Paulista_OpenBanking_1.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "31e2cb46-14c9-44a5-bf86-85c6575c4dde",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c61ac0e0-6cdb-4fdc-b663-2200ceaa0302",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "566ae0dd-d16d-45ec-95c5-6052f4e39021",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "548856b1-1783-4422-afd9-e345b5749714",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c184009f-0cf4-4b6b-8bbb-1b3da42c1d3a",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "f4f50dea-de68-47c3-8bce-d94b723682f2",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/BancoPaulista-Banco_Paulista_OpenBanking.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "8740e35b-99fd-4b22-80b0-bf1a44a3ee50",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "40c33852-f504-4383-913d-8b0ee04475c7",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "be139d02-6321-41db-9eac-f8cdfe257a36",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "03dc28c2-46ea-44fb-b896-974bc697044b",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/BancoPaulista-Banco_Paulista_OpenBanking_1-2.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "afed642b-6af7-4fa3-89e3-f0444d6abd16",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8554b589-c939-4cbe-86d9-f9638c29e19e",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "e41bc1cb-5206-4580-aad1-a210dce0d01c",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "1db1dcd4-8d54-4ceb-a960-945e51d40c7d",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/9e1e188325cde2ef6e9821f7697a7e22bbe6c27c/submissions/functional/personal/2.0.1/61820817_Banco%20Paulista%20Open%20Banking%201.0_personal_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/11/2022",
+      "CertificationExpirationDate": "10/11/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "01fe1cee-8465-41cf-b5d6-248c1d9eb73f",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "56e985cd-5fc2-44bb-a1a9-802bf3bc2223",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/9e1e188325cde2ef6e9821f7697a7e22bbe6c27c/submissions/functional/resources/2.0.1/61820817_Banco%20Paulista%20Open%20Banking%201.0_resources_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/11/2022",
+      "CertificationExpirationDate": "10/11/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "ebc1c436-7893-4679-b097-5fe6cc038ebe",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a3abf937-92ac-4952-90bb-0f5a99c4d1f7",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "e18fbc66-2719-44c9-91bd-41ff06866767",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "a3301d9d-f49b-433d-b484-adf00dfafc17",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "c0cfdf3b-3133-4c29-8b33-9245b56f89b7",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "3d3e5d92-eedd-4b02-b70f-cad9d1b0a16c",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/BancoPaulista-Banco_Paulista_OpenBanking.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "eaf08720-c949-47e9-a57b-9a2ccf121dea",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a0c722ef-29df-44fb-bac4-d96422d2c448",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "dbd8706a-c7ac-447e-8b4b-8e21b781e5b2",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "b6dc86dd-c7f7-443b-9e34-3589f787b870",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "6918ed47-8d0d-467e-99d9-a9fed947c20c",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "17c7104a-b075-429b-918a-f6ba14391b2d",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "f71ec490-d9c8-4e5e-bd30-4333b7dbac14",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "325a8e9b-0536-4c2e-9b04-79a642536bc2",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "d6503156-b7bd-4891-a1fb-9965de72d7aa",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "95261f6d-c265-4d42-a1c6-2be57e4ce720",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/9e1e188325cde2ef6e9821f7697a7e22bbe6c27c/submissions/functional/business/2.0.1/61820817_Banco%20Paulista%20Open%20Banking%201.0_business_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/11/2022",
+      "CertificationExpirationDate": "10/11/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "1825bcf5-235d-460c-bd31-bcb5cb84ff15",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d1e4ffa5-3261-4a90-948f-6a95a5394daa",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/BancoPaulista-Banco_Paulista_OpenBanking_1.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "4f49f2ad-7091-410b-b7bc-7a55b44af120",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6be16716-4ffc-4e39-8364-f9154af042c1",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "b471ff5e-3755-47c1-af4a-f971cd558794",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "151c34e3-0e6b-4793-a29a-7ef0979aa3c9",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "f26606d2-da0e-41bf-ae78-cb32f88cf679",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "a2b65b2c-2a84-4140-b27c-d87c7ecb72b1",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "daacca1c-de1d-42d7-b63f-659fec864893",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/9e1e188325cde2ef6e9821f7697a7e22bbe6c27c/submissions/functional/accounts/2.0.1/61820817_Banco%20Paulista%20Open%20Banking%201.0_accounts_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/11/2022",
+      "CertificationExpirationDate": "10/11/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "929197cd-da9f-42f2-a553-87b807a7e606",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f1f62ea9-af0d-49ed-9167-64378817c07b",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "01467090-6cff-44b9-b779-da115a3e9ba5",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "c9b8695b-b7c3-4033-893f-fe9da023430c",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "8697f06e-dc25-4bd0-999b-d3c37e280336",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "9bbdf022-d073-42f1-ba24-10b36a6efeb0",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/9e1e188325cde2ef6e9821f7697a7e22bbe6c27c/submissions/functional/loans/2.0.1/61820817_Banco%20Paulista%20Open%20Banking%201.0_loans_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/11/2022",
+      "CertificationExpirationDate": "10/11/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "04e7969a-6fd0-4bbd-a6d7-d511be48d8cb",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c0c95481-0b7d-43ba-aa86-116ff325c514",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "d1a5d34b-3773-4628-8dcb-633c423133ea",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "e7767e62-40d6-4b63-a89b-2d8a09489b87",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "69d21366-825d-43b9-9f88-1e0f7e48eb1b",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "d0bebd39-0b59-4179-bab8-fdf71a8ed490",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "844d2ee0-9318-47d3-8ce9-447f75026b12",
+          "ApiEndpoint": "https://api.bancopaulista.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "10/11/2021",
+      "CertificationExpirationDate": "10/11/2022",
+      "CertificationId": "1e38e495-27e2-4369-8c99-c37b7d4ce038",
+      "AuthorisationServerId": "3ee8118f-7a93-4e98-871e-653be017ab31",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BancoPaulista-Banco_Paulista_OpenBanking_1.0-BR-OB-Adv-OP-DCR-10-Nov-2021.zip"
+    },
+    {
+      "CertificationStartDate": "29/09/2021",
+      "CertificationExpirationDate": "29/09/2022",
+      "CertificationId": "2eb7af9a-cdd3-46d9-9be4-c9d81a4b83ad",
+      "AuthorisationServerId": "3ee8118f-7a93-4e98-871e-653be017ab31",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/09/BancoPaulista-Banco_Paulista_OpenBanking_1.0-BR-OB-Adv-OP-Private_Key-27-Sep-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Fundado em 1990, o BANCO PAULISTA atua como Banco Múltiplo, oferecendo soluções financeiras a seus clientes e conta com profissionais experientes, proporcionando um atendimento personalizado e de alta qualidade.",
+  "CustomerFriendlyLogoUri": "https://www.bancopaulista.com.br/imagens/openbanking.svg",
+  "CustomerFriendlyName": "Banco Paulista",
+  "DeveloperPortalUri": "https://api.bancopaulista.com.br:9443/devportal/apis",
+  "TermsOfServiceUri": "https://www.bancopaulista.com.br/Conteudo/Informacoes_PoliticaPrivacidade.aspx",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.bancopaulista.com.br/oauth2/token/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.bancopaulista.com.br/jwks/v1",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

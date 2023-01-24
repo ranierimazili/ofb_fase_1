@@ -1,0 +1,272 @@
+{
+  "OrganisationId": "0481f9fe-c01b-51c8-88d2-9a18d32b19b3",
+  "AuthorisationServerId": "283ed41d-7844-4151-8036-1b5ce76eb6fc",
+  "AutoRegistrationSupported": false,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "ea216aa2-5303-4d6d-aa0c-e4d15a4408ef",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "613c121d-5e58-4540-99a9-23464d7edfcc",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "e04e21e6-2c64-474c-b3ab-8fd432468cff",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "374779cf-aaa5-4975-bfff-dc74b8fc1a59",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v1/personal/identifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Agora_CTVM-AgoraPF-API-CUSTOMER-30-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "a9cdb81f-b5ed-465a-b797-fcbb085de0c2",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "dbcbe779-6c41-4e3c-9e2f-8e7b2bb1754b",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "dad5676a-d530-4cb1-a08d-286d88e6f8a4",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "8d6d1090-b3eb-4ff8-a0dd-a825481d54d5",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v1/business/identifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/Agora_CTVM-AgoraPJ-API-CUSTOMER-30-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "8be7290e-33e0-4b62-893d-b5bce60846b7",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1e8977ff-c249-4a82-92cf-edc27f7202e8",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "376ce637-cae5-4b27-be54-b907ac0c7465",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "6fa8ed2f-b230-4721-b870-ea13d2b96ffb",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/business/2.0.1/74014747_%C3%81gora%20-%20Open%20Finance%20Brazil%20v2.0_business_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "519c73db-8f37-43a5-b4dd-5591722d8190",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "dfbe09ba-2970-460b-b8ff-231058446506",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "3b19df47-8cfa-456e-badb-42f16826b262",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "995ff173-14e5-483e-b97e-0a57be87d696",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7f7bd1e3-da1d-4a9d-964f-752cec1d1263",
+          "ApiEndpoint": "https://api.bradesco.com/agora/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "39adb7bc-e313-4562-b33b-2b626604bddd",
+          "ApiEndpoint": "https://api.bradesco.com/agora/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/consents/2.0.1/74014747_%C3%81gora%20-%20Open%20Finance%20Brazil%20v2.0_consents_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "882d2a47-17cc-4b75-b83b-0b40ad101c89",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "bf0770e8-9e15-46f9-a45e-5bc606c59b24",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/resources/2.0.1/74014747_%C3%81gora%20-%20Open%20Finance%20Brazil%20v2.0_resources_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "5fb47bae-221c-40f2-a96a-08fa520777b3",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a4a7599d-f304-42cc-9112-962a932460a2",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Agora_CTVM-Agora-API-RESOURCES-30_Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "bdcefb07-6b18-4081-b75d-57a88ce1d583",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4d34d6db-548b-458e-8825-1b137d27f63f",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "068df1e3-7e0c-45ff-93ea-f681403fa359",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Agora_CTVM-Agora-API-CONSENTS-30-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "e0b9400c-3e78-406d-ada9-4c894cc89198",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c71cd4fd-55cf-4180-a7cd-90dd689b648d",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "15c667f1-6271-425c-a4fb-26df5db44700",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "130e2fb0-a1be-44c4-a894-d00a214f7e85",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6b33b543-182d-4ec6-8bf7-4f4de0c7c770",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "14076b92-37a3-4682-be6b-ef38a7d9781a",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "407bcc27-3ac4-4af3-a676-f651d4182b41",
+          "ApiEndpoint": "https://api.bradesco.com/Agora/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/74014747_%C3%81gora%20-%20Open%20Finance%20Brazil%20v2.0_personal_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "8e2f2147-42cb-42f8-a799-a3bb09f27018",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fbb1e598-8b62-46a1-a6c3-00b473601044",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "09/08/2021",
+      "CertificationExpirationDate": "09/08/2022",
+      "CertificationId": "3b66d887-fcaa-4f77-ad70-769b0d9c56fd",
+      "AuthorisationServerId": "283ed41d-7844-4151-8036-1b5ce76eb6fc",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/08/Agora-Agora-BR-OB_Adv._OP_MTLS-9-Aug-2021.zip"
+    },
+    {
+      "CertificationStartDate": "29/11/2021",
+      "CertificationExpirationDate": "29/11/2022",
+      "CertificationId": "6782a9f0-08c3-48bf-b7a0-0ddba0f541bb",
+      "AuthorisationServerId": "283ed41d-7844-4151-8036-1b5ce76eb6fc",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Agora-Agora-BR_OB_Adv-_OP_DCR-25-Nov-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "A Ágora é uma casa de investimentos que oferece a você excelentes produtos, ferramentas ágeis e modernas, assessoria especializada e conteúdos exclusivos. Além disso, dispõe da solidez e da segurança do Grupo Bradesco.",
+  "CustomerFriendlyLogoUri": "https://www.agorainvest.com.br/images/OpenFinance/agora.svg",
+  "CustomerFriendlyName": "Ágora Investimentos",
+  "DeveloperPortalUri": "https://developers.bradesco.com.br/",
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.bradesco.com/Agora/open-banking/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.bradesco.com/agora/open-banking/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

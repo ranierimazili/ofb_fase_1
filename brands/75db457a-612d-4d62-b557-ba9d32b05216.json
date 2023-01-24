@@ -1,0 +1,784 @@
+{
+  "OrganisationId": "9415f224-9f58-56b5-af4c-085b4438e4eb",
+  "AuthorisationServerId": "75db457a-612d-4d62-b557-ba9d32b05216",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "6c3e52bb-4af2-4612-98e3-817d6c5f8cd0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3610eeb9-4541-4299-81fd-d26f80c33a01",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "6c8ec68c-c473-4410-a30c-6e3cd7c54962",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Payments_api_phase_1_test-mtls-by_value-plain_response-XH04NL2el4KBs-10-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "7ebbad43-19dd-4dd4-9e1a-54f87aa1ee2c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "db021b26-18db-449f-b881-61737647f273",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "78de8c62-e5e7-4976-a217-49c502bc683f",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "f5e0f10b-3ccd-46a8-add6-ce850d324429",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/00000000_API%20BB%20v2_business_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "3d12725f-30b7-4a75-aa19-c4da2eaa31ff",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8d1396f4-1f21-4dc7-b3db-7e6400b2b089",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "b653fe3e-d7ee-4067-bf02-8c7fa93cd98b",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "9d2a7616-26ba-4e79-9989-04cd4132524e",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "526319f1-48ec-4d00-bf21-9435bcd2dd7a",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "8dc57b7c-0f60-487e-9bbf-cb9c925bece4",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/2.0.1/00000000_API%20BB%20v2_unarranged-overdraft_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "0ccc2c10-adbe-4918-9ec1-82e4e29c82a8",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "97010caa-dea3-4670-98d4-35dd7e611a1a",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/00000000_API%20BB%20v2_resources_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "df25bda2-b443-44fc-b8b1-bc5440c2428c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a869106a-e99d-4817-8e2a-dc61d2394057",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "ba733775-98d0-4454-850f-788583d8bc61",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "88276c4d-a029-49e7-9785-50cb8ff3d137",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "a7ad60ef-3aa8-465d-9bf1-501c8f44c16e",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "b2594e13-2c33-44e8-801e-3e54a237ce43",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/2.0.1/00000000_API%20BB%20v2_invoice-financings_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "ff1a1fd2-4a95-4cc8-95ed-faa950edc532",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b80eb74f-15ed-4b83-a759-35670ef191fd",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "4b953881-5406-4fa6-9fc9-d65f33ae6dbe",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "cdc5491c-b9cf-466d-9d1b-c2f1071f0a45",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "87226ff0-12e9-45f0-b444-4b181de3bbed",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "008b51a8-0e57-4400-a9e3-0533865bfed4",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "7bcaa6e3-d4c8-4548-88a5-1fd1c7d6dd9d",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "3fb4cb39-685e-4610-b0e1-3fbd1695c4f6",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/00000000_API%20BB%20v2_credit-card_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "1124fc38-d471-4a66-83b4-5228e4d832b3",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7ede30d1-4214-4f32-8cf9-3aac7e075285",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "bce4c953-da02-4b06-8a27-cbf9c23bb9f9",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Payments_api_phase_1_test-mtls-by_value-plain_response-XH04NL2el4KBs-10-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "fb10b2db-f867-49d5-9b79-cf889636c7fc",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "abed6216-81a6-4ff4-a8c5-904db6bfa941",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "88a0a722-0aba-4b8c-b442-9cd3f238aeb5",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "b1a534e1-6808-465a-9fda-23a99da105bc",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "cd402d5b-fad6-43b6-8271-83a9d34032a2",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "e6843ca8-fb06-4a25-9cbe-7fba1b00861a",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/00000000_API%20BB%20v2_financings_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "7033f146-d665-49e9-a1d7-54b5141dcafe",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8feb6ad2-125a-46c2-a855-184ae7ad0c2c",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "721c004e-fb57-4bcc-8632-c1eb8c875b4c",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "9f9c980e-36c9-4109-be48-4c6df39d9bb1",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "94d1dee2-01bd-498b-a6a1-1227c788b9da",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "da9dad55-8b51-43e0-818f-facd40201e27",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "2ed91a50-c39c-4892-93ed-0b85a5868d4b",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "e09b7d6c-6fe2-4a4f-bc11-7f2041523ee2",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "fbe792f4-b519-469d-99d7-f8c0fca1754b",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "bd9e4476-ebb9-4181-af02-11491d7f4f98",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "725583f2-01ca-496e-b6d4-afa2ab6a974a",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "fcd42380-ce7e-4a62-a2c2-9e63ab320bd3",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "7eb5acab-45cd-40fe-b2cc-7bb4efd99430",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "4b71b1cb-b9be-482c-978e-700dc93e2e07",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "116fbca8-4804-4c66-a649-8468173f8262",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "050c4159-4bfa-4ade-a69b-5b7456d01e75",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "dcb653d4-89d3-42e1-a2de-41703adb46ba",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "613770d7-3481-4c7d-be5c-52df370fe908",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "c255a603-8aa3-489d-9e14-71f15182b24d",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "cd5af825-c2dd-4afa-b55c-af3dfddda291",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "3417ffb2-5cff-400c-af11-a8986152d406",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "6750c89b-b3fc-4a8b-bcd2-bf0610e433ba",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "6c6277ee-b518-42ec-952e-22dd78cc1f07",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0df1f59a-c390-4f3d-b96c-0b8f278f681d",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "4d7843a1-1075-47d4-ad62-582b4f906d32",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5900d9dc-bcec-4aa8-bfdc-e84fb86aa0ec",
+          "ApiEndpoint": "https://opendata.api.bb.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "6aef53e0-3dd1-466c-8c94-70ed1952f59a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "aa5a3801-c027-4add-a068-3114f7741a69",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "4e6a33c9-abfa-4640-8e96-aa3dee70b04f",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "cc372642-3d73-4161-836b-b74fb9706de3",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "95c5a34f-6fa6-4775-923f-abeb6b8d9acd",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "e90d3d77-566c-4d9a-996b-fedcf48751ac",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "3e153a57-87ae-46ec-a6f3-78fedb02a968",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Credit_card_api_test-mtls-by_value-plain_response-QOunT7POjRGsV-27-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "17d27530-9a51-4126-be99-4a9dfd42a622",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b7b7cde4-5150-4d75-8f84-3085162d26b6",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "a922ab40-ead3-4d97-bcba-18b320de405f",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "b000d078-464c-485a-b29d-1897f0cbe951",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "d75a4ff3-f368-4dff-ada8-a9947dc1cbaf",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "a0545669-b74e-44d4-93d8-bb41ece9baec",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "e419350f-0d14-401a-994c-8d1afcb2c242",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/00000000_API%20BB%20v2_accounts_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "97441e3f-0545-4f10-b7d3-28aa3368c0a6",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "df2bb0ac-01be-456f-a4e4-009bb697094f",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "fc8f87d0-a176-4b26-88c2-06d09c610260",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "2146fdb9-4ae4-4b48-9cfa-a303d75c2680",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "632c463e-bbae-4fd2-8664-dae49e0886b4",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7e3b63b5-bbf4-4923-8bfd-de0c75d1a531",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "0fdc84c1-7f41-4304-93ae-c4f56394ab50",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "dbec89a5-b48a-4045-a639-53f76a2b1a71",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "64bc7ae5-f55d-4575-8240-77797b46c056",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "133cf0f7-8797-403a-bd40-f4e34930b9c7",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "998aadc1-6f20-4699-89ef-ac01fe0e3daf",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "ccdae79e-ee7b-46e3-853d-68096bc420ff",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "f73df2f1-c26c-4b41-9651-be034b8b8562",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "2bee348e-5ce0-4feb-bbf3-d3bfcc4c77cf",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/invoice-financings/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submisions/functional/invoice-financings/1.0.4/Credit_operations_discounted_credit_rights_api_test-mtls-by_value-plain_response-KGMTHA0Zpmvpc-27-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "af1a3ee1-257d-47bb-9463-36d3abdb4e29",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ad65c25e-d7bf-413b-a688-c889b19cc0b6",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "223fe0cd-0acc-4e0b-9598-a9eff9750ab7",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "12a67ea8-e9ca-4f0a-b008-17b97b3abc7c",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "b102e26e-37cd-4e9e-b843-45258bb61fa7",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "ea865465-1fbb-4434-8e9e-96feb1c171b7",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Loans_api_test-mtls-by_value-plain_response-YEpY64fFTG8PH-27-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "691acb45-b59f-49bd-a842-323c2e41e59c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "661eddef-1b8b-45d2-8fb9-57d9e6993b66",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "cdb7e6e1-62ef-4a64-80d0-0c202a6e60a3",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "860c538a-af00-43c7-8215-43cd4871c368",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "f5663e69-44b7-4421-8bc8-d0fdc5d258ca",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "01bfb827-829e-429d-b933-caa474e83499",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/financings/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/financings/1.0.4/Financings_api_test-mtls-by_value-plain_response-UqcfHslIu4ZDE-27-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "52986d86-6b2f-41da-838c-535fbd360f2a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fb43f846-2552-4a02-a475-e0b8a376d6d2",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "57ea862d-6079-4f95-b1b9-8a97cc317326",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "6308c9eb-5eb8-4a44-823e-7cf433fcb467",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "38bc9475-07f0-4d4e-9e92-f3013c834c61",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "3fa166fb-1908-468f-9460-c349f94bd126",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "daecd228-a2c8-4603-b6b4-7108622fa5c4",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "befc6e41-2c96-4b17-b7d7-f2f86978114f",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "64270add-acb7-4fea-9b3e-d40ada09840a",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Account_api_test-mtls-by_value-plain_response-XWlWaIGCr2QtJ-06-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "8482ed09-c906-4006-aade-a6c4f664ad6c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fd94b0bb-0d64-4302-a652-9c1896aa567b",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "6d27b160-4362-4140-bb26-53078c2fad7c",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "fba206a4-a589-4f90-a4c7-af5d22452ff8",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "102026d5-5bdb-4a2c-a005-bb4180b21fb4",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "b97898ba-b65c-466a-a6da-e574ede0d6df",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/00000000_API%20BB%20v2_loans_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "37371929-dd15-4e70-9be7-b2d166adfdbb",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2611e610-0323-4a93-b7d2-2ac73e04cdb3",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "75f6c906-e288-48df-a1fd-486eff22c61c",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "4acba21c-5b8e-4f4e-8fcf-bf1c0066b697",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/00000000_API%20BB%20v2_personal_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "76bb0833-0acd-4f28-858e-fe431495cc50",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ac5e928e-d21d-49ee-b228-77254e2fcc16",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "5e7d111e-c040-482f-9224-7c060d50a9c5",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/00000000_API%20BB%20v2_consents_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "050530a2-903a-45e6-92de-bf895a421777",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3c0415cd-a218-428d-8ad0-34f774855ccb",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "ef358fb3-5a97-4322-a4b8-fa3eef8acb53",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "c716609e-e1d7-40fe-8053-430c2f445e21",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "0f72bf8e-9816-4fb3-9c2b-511cbb887b8b",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "e81c577b-6f45-4ba0-bc09-815bd3757066",
+          "ApiEndpoint": "https://customerdata-mtls.of.bb.com.br/bancodobrasil/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/unarranged-overdraft/1.0.4/Unarranged_overdraft_api_test-mtls-by_value-plain_response-JlezZ7rWM7f8I-27-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "05/07/2021",
+      "CertificationExpirationDate": "05/07/2022",
+      "CertificationId": "852448d2-3c37-4026-85dc-69b115848a7c",
+      "AuthorisationServerId": "75db457a-612d-4d62-b557-ba9d32b05216",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_do_Brasil-Oauth_BB_Fapi-oauth-test-openbanking_brasil-mTLS-06-Jul-2021.zip"
+    },
+    {
+      "CertificationStartDate": "11/11/2021",
+      "CertificationExpirationDate": "11/11/2022",
+      "CertificationId": "2ec10e22-5387-41bb-aca0-aa70c67f6a0c",
+      "AuthorisationServerId": "75db457a-612d-4d62-b557-ba9d32b05216",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Banco_do_Brasil-Oauth_BB_2.0-BR_OB_Adv_OP_DCR-09-Nov-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Acesse serviços bancários e conte com as facilidades BB, seja na web ou no melhor app de banco do país na opinião de usuários. Seu Banco onde e quando você precisar. Para tudo o que você imaginar.",
+  "CustomerFriendlyLogoUri": "https://www.bb.com.br/docs/pub/inst/img/LogoBB.svg",
+  "CustomerFriendlyName": "Banco do Brasil",
+  "DeveloperPortalUri": "https://www.developers.bb.com.br",
+  "TermsOfServiceUri": "https://www.bb.com.br/opb/termos",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://oauth.bb.com.br/oauth/of/bancodobrasil/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://oauth.bb.com.br/oauth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

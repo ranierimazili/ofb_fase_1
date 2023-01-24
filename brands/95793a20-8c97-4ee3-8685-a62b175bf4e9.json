@@ -1,0 +1,324 @@
+{
+  "OrganisationId": "b2cf16dd-b545-5676-a8eb-76980bd72315",
+  "AuthorisationServerId": "95793a20-8c97-4ee3-8685-a62b175bf4e9",
+  "AutoRegistrationSupported": false,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "3fc1a52c-0b5b-4a95-87c1-d5e17b7e2867",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e5a360b8-2c45-4bed-8ad5-c405505a9d04",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "cd9ed364-dca7-4863-a8a0-27f11e159028",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6447f16c-7c22-4ecf-8297-c701f4ae5d6b",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "05e37bb9-efab-49c9-b34c-9d2448f25eab",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "50ec613e-8308-43d5-9564-dc014268ce3d",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/customers/v1/personal/identifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Banco_Bradescard-Bradescard-API-CUSTOMER-18-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "43f09c5a-3c56-4f88-b8b0-2104bb67131b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cc0c05b0-1def-4b54-a478-5ef55e50d9a8",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/resources/2.0.1/04184779_Banco%20Bradescard%20-%20Open%20Finance%20Brazil%20v2.0_resources_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "7a57b4a6-e00e-418e-9891-5afd9ce2619c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d2697233-5df0-4876-8d5b-9a45572a0865",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "3904ebe5-ab6b-4f78-b6b7-709c9148f405",
+          "ApiEndpoint": "https://api.bradesco.com/bardescard/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "c8c73bd0-c5e5-47e5-8a67-93f09ce9696d",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "f2c49c74-3964-4959-9bab-e060698236f4",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "840de5cb-4eb8-4484-8499-1c6f502d0bea",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "e856b46e-1816-4e7d-8d98-a5a9462fa986",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "9564bf86-b194-49fb-b3bf-e927a7011ba2",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/credit-card/2.0.1/04184779_Banco%20Bradescard%20-%20Open%20Finance%20Brazil%20v2.0_credit-card_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "049621bd-280b-4666-bcd0-06833fd8c26d",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "62170c3b-823f-4ebb-b3d1-a444eef8a258",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "e48c779f-66f9-4e93-9996-7128cbf8cb2b",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "21ed4783-a133-4f0d-9ec6-5d244442b25f",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "c247c4c1-4201-4ae8-936a-6f6a9270fc1c",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "398c9f3f-aa0c-411d-9c4c-5a2bd1694ba2",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "8f828e43-3462-4a6d-ba4d-e43883dd6b2d",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Banco_Bradescard-Bradescard-API-CARDS-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "341bcd5c-d886-42eb-9705-a1f79d22cf41",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c209596d-b9f2-4e3c-a006-6c482c9242bc",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "90997f95-b2b5-44f9-a028-388f34e5e178",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/consents/2.0.1/04184779_Banco%20Bradescard%20-%20Open%20Finance%20Brazil%20v2.0_consents_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "7b0ffb75-ab95-4c96-a69d-210cd92c6495",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "be2ba8fc-cf60-4dee-a316-b0b5e5ec2b01",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "079bbd7a-518f-483d-9b00-8e72b7867e9f",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/products-services/v1/business-credit-cards"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "3bca3516-463a-42af-960f-720fbdf2d37a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d801ad68-3436-4fb7-9e5e-e47c4eb36163",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "d5f4ff75-e11c-4e2d-8d03-c9b395541cfe",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "ca2d1f2a-8907-4aa7-ad07-02c09cdbba3b",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "6788a784-f09b-4949-972e-c52f8774f3e9",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "dff1d461-c86b-47ab-8dd6-a6d99f18295b",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "96c7eef2-743d-47c0-ac97-04148a90cff0",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "7fd07a42-fe93-499a-804b-1a4369d7e88f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c6f46b59-3fc6-4422-80d9-669f639ae9e3",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Banco_Bradescard-Bradescard-API-RESOURCES-25-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "d5cb0099-7564-474d-86f2-e1835fe33dd1",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ac38906a-c276-4483-b435-def0fd769373",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "21752843-854b-4b38-92b4-1aa7afda9503",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Banco_Bradescard-Bradescard-API-CONSENTS-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "d774d952-401d-40c4-a3bd-43c3b2282a7d",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7df833dd-cf7b-4679-9d3b-b61b5fcc9139",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "d8aad3e9-d014-4859-90a7-7c1e87b4ae75",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "666c9aee-d76c-4020-a6dc-2a94c2a49994",
+          "ApiEndpoint": "https://api.bradesco.com/bradescard/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/04184779_Banco%20Bradescard%20-%20Open%20Finance%20Brazil%20v2.0_personal_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "customers-personal"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "09/08/2021",
+      "CertificationExpirationDate": "09/08/2022",
+      "CertificationId": "fb37fc80-5055-4738-bc08-eb65b864a1b5",
+      "AuthorisationServerId": "95793a20-8c97-4ee3-8685-a62b175bf4e9",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/08/Bradescard-Bradescard-BR-OB_Adv._OP_MTLS-9-Aug-2021.zip"
+    },
+    {
+      "CertificationStartDate": "19/11/2021",
+      "CertificationExpirationDate": "19/11/2022",
+      "CertificationId": "1aaeb307-50ab-4afa-a343-70e2207e4d53",
+      "AuthorisationServerId": "95793a20-8c97-4ee3-8685-a62b175bf4e9",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Bradesco-Bradescard-OP-DCR-Advanced-Final-19-Nov-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "O Banco Bradescard S.A. emite e administra cartões de crédito do Banco Bradesco e de parcerias para pessoa física - correntista ou não correntista. No App Bradesco Cartões, é possível consultar informações, como limites, fatura, extrato e muito mais.",
+  "CustomerFriendlyLogoUri": "https://banco.bradesco/open-finance/logo/bradesco-verm-bradesco.svg",
+  "CustomerFriendlyName": "Bradescard",
+  "DeveloperPortalUri": "https://developers.bradesco.com.br/",
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.bradesco.com/bradescard/open-banking/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.bradesco.com/bradescard/open-banking/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

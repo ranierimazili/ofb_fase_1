@@ -1,0 +1,310 @@
+{
+  "OrganisationId": "27aea8f6-2119-55f8-9553-5ad4b08eeb17",
+  "AuthorisationServerId": "319b8d3c-ab1d-4c6a-bd6f-4b94faf4beed",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "7f67b0f8-8697-4568-899f-0113e2363003",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "75a0e60d-1ac6-4761-b907-423ccf034214",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "aa79297f-9850-4757-a456-5dd6b94d1a42",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "21abcbd2-101f-415e-a549-5d5dd0361f95",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "99a31c8c-3fa4-4531-b83a-17f41a7068ec",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "22d27e3e-87ac-45d6-b80b-b388941e6ff1",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/loans/2.0.1/27098060_Digio%20Uber%20-%20F2%20Opus%20OOB%20v1_loans_v2-OL_18-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/12/2022",
+      "CertificationExpirationDate": "28/12/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "b0d2ca73-743b-4ff5-bc1e-8b3240cb1cdd",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a2536356-9360-45e0-9037-31465f3b91b6",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/82c2384221cdcabf22d3b7088ec75dcf0f445557/submissions/functional/resources/2.0.1/27098060_Digio%20Uber%20-%20F2%20Opus%20OOB%20v1_resources_v2-OL_23-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/01/2023",
+      "CertificationExpirationDate": "04/01/2024",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "da46be4c-709a-441f-85fb-d93ad639dba3",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1aa08d4e-f6ab-4a7e-af8f-9746b52abc33",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "20f0a215-2ccc-4476-8320-477760e71864",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Payments_api_phase_1_test-private_key_jwt-pushed-plain_response-G21cAe5vVqbV0-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "8524b578-0988-45a4-be5e-1b0f3bfbfaba",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "eb494691-161c-4935-b31b-164e87b00a50",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "fb4b86b3-8e34-406b-a31f-5a726304949e",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Payments_api_phase_1_test-private_key_jwt-pushed-plain_response-G21cAe5vVqbV0-20-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "35c75ad9-f6b4-4910-9584-8cc3679c83d3",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "baae41b9-2f12-4077-84af-e7bf9f9b04c5",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "f7be69d3-9953-4581-a02e-9c2c78131896",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "1d67dd29-a8ae-4a41-b23b-5218954cdac9",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/27098060_Digio%20Uber%20-%20F2%20Opus%20OOB%20v1_personal_v2-OL_14-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/12/2022",
+      "CertificationExpirationDate": "28/12/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "e27f07f9-609e-4082-aef2-9ced787137db",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4b99dd7e-7791-4ad8-9b00-3743ef3ed172",
+          "ApiEndpoint": "https://openbanking-uber.digio.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "00ae00ce-845b-47cd-bd02-b41afc92b99b",
+          "ApiEndpoint": "https://openbanking-uber.digio.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/banco-digio-uber-payments.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "21/07/2022",
+      "CertificationExpirationDate": "21/07/2023",
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "35567349-df54-4568-93be-191e33461f45",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b4da4030-4c57-472d-9c12-20df4ba73852",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "50c78c11-43d4-4e7e-b576-82e6eef1442c",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "ffd90d1f-cd95-454b-a57f-166b445eee46",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "76739906-c283-4e3e-99aa-01654ee60424",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "22d6fba8-e82b-4139-b741-10f153806f4e",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "6f1a3356-9d5a-4072-9faa-fb221a37fccd",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/27098060_Digio%20Uber%20-%20F2%20Opus%20OOB%20v1_accounts_v2-OL_03-01-2023.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/01/2023",
+      "CertificationExpirationDate": "04/01/2024",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "29605ef0-c13b-42f8-9af8-54e1ae63821d",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6b13224e-01c2-40bd-a76e-8f139d164c9c",
+          "ApiEndpoint": "https://openbanking-uber.digio.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "e014f2c8-0bd3-41bf-8e36-b7ae2c8a5016",
+          "ApiEndpoint": "https://openbanking-uber.digio.com.br/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "9517915d-40c1-4f65-b942-527b0b10aeca",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b0aa38b9-e56b-4554-82fd-b988aa75929b",
+          "ApiEndpoint": "https://openbanking-uber.digio.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "21567220-a3a0-49fe-8e31-0d6be31186a3",
+      "ApiVersion": "1.0.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6ebcb244-a3b2-4ae5-bfbb-98306d48801e",
+          "ApiEndpoint": "https://openbanking-uber.digio.com.br/open-banking/products-services/v1/personal-accounts"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "a1ece3ef-fefa-4eb2-b333-a3efea833c15",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9d6ee083-aa69-41b4-9962-7a42a2ea0930",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "4a7b11cf-eed6-413a-9bd7-c4c48627c334",
+          "ApiEndpoint": "https://matls-openbanking-uber.digio.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/27098060_Digio%20Uber%20-%20F2%20Opus%20OOB%20v1_consents_v2-OL_14-12-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/12/2022",
+      "CertificationExpirationDate": "28/12/2023",
+      "ApiFamilyType": "consents"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "08/09/2022",
+      "CertificationExpirationDate": "08/09/2023",
+      "CertificationId": "2474a8ca-1cf2-4e54-95e4-2e1bf5819e30",
+      "AuthorisationServerId": "319b8d3c-ab1d-4c6a-bd6f-4b94faf4beed",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Digio_Uber-Opus_Open_Banking_v1-BR_OB_Adv_OP_DCR-07-Oct-2022.zip"
+    },
+    {
+      "CertificationStartDate": "08/09/2022",
+      "CertificationExpirationDate": "08/09/2023",
+      "CertificationId": "c34198e1-3d8a-40b0-863b-73877e47bb26",
+      "AuthorisationServerId": "319b8d3c-ab1d-4c6a-bd6f-4b94faf4beed",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Digio_Uber-Opus_Open_Banking_v1-BR_OB_Adv_OP_w_Private-Key_PAR-07-Oct-2022.zip"
+    },
+    {
+      "CertificationStartDate": "02/11/2021",
+      "CertificationExpirationDate": "02/11/2022",
+      "CertificationId": "0c9abf44-ba24-43fa-a0e3-85f840988f5c",
+      "AuthorisationServerId": "319b8d3c-ab1d-4c6a-bd6f-4b94faf4beed",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BancoDigioUber-Opus_Open_Banking_v1-BR_OB_Adv_OP_DCR-28-Oct-2021.zip"
+    },
+    {
+      "CertificationStartDate": "24/09/2021",
+      "CertificationExpirationDate": "24/09/2022",
+      "CertificationId": "e9f8aac3-6bd2-4c06-96dc-daa028229ba6",
+      "AuthorisationServerId": "319b8d3c-ab1d-4c6a-bd6f-4b94faf4beed",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/09/BancoDigioUber-Opus_Open_Banking_v1-BR_OB_Adv_OP_w_Private-Key_PAR-22-Sep-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "A Uber Conta by Digio foi criada exclusivamente para os parceiros Uber. Além do repasse de ganhos na hora, a conta digital oferece vantagens para o dia a dia dos motoristas e entregadores, como transações sem custo, ofertas de cashback e outros.  ",
+  "CustomerFriendlyLogoUri": "https://www.ubercontabrasil.com.br/logo.svg",
+  "CustomerFriendlyName": "Uber Conta by Digio",
+  "DeveloperPortalUri": null,
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking-uber.digio.com.br/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://openbanking-uber.digio.com.br/auth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

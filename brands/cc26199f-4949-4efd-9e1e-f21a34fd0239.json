@@ -1,0 +1,784 @@
+{
+  "OrganisationId": "4ae2cefb-e3c1-5624-9448-b3aa4777c539",
+  "AuthorisationServerId": "cc26199f-4949-4efd-9e1e-f21a34fd0239",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "e438e062-29b1-401e-bf62-3e44b9e79328",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cf34a80e-dde2-476d-9e22-59d1dbce04f7",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_resources_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "7ae6a168-c9d4-4340-b290-d03466e9b927",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f529d9ac-600a-4ece-9ef9-b0d9d2819b29",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "c53a4948-4618-4479-9515-987ff29b29df",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_consents_v2-OL_19-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "19/10/2022",
+      "CertificationExpirationDate": "19/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "273b354b-a7d5-4dd0-b124-b10d0d8053d8",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "31eca770-52d2-4b33-a4f2-3269e9554bc4",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "1d77b795-9db1-42f8-828c-0107f00204da",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "f8cb603f-a2ae-4924-aa02-54312da53deb",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_business_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "2abdc5a4-30f7-421c-aa68-26b8a5b6d92b",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "85f1d5d0-eb05-44b1-b0e6-15e8b73e1706",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "af65cb99-5cf8-4992-8686-3c25b364c81c",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "5fa2058e-1375-4a00-baa5-9e3a1db5c123",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/1.0.3/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-Customers_Personal-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "6e354062-ddc0-4576-a9e1-cd6142c66fd0",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "016116f2-a5e3-48f8-a36f-52c14a4f2535",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "df1506db-759e-4906-8216-48b6366d7e00",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "033ec738-a3d7-4933-9093-429fbd71418f",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "9aebb41d-c2c8-4c65-aa1f-46eb247b0df1",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "4be19c4e-159b-4af1-bf1e-909b96e9b29c",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "aae8ac6a-ec2f-4db7-8740-a0adee9ef701",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "80e25f20-ac9c-4514-97cb-b9f1095d59e6",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_credit-card_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "88ba40e7-5f81-4f53-8f68-df87bef1184a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2dea218e-7cdf-4ca8-810a-c2cc75c9368d",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "0791fb95-3c68-48bd-8ffa-a5de9d47b878",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "8aa3ed60-f26f-4ebc-a899-869f7858d934",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "dea4a422-c945-4320-b97c-0a51d7389179",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "7e99dc91-09dd-4e0f-a780-9496fe719d5a",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "d346ef38-1546-457b-a8ac-cb5707e906f3",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "b9092fcb-4f7b-42c2-8a60-c0d1ab58d62a",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "d13d137e-11de-4f6b-b6f6-adc64bfcf231",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "65d4d213-ace9-4f8e-820f-7efe11d59601",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "5913f4ad-40d8-4938-bb7f-3f78e1738558",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "f2f82147-215f-4231-bbec-11c1992ee547",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "ebd2cb4b-bfca-48d1-9c48-637f7d8a41f7",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "43195e99-0658-4d39-a9c3-cd5911c53b51",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "30e78c5d-f6eb-4a3c-bb95-5706cf0e8baa",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "a143d1b8-d013-43d6-bd08-a165e80d95d4",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "bd010195-fa60-4c5c-8077-cb0fd988e996",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "1312a485-5a28-422b-8e3a-b6dee23add86",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "ae4d6b6a-7fc1-47a6-a71c-2807bf804488",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v1/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/1.0.4/Banco_BMG_S-Discount-Credit-Rights.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "46c7ecda-6434-45ac-ab94-8c817c79f02b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d0020a12-809d-4abc-8434-85e15f2bd901",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "27da0a96-a975-41cc-993c-5d9b6b3d55b8",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "4a824214-14c0-4eec-8124-8ded5b8bda98",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "04e4e4fe-948f-4123-9320-a0b543b09f6d",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "7a354e25-4937-4f56-a7ad-6d4f64f65704",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_loans_v2-OL_03-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "03/10/2022",
+      "CertificationExpirationDate": "03/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "609d6712-7188-4cb9-a754-1538a9be9b8c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "01ffec94-7788-4be6-b785-a733144828fb",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "a881d484-0f39-49e9-bee7-670f9c066339",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/1.0.1/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-PAYMENTS-10-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "b3323006-aef8-43b9-bbd2-97ac8ce526e2",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cd915a08-7be2-4850-8197-3b49da4ec67d",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "60557f33-932f-4c86-92b7-a323f3d16423",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "e44682e9-0913-44a5-9794-724e6e927042",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "fddf40ef-1f36-4264-a73f-21424875ada8",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "a6558826-1725-4424-9c61-9316149ac68c",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "7d358c7e-b7b3-422d-ad69-d8b0aa1fb03c",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/1.0.3/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-Accounts-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "45a0c0dd-db5c-4fa5-a859-a5d93dcd3fa9",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ed48e9d0-1b06-4bcb-90a6-a4d225a1267f",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "a8271b18-ebc7-4194-bf35-59c2ce8bd879",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "dfe5d3e0-9220-47de-9506-51b29abf9ec4",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_personal_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "6c1ddf5f-c64a-4ee6-80a2-a2d8a57d6744",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "597bcefd-2297-41b9-9311-abf7d3532fb5",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "55e6178b-7b6d-4af5-88e0-a648e1b66d99",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "d9f90db2-0a42-4214-8dcd-ed81dfd62c34",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "89f459e3-343a-4489-b135-5c2c6dc9354d",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "d7adaf89-7892-49d7-9871-4de5177830fe",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v1/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/1.0.4/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-FINANCINGS-12-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "ea9aa129-796a-4dd0-9f3a-b07f40cd9806",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "59ccc968-98e9-495b-9ac2-2ec90c0e6fa4",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "c53dd22f-6c89-4197-961d-a491b3f35dfc",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "4f871faa-b54e-4d39-92b1-ff7734ffdb66",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/customers/v1/business/qualifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/1.0.3/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-Customers_Business-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "b1d31e52-9102-4637-a844-d0a8e86dd7c4",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9742b7c4-1541-44ba-b5b8-450009a92e5d",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "d0861efd-0b7c-4440-8f82-9b7ebe8a2fce",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/1.0.3/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-Consents19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "5aa8607b-225d-4003-8164-2b2e98cb5c02",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f6ef43d5-4c1e-422d-9c03-82b3bb2226fe",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "b256a219-399c-47c9-94bc-29e1bfca6b06",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "a3d28c3a-a550-4fe1-ac6c-e3cde645bf3d",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "edf5a31b-c6ae-41a3-9619-8cf34f761949",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "92c9c6ff-eded-49c4-ad03-814ce35b8baf",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_invoice-financings_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "b9bf4bc1-6d9b-42cd-ad7d-960d173eceb7",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6e1dfaa0-1493-48f6-b522-ecaa81fda874",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "f60a0151-1f47-49fd-a145-12d0a600e624",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "64d8f861-a55e-4510-afde-660b8c04ecaf",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "645ce7d7-cafd-4329-bd85-4f6450ae5636",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "025a2eac-ee97-4348-b6af-5d94858e4f92",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "80af9c57-783f-46cf-9ece-1103b0381f62",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_accounts_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "8002f1f7-40e5-4b9f-8a78-a0466c850350",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "98df187a-e4f2-4dc4-9d0f-c5a138e1e0f8",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "8657ed42-e177-4c2e-a041-83615cd843cc",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "28b35c24-c19f-4241-9f88-519bfc3c237e",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "ab1c385f-f9c7-4c16-8245-7c152b0186f0",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "c062e494-3355-452d-9641-5c4c4781774f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c70a785d-8516-43f5-90ff-bbcab3253310",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "e9d9f097-4b68-4f06-bc6f-fcd557f415ee",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/1.0.3/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-Consents19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "48758a9f-5e58-4786-bf90-f6d5daaf886e",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "bdad8422-3371-46bd-aa76-d3a90467cd27",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "41427027-df95-43fd-b1be-f1f195db2fec",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "f538c746-aa99-4845-b58c-f1c436dd4c6e",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "4f2483a2-bbe6-4eb8-bda6-93ddb651ce52",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "d5aa6fc3-bc99-4c1d-9f8c-27aedae6e341",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_unarranged-overdraft_v2-OL_05-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "05/10/2022",
+      "CertificationExpirationDate": "05/10/2023",
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "fc07fd9e-57e7-4034-812b-eda2282da0ac",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "53c4d3fa-5be2-46dc-a169-889dc52f126a",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "d0623b32-f8c2-4bd9-a42e-46ee0a2bc3c0",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "cffb73d7-b1a3-45fe-988d-4b4ae696e374",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "49e371f3-76c9-4b98-bfe5-61396407d60e",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "213a2528-24b1-4dfc-bc89-6df777a08bb4",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "a70fea8d-5636-4341-a1d7-eb8ebcd391a2",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/1.0.4/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-Credit_Card-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "f661a3b0-5b04-4e79-8826-bc4fcc1c60c0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "41507c7b-fd5e-43fc-83bc-ba00cecb4941",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/1.0.2/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-Resources19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "2b820789-ba36-4a04-8bc8-e494c5f36160",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1b6b2863-5dc5-45ea-9c57-a852f1a70aad",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "38c40435-ff25-4727-8108-f1450d6a9b79",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "fca4ad56-9293-4c35-b1d9-38a6f1485439",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "87dedfef-50d2-4a3f-a1f5-8647ef78f8c0",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "b3b8a2a5-1f69-4e72-81de-a1e2aefe6a30",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/61186680_Banco%20BMG%20Open%20Banking%202.0.1_financings_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/09/2022",
+      "CertificationExpirationDate": "30/09/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "a1da4e40-20fd-4f24-b837-78278629c1ec",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6e8f772b-073e-4abf-a2e6-0f27d7cf610e",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "d1aecf84-22da-4469-9869-fe92721742b8",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "18a08998-adb6-40b3-82f0-b714bc356b4c",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "c439a249-4db3-4260-8044-24233799c827",
+          "ApiEndpoint": "https://api-bmg.bancobmg.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "9c8fb0b0-0936-48a4-b872-89669bb93891",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "695b8bd6-3ab2-4774-aaea-3061c7588f86",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "7f7780f4-b22a-4b92-974c-8d73275f4954",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "dddc6be1-f832-4a27-a75f-5f4c2f844390",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "2a7d7ea4-4aee-4ba7-96d2-d96ad586cdb0",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "d428177e-806c-4ab4-bf91-fff71b563275",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/1.0.4/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-Unarranged_overdraft-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "d584babf-c5c5-4554-833d-0355cb6ec724",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "06dbd3a5-4c05-4b50-b78d-7007e0471167",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "4b3a4331-971c-4db5-8dd8-5a7958356cab",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "43d26d47-e026-40b2-a60f-a336a1081a97",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "e9bfd4fa-e45b-4bab-9885-a005146e20fc",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "d60ad281-ad5d-48fa-a163-ac36d213f058",
+          "ApiEndpoint": "https://api-bmg-m.bancobmg.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/1.0.4/Banco_BMG_S.A-Banco_BMG_Open_Banking-API-LOANS-12-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "14/04/2022",
+      "CertificationExpirationDate": "14/04/2023",
+      "CertificationId": "3bcf36cf-3c03-49af-aeaa-35498b04f4c2",
+      "AuthorisationServerId": "cc26199f-4949-4efd-9e1e-f21a34fd0239",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/04/Banco_BMG-Open_Banking_1.0.0-BR_OB_Adv_OP_with_Private_Key-14-apr-2022.zip"
+    },
+    {
+      "CertificationStartDate": "27/10/2021",
+      "CertificationExpirationDate": "27/10/2022",
+      "CertificationId": "a18a4ea0-5493-4698-904f-965b296dfc1d",
+      "AuthorisationServerId": "cc26199f-4949-4efd-9e1e-f21a34fd0239",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/10/Banco_BMG_SA-Banco_BMG_Open_Banking_1.0.0-BR_OB_Adv_OP_DCR-26-Oct-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "\"O Banco Bmg S.A é um banco brasileiro, com sede na cidade de São Paulo. Foi fundado em 31 de julho de 1930. Ofereceremos produtos e serviços bancários como: empréstimos, investimentos, cartões para Pessoa Física e Jurídica através do app e site.\"",
+  "CustomerFriendlyLogoUri": "http://www.bancobmg.com.br/data/files/8C/A2/7F/0A/FBA318104A94D208970BE9C2/bmg_open_finance.svg",
+  "CustomerFriendlyName": "Banco Bmg S.A",
+  "DeveloperPortalUri": "https://dev.bancobmg.com.br",
+  "TermsOfServiceUri": "https://www.bancobmg.com.br/blog/politica-de-privacidade/",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api-bmg.bancobmg.com.br/jans-auth/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api-bmg.bancobmg.com.br/jans-auth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

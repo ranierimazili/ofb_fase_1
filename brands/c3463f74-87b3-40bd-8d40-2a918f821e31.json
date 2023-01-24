@@ -1,0 +1,784 @@
+{
+  "OrganisationId": "d3f8a4f7-7b6e-5b82-bdbe-bd90414650f0",
+  "AuthorisationServerId": "c3463f74-87b3-40bd-8d40-2a918f821e31",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "b80e7f85-79af-454b-bf5b-b01596fdee9f",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "517983f6-e3f0-4996-bf21-059e3907369a",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "b5dd1346-17ec-465d-a0f7-082863adaeb6",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v2/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "6c180c2a-cfbe-485c-831e-9542493eda1e",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v2/personal/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/92894922_Release%20Fase%202%20V2_personal_v2-OL_11-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "1cead230-dfe0-4e6f-9a94-596169d41f8c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ce56771f-7dcf-4a3e-86fa-a82b10e9665f",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/92894922_Release%20Fase%202%20V2_resources_v2-OL_11-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "e91f670b-7310-4982-9570-3b8c3dc5b948",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fbd8d42d-e07b-48bb-907a-e20bf6921f89",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "76c15122-44c3-401c-9d1f-a231b8542ed2",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "4c370adc-5a48-499d-9174-174f9a9842dc",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v1/business/qualifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "2f1bc94a-9ed6-4f31-aace-e5c41fa4ece3",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "551cb92d-9c7b-430a-8c46-16f1439c579d",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "9d658671-03a0-4867-a80a-bbec07944d8e",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v2/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "ff1847c5-6b44-4383-b876-6fd0d8bacf64",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v2/business/qualifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/92894922_Release%20Fase%202%20V2_business_v2-OL_11-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "5328ebf7-4e8c-4acb-bf42-6837a8523dec",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "47e53416-de2a-4476-9044-bf403000de57",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "4e652983-1ef7-40b6-bff7-7cbcb2366872",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8264a5b7-40a0-449b-8055-2f55af42d76f",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "60bc939b-cff1-47e4-8fe6-ae0888e5b377",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "bc42c64d-328d-43f2-b16a-821925388899",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "5281d20a-b2c3-4a23-b394-065884f2e401",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "3b16584a-e8a6-44f6-b546-2b0593eaef8f",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/92894922_Release%20Fase%202%20V2_financings_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "6bcef5a2-887c-4671-b26e-5ed10f5cfcef",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7c63b869-68a5-4f07-9acb-8b258a270f32",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "9220140f-3307-4cf4-8e5d-023eab050613",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "56e63b44-e8eb-4ad3-9802-fe1a7961f52b",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "89fed318-f633-4e7f-bcda-0aebf5aca319",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "c98a1528-44c6-4404-8242-5bbbdff4fdf2",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submisions/functional/invoice-financings/1.0.4/banco_original_discount_credit.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "dc43b9ba-addc-42d3-83dd-69895fd00381",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "01971ccb-6ea7-4893-a958-789e28072e44",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "b837c7d8-e90a-4aae-9349-9c0694e1b232",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/92894922_Release%20Fase%202%20V2_consents_v2-OL_11-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "be1cd35e-00a2-420f-9ee8-4237628a8f43",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "242ba07b-5c5e-484e-b6ef-f224fb4b34e5",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "5e910f5d-a174-4751-850f-e0a5f87523bf",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "7520794b-724b-4aa1-8175-b2c8634b4af1",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "95f42b17-9502-4a2d-96ce-b5a1d6c86b25",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "31870cc4-c8ca-49ab-94d1-5e0a52480631",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submisions/functional/unarranged-overdraft/1.0.4/Unarranged_overdraft_api_test-mtls-by_value-plain_response-d6T9REtW0tUKw-05-Oct-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "35435c44-236a-4f5e-b587-a044e7ea1d00",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7d39c4e6-f963-4205-adea-bf45a4562d70",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "6f1d65df-d358-4515-a47c-ef06caab5d30",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "be2b2997-ea71-4ed0-8e96-bc9f55a97db3",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "be074adb-31db-4944-aa17-bc691e0a2b81",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "152c4c9b-8371-4a84-95de-13e10938b0d8",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "e2129a28-706e-4248-b143-0b6738720786",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "b2ecec5f-24e4-4c0e-9c6f-7118425cd5e4",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "dafd2ed8-910e-4adb-9b0b-9b91825b7302",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "44268f4b-6736-46bd-9fd2-7bde12d666f1",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "7f6e92db-5d48-433c-ab5b-96243b5948a5",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "65d40171-8e9b-4dee-8bf1-cfecd961e860",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "e47d0f98-2a40-43df-8161-ff316660617f",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/products-services/v1/business-financings"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "1bd2044a-914b-4730-a505-2e9c790e6b17",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1266768e-1f27-445d-95b2-429a05fbccfb",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "0a4eec04-5b1a-4528-ac39-042f1fe1ed44",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "f04af9ec-9110-4503-8ece-721f4396688b",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        },
+        {
+          "ApiDiscoveryId": "7e5e633f-e262-441a-9276-7f74fbfdbbf4",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "3883bd78-ca46-4310-900c-64331109856e",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/channels/v1/branches"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "2d9d7aa5-c098-4b0d-9f1e-24954d7f2001",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a51a3171-2fa8-4aff-9922-a9b0faec97b4",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "c743a0e0-cb32-4b47-b1fb-f5aa16a295f4",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "c3961401-d885-44d2-a22a-99b1febca61b",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "82124704-adeb-4f2a-bd0d-854177bbde04",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "2fc24559-d2c8-4486-85ec-86c3d69f311d",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "1774f3c2-ffa9-4a5f-87ef-ca75b74ff0ba",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Banco_original_Credit_card_api_test-mtls-by_value-plain_response-CGlnJ7ofYOFxt-28-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "a7ba2c45-3516-45b4-8ff4-d2388526866c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "506ef3c4-6b1f-4858-a62b-fd1d841c5bb3",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "1d0fa9eb-6bc5-448a-9089-860449072055",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "04bfe879-645e-4c90-952b-07824808f044",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "161cd8ec-ca59-4830-a1ec-6d9820a4f971",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "85001605-3826-4bca-a5d8-32211c932708",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "d01dde27-fc7f-447d-9e85-b7423edd3d4c",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "8c838dae-1bdb-496f-b64e-a2ec6ceda2fa",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/invoice-financings/2.0.1/92894922_Release%20Fase%202%20V2_invoice-financings_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "78dd662b-9204-4a3b-8618-cd7e962b6c14",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8d506e85-5513-4d2c-a91a-1f8930cd036c",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "ea9a700c-66b3-487d-a26d-dd1df9764e39",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "2340afad-94b4-49b6-ad0a-23cc8310ff87",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "82c73448-9419-4370-ab5d-10e80f20041f",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "adddeae1-51ea-4b20-bcb6-a171dfcefb52",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "8bbff581-8afc-4d48-9ab5-b75ff216f478",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "6b44a703-afa0-4109-baef-8e3c46378dfb",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/credit-card/2.0.1/92894922_Release%20Fase%202%20V2_credit-card_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "ecba4248-be36-4a8f-85fd-373660aea51c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8d67d1c8-995f-4bc8-a9b7-6ae923fa5065",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "420772b1-864a-4ea1-bc66-3dff6b1dcb3e",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "d44837ac-6e78-4c0a-b9f3-d2d252bb8bd1",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "9eefeeb2-2d6b-4478-ae9c-87402a9ee2b7",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "740ff081-03b3-4c31-81af-ef1f69bc7613",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Account_api_test-mtls-by_value-plain_response-q4iFISgVGtQwa-15-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "df0ae782-9420-4d31-bbd4-e42ef7fd5110",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7b0f5738-31a3-480c-9ac5-34036b5f3c8b",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "f885dd5d-054e-43a7-9233-bc3b7a4967e4",
+          "ApiEndpoint": "https://api-openfinance.original.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "3b1af06e-85e3-4a01-8b95-c90723497c12",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5d73115d-ab19-490c-a185-0f3ed2bb9f11",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "8227515b-fbf7-48a6-a5c1-0b0fb9bab630",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "94523426-4401-4545-9a3e-3959c58046ca",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "35fa522a-5047-4e27-b5c8-1a99308210a6",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "e82fb7c1-6f9c-44aa-af8f-a3b31e571788",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Payments_API_-_INIC_DICT_MANU_QRES_QRDN-mtls-by_value-plain_response-qBYj3eNRDkfpA-28-Mar-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "45dcab9b-d696-4e9f-94bd-b9002fc2105c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "982ba3ef-eb6f-48b7-959b-803e385abd12",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "55016609-1547-4192-be28-5fd84ee68a8c",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "756ee8d0-a2d6-45f8-88d6-14be3f6f3a38",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "31c17abc-9363-44d5-bd53-83abb25c3c63",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "9559dfa9-c0da-4e03-8333-3d466e7fde74",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/unarranged-overdraft/2.0.1/92894922_Release%20Fase%202%20V2_unarranged-overdraft_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "2710fd93-8d47-4acf-a41d-fb3f90a09185",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6ec7faf6-67e9-4175-a51d-a5b95ff95cb1",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "2f016dee-a705-4dfa-88bf-617953c11cf1",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Payments_API_-_INIC_DICT_MANU_QRES_QRDN-mtls-by_value-plain_response-qBYj3eNRDkfpA-28-Mar-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "8c3d215c-199d-4b49-ac87-18574b6acab8",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b52ad9fa-cd36-4a37-bd98-934ff4a5ccac",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "86893b43-8c44-408d-8aa7-210395a84cde",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "f833bc86-28b9-453c-a548-2a75bba05e86",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "108c69f2-32cd-415d-8a38-47e89f181fbb",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "dd17a613-afac-475b-9360-7cd0cf2943a7",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v1/contracts/{contractId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Banco_original_Credit_card_api_test-mtls-by_value-plain_response-CGlnJ7ofYOFxt-28-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "4cfed849-a92e-49f7-95a2-6b72358c51aa",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e03330c2-91fa-4238-ad4f-03b77660a06e",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "1b557a62-0fa9-4514-b77c-f75662193b4e",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "df9841b8-a256-496b-b46f-55b37c4415e9",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/customers/v1/personal/qualifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "3a34607d-a469-42cf-82cc-5caaa84110f7",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "254da792-8c49-43da-8d66-53f1b726367e",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "1cea52f4-9560-4b86-b9a0-b264c67fb31b",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "9ba1ff6c-bb09-4878-8af8-2a11a4e28d22",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "7c8d364f-0e1f-4205-98b6-98b3f96f0661",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "ae1cfe2b-88f3-4ef3-8de8-0b40a3293ac6",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/92894922_Release%20Fase%202%20V2_loans_v2-OL_14-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "52a794dd-d63a-4ed7-9022-a9b035967085",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0608285d-6e5b-4c63-b840-cd9f73e887be",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "96a8b291-f057-4b04-98ab-ef4ba29c5185",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "b3172545-0635-47fe-b7a3-7534a34746f8",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "b54efd3f-f7c2-4537-aabe-ce5fee808cdb",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "07ef769f-a34e-4d8c-8aca-48a60b035816",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "dca92c8e-8d4a-4702-a571-858698ed016f",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/92894922_Release%20Fase%202%20V2_accounts_v2-OL_11-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/10/2022",
+      "CertificationExpirationDate": "30/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "5671460a-aff9-49f4-8a87-c9faa6d5e48c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d8c5176c-584b-4080-8551-6fbb09ae6818",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "ced79d64-4d02-4b29-8c2a-8a6b055cfb16",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "6ca62541-ec0b-4bbb-955f-084ee1d90304",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "433d71a7-b328-4994-91c2-2805b416014a",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "d99d5162-e293-4c59-8d2a-f6380d42f4fb",
+          "ApiEndpoint": "https://api-mtls.original.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Loans_api_test-mtls-by_value-plain_response-2y3mi0o7PTnku-30-Sep-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "25/10/2022",
+      "CertificationExpirationDate": "25/10/2023",
+      "CertificationId": "7650fbab-1018-466d-ba6b-f57e85d6424b",
+      "AuthorisationServerId": "c3463f74-87b3-40bd-8d40-2a918f821e31",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/12/fapi1-advanced-final-test-plan-mtls-by_value-openbanking_brazil-plain_response-pjDr2IBVbOIjR-28-Dec-2022.zip"
+    },
+    {
+      "CertificationStartDate": "14/10/2022",
+      "CertificationExpirationDate": "14/10/2023",
+      "CertificationId": "3c60167c-7b64-4c75-9581-57f4eea26a1e",
+      "AuthorisationServerId": "c3463f74-87b3-40bd-8d40-2a918f821e31",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/12/fapi1-advanced-final-brazil-dcr-test-plan-mtls-by_value-openbanking_brazil-plain_response-vwEJCX1SbQOmO-28-Oct-2022.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "O Original é um banco digital completo com produtos fáceis de entender e simples de usar. Tem tudo o que você precisa pra resolver sua vida financeira, direto no app. Contrata empréstimo, faz pagamentos, investimentos e tem cartão de crédito com cashback.",
+  "CustomerFriendlyLogoUri": "https://www.original.com.br/img/logo-cubo-verde.svg",
+  "CustomerFriendlyName": "Banco Original S.A",
+  "DeveloperPortalUri": "https://www.developers.instituicao.com.br/",
+  "TermsOfServiceUri": "https://www.original.com.br/documentosimportantes",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api-openfinance.original.com.br/jans-auth/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api-mtls.original.com.br/jans-auth",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

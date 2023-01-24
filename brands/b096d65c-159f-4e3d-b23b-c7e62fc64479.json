@@ -1,0 +1,430 @@
+{
+  "OrganisationId": "bbfdd54c-2a82-5843-b4f0-20e7733ebf0c",
+  "AuthorisationServerId": "b096d65c-159f-4e3d-b23b-c7e62fc64479",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "42f34163-5f42-41e4-bd4e-f83ec1a3a1d7",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0d373d96-31fb-4171-8f78-3ef1250d9001",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "ab561e5c-4534-40ad-bcef-39955ba45b55",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "19e953e9-79ce-46ef-b1f2-e098b140bc5d",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5fb7d6e2-75e9-4dd4-97ee-965e0a677e3f",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "bb0658a0-3236-4e01-acbb-60603a80b72a",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "cd13a052-8562-4eaf-a90a-ecaff1e2dcfc",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "b4c0aff4-09f4-4735-b169-9a7990dfe048",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "e0743448-53e3-400a-8a2b-acbccbe00b59",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/1.0.3/BCO_SANTANDER_do_Brasil_S-3.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "cdd7d6db-1939-48cc-b46e-3fcd73129711",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ba4cf395-3dca-4589-b6dd-9fd686fcd56e",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "c876f6ec-fd7a-4880-ab2f-fee0593f3b35",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "47256645-35f9-4cdb-a6c5-507b4805d010",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "f37180f5-e4a9-4a71-835b-9d62cc08a242",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/channels/v1/branches"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "df960485-17c4-4135-8033-dbed95dc68e3",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e0a0d009-d942-4572-92eb-370dab6cd7cc",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_resources_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "22/11/2022",
+      "CertificationExpirationDate": "22/11/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "13859e5b-eca3-4548-b8f8-0372cee14492",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "586b6208-4176-43fb-b71e-7147988243e7",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "50822249-f0db-4730-8453-a9a55e75e8bf",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "6069ffef-2abe-492f-ab6b-d236eed9a7d6",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_business_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "22/11/2022",
+      "CertificationExpirationDate": "22/11/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "3e958f6f-a723-4ae2-87fc-f2673f56ae1f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6bdf1971-2417-4867-821b-9fdb8299f7d3",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "5db41500-b001-4aac-ac4a-96addcd62943",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/BCO_SANTANDER_do_Brasil_S-6.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "ba9e7665-6461-4a59-9ceb-6f5a447de5f4",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cd859eef-1a35-4803-9f99-9518ea2f475f",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "eb590adf-ea61-4878-bcb9-f212df881686",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "223ee32f-f834-4c48-801a-96b71f6d5e23",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "b3d26c9f-3cf2-4efb-8f83-20a94b82fce7",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "aeb5d184-3699-4a8f-984c-2007ecc39c98",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "dc6ed61b-4f22-496a-91e8-8a1f85b9500f",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_accounts_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "22/11/2022",
+      "CertificationExpirationDate": "22/11/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "08620a8c-6afe-4d9a-bdb5-172c7abce398",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "be8ceca5-9246-4ad6-b5b8-39b99822e8a6",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "86412ea4-3c50-49bc-bf57-640053cdf1bc",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "3c84ea1f-0151-4e7e-83cc-a13c07e6184f",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "0dc6753e-46f5-4153-a00c-c1816e09656d",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1a0efe43-bea2-441d-b47f-ab3775ec7b6d",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "8f1ab903-b58e-418a-9726-033242054f5d",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_consents_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "22/11/2022",
+      "CertificationExpirationDate": "22/11/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "6fc8f3d4-fd8c-4a3f-b826-315c2d54700d",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ffd05a60-88aa-40de-901a-e9a7eb938827",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "60272dbf-de42-4180-952c-ea96bb0fa878",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4aa57a7d-6ddf-4a0a-ac2d-4b15fe448e90",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "8ca3dbfd-afe9-4635-8bf7-eab648b56c5d",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "11019a73-b403-48d7-9bf4-a4ed39ef04ca",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "132026f1-076b-474c-8aee-b08c41c23898",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "3b16401a-d09d-45d1-a535-5c88d587031e",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "5e23c130-5ecd-4800-8cbe-d30bdcacdcb7",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "9232ac6c-5de7-4cc4-823f-3957dcd357b6",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "320c3103-d838-4b98-b6ee-00621859a2f4",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "7e5aa1ae-2cda-406e-b03b-6b7ada01d2e3",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/BCO_SANTANDER_do_Brasil_S-6.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "1f9e3b37-bff0-41c3-9dbe-fcc1ce99fb10",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "68f29d0e-0e3c-4077-a91b-ac46d8cf5ea8",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "67e9e6b8-9ae1-4a2d-8c47-4880480599b5",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "9a6ca9c4-9226-4ee7-8400-332e661ecd7c",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/90400888_Santander%20Open%20Banking%202.0.1_personal_v2-OL_29-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "22/11/2022",
+      "CertificationExpirationDate": "22/11/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "461e0407-d464-4e3d-89e8-258c5263018b",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "735f37f5-d317-4475-8d4a-c2a63405ffb1",
+          "ApiEndpoint": "https://trust-super.api.santander.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "8503b98a-353b-485b-a8f9-7e752499baea",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f6e3e04c-7400-4828-8c10-aa4c47f121a4",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "32525213-ed95-4fb0-a58d-58c632ad865c",
+          "ApiEndpoint": "https://super.api.santander.com.br/open-banking/products-services/v1/business-accounts"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "06/07/2021",
+      "CertificationExpirationDate": "06/07/2022",
+      "CertificationId": "467b4a21-e6e6-45cb-b751-ba0ee461316e",
+      "AuthorisationServerId": "b096d65c-159f-4e3d-b23b-c7e62fc64479",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/07/Banco_Santander_do_Brasil_S.A-Santander_Open_Banking_1.0.0-fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response.zip"
+    },
+    {
+      "CertificationStartDate": "07/11/2022",
+      "CertificationExpirationDate": "07/11/2023",
+      "CertificationId": "9259160a-6b8e-4c8a-a19a-57f3d2e93117",
+      "AuthorisationServerId": "b096d65c-159f-4e3d-b23b-c7e62fc64479",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response-6Y2gBUXbXVhth-08-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "07/11/2022",
+      "CertificationExpirationDate": "07/11/2023",
+      "CertificationId": "2d2fd946-f09a-487f-a42a-87151beac4d2",
+      "AuthorisationServerId": "b096d65c-159f-4e3d-b23b-c7e62fc64479",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 2,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/11/fapi1-advanced-final-test-plan-mtls-pushed-openbanking_brazil-plain_response-6Y2gBUXbXVhth-08-Nov-2022.zip"
+    },
+    {
+      "CertificationStartDate": "18/11/2021",
+      "CertificationExpirationDate": "18/11/2022",
+      "CertificationId": "0e9dfbdf-18fb-4563-b943-88021ff53182",
+      "AuthorisationServerId": "b096d65c-159f-4e3d-b23b-c7e62fc64479",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BCO_SANTANDER_do_Brasil_S.A-FAPI_ADV_OP_DCR-18-November-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Operando desde 2012, a Superdigital Santander é uma conta digital pré-paga que busca simplificar a vida de seus clientes oferecendo facilidades como cartão da conta, transações de pagamentos: pix, transferências, depósitos.",
+  "CustomerFriendlyLogoUri": "https://superdigital.com.br/assets/img/img/logo_super_512x512px.svg",
+  "CustomerFriendlyName": "Superdigital",
+  "DeveloperPortalUri": "https://developers.superdigital.com.br/",
+  "TermsOfServiceUri": "https://www.superdigital.com.br/naoseaplica.html",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openbanking.api.santander.com.br/open-banking/security/v2/superdigital/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://openbanking.api.santander.com.br/open-banking/security/v2/superdigital/JWKS",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

@@ -1,0 +1,204 @@
+{
+  "OrganisationId": "3a5ea40d-b088-5118-ac8d-869964bfd67a",
+  "AuthorisationServerId": "2f5909f4-65d0-4136-a888-ccb999e9ea4d",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "c0cf5c66-c47c-4a24-a0d6-4b700d48c3b1",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9051c3bc-6899-44ab-98ef-b53552a2dca9",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "fec4ec22-d5ae-463c-81f0-7538f4d52c2c",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6d3bca1d-19b2-400b-95da-f75bb0704a32",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "88ce4a06-ed35-4b9e-81a7-31fc663ad635",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        },
+        {
+          "ApiDiscoveryId": "68e6c33d-1024-41b2-9e6c-823966cc61b7",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "e6e8a3ae-31e5-43ef-825a-8d2ac1a0bb12",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "f5d909eb-ca18-42f3-ac5c-9d1973be8914",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "92dafe15-50f4-456e-9e5a-eb5066ce1957",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "d84a3121-b10c-4786-928d-918b936ab372",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "65c657e3-3ab3-4efd-80bc-890c8df6c4ac",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "a46db8b4-97c1-417c-bfe5-0ca2a8eb4212",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "5889c923-783f-4b4f-b938-d1202810fb12",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "e863448e-54af-4b14-b215-31d74a56f410",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "d2496969-e7d1-46fd-b463-7a2511a9af9c",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "6e0a076f-0b0a-4dd4-8859-161abcc53a57",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "76f5b128-0c70-4f6e-98a5-37f9f121c175",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "afc80a61-da8c-431a-b3f2-912362d56ed6",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "c6607588-ccf1-4cf1-91e1-a95cb9bf0cdf",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "07216067-5d0b-4ae5-bdb0-280b170e6ef7",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "51cbd67d-81a7-4a35-8fc4-6f572647df2f",
+          "ApiEndpoint": "https://www.api.parati-cfi.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "b7c87749-2093-40f8-8240-c9dd26808818",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ba953fd0-667f-451d-b518-fd6becb6620e",
+          "ApiEndpoint": "https://api-openbanking.parati-cfi.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "dedc0789-eb05-4502-9f0c-804aa6c00c50",
+          "ApiEndpoint": "https://api-openbanking.parati-cfi.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/PARATI_-_CREDITO_FINANCIAMENTO_E_INVESTIMENTO_S.A._-_Open_Banking_v1-_API-PAYMENTS-21-Jan-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "003b4f11-8037-4dae-ba31-dcb417306434",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "703f3a1d-f2e6-4afd-b2f9-cb399c972c8e",
+          "ApiEndpoint": "https://api-openbanking.parati-cfi.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        },
+        {
+          "ApiDiscoveryId": "6c231aa3-1fee-44c1-90f4-f638dcded523",
+          "ApiEndpoint": "https://api-openbanking.parati-cfi.com.br/open-banking/payments/v1/pix/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/PARATI_-_CREDITO_FINANCIAMENTO_E_INVESTIMENTO_S.A._-_Open_Banking_v1-_API-PAYMENTS-21-Jan-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "03/12/2021",
+      "CertificationExpirationDate": "03/12/2022",
+      "CertificationId": "266efa32-8e87-4afd-9944-b627fa19a8de",
+      "AuthorisationServerId": "2f5909f4-65d0-4136-a888-ccb999e9ea4d",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/12/PARATI-CREDITO-FINANCIAMENTO-E-INVESTIMENTO-S.A.-Open-Banking-v1-BR-OB-Adv.-OP-w-MTL-03-Dec-2021.zip"
+    },
+    {
+      "CertificationStartDate": "03/12/2021",
+      "CertificationExpirationDate": "03/12/2022",
+      "CertificationId": "b609360b-298b-4dbb-97b6-f69ca9321c36",
+      "AuthorisationServerId": "2f5909f4-65d0-4136-a888-ccb999e9ea4d",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/12/PARATI-CREDITO-FINANCIAMENTO-E-INVESTIMENTO-S.A.-Open-Banking-v1-BR-OB-Adv.-OP-DCR-03-Dec-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "Ofertamos soluções para crédito consignado através de operação de Banking as a Service ( BaaS ) para correspondentes digitais, servindo como back-end que hospeda FinTech startups integrando facilmente com nosso legado bancário tradicional. ",
+  "CustomerFriendlyLogoUri": "https://parati-cfi.com.br/images/logo.svg",
+  "CustomerFriendlyName": "PARATI CFI",
+  "DeveloperPortalUri": "https://www.developers.parati-cfi.com.br/",
+  "TermsOfServiceUri": "https://www.developers.parati-cfi.com.br/naoseaplica.html",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://auth.openbanking.parati-cfi.com.br/jans-auth/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://auth.openbanking.parati-cfi.com.br/jans-auth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

@@ -1,0 +1,357 @@
+{
+  "OrganisationId": "98688161-67b2-55de-b057-03b749d33f5f",
+  "AuthorisationServerId": "9e150774-8cc4-4cc2-9d47-e05c8f514585",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "610686e5-0305-49dd-8f84-4d672e150b25",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "65afe996-9c25-4118-b2f3-9a4123bf7f44",
+          "ApiEndpoint": "https://api.bancopsa.com.br/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "5966929e-c52c-49bc-b1fc-a7f6ab5dcc49",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3ff7d3ff-40c2-4d47-9551-1b20af5959bc",
+          "ApiEndpoint": "https://api.bancopsa.com.br/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "e914ef4f-df12-443a-89ed-42695e390036",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8c31bb89-bda9-49c7-9df7-7e3c2b95363e",
+          "ApiEndpoint": "https://api.bancopsa.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "187a1446-b33e-4c12-bc59-39c5839ee142",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5eaafe56-506f-42ec-b248-9746831030c3",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/03502961_API%20Test%202.0.1_resources_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "23738dfc-3400-42c7-93ca-ad0c8ca02956",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d07e55be-0ea9-4f8e-a802-d88b17314c17",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "4d53b428-5eba-4c76-9898-0ae82bff8768",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/03502961_API%20Test%202.0.1_consents_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "8f943f7b-8fb6-4fb0-8d93-fca7c10e3dc4",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "15f7eb8a-8230-430d-a5fa-ffba7235b9b7",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "3175c738-956a-4eb5-ab69-0ec7b36b2d2c",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "3a3507a2-40b3-478f-9c64-c11f67abf119",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v1/personal/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/1.0.3/PSA_Banco_Stellantis-Personal-Customer-Data-api-test-private_key_jwt-pushed-plain_response-b7yXPkYeSx6EQ-18-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "18/11/2021",
+      "CertificationExpirationDate": "18/11/2022",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "d1c84eb5-5f3d-4d52-aedf-7be1e8d4aef0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d435041a-5779-4772-8466-2f7ccf5b77ee",
+          "ApiEndpoint": "https://api.bancopsa.com.br/open-banking/channels/v1/electronic-channels"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "baeda662-a427-4ada-b3f9-538951ffe878",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "aa850d89-ab6d-4fee-9b03-efe69af27ceb",
+          "ApiEndpoint": "https://api.bancopsa.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "ebc7477a-9aaa-4afa-846b-351e5aa69c79",
+          "ApiEndpoint": "https://api.bancopsa.com.br/open-banking/products-services/v1/personal-financings"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "8155eb77-3305-44dd-949e-a8a5a944ce84",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "eedafeb8-5f8a-4977-9ca5-3789dc154f0a",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "ae004364-8073-4fa6-ab13-569eec9b154e",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "c90a4382-be84-4799-88ae-f9c5e63c5a64",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "8b1761a3-a327-483e-8cee-7b75d72aa05a",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "2d39de60-1477-48ed-90d3-95767637611e",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/03502961_API%20Test%202.0.1_financings_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "5721b2c0-a4ad-4d9a-a77d-45a9e6e5e417",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c4ca1dba-6ad6-4649-8252-8396beef2051",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "e2dee72b-88a2-4d1f-baff-fbf21f74d4dd",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "72e12551-2963-4d56-b0c8-4fc95629f12e",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/03502961_API%20Test%202.0.1_personal_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "a4993c08-983e-4c47-a8ff-59a8cac6b7d9",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "19710442-46cb-49e5-8cd6-96742e3e13d3",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "03f95535-3b0e-417d-959c-9dc88301d67a",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "b7c9d1d9-9d4f-434a-9893-89015bd2e9cf",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/1.0.3/PSA_Banco_Stellantis-Business-Customer-Data-api-test-private_key_jwt-pushed-plain_response-4TUKL0CSuxMeY-05-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "18/11/2021",
+      "CertificationExpirationDate": "18/11/2022",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "81d744d0-2dad-497b-985e-a45fdb88782c",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4c618027-90b4-4719-a5ee-78561c07c00b",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "3e86bbdd-ace5-469f-a342-46dc0f212992",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/1.0.3/PSA_Banco_Stellantis-Consents_api_test-private_key_jwt-pushed-plain_response-5speX9ChFXvmo-02-Dec-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "02/12/2021",
+      "CertificationExpirationDate": "02/12/2022",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "92e2d9bd-4448-40b1-b3e5-821c4f0d1339",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "48ce7580-9151-493f-8b6c-5defda7fbe11",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/1.0.2/PSA_Banco_Stellantis-Resources-api-test-private_key_jwt-pushed-plain_response-VciwtleY4qwPi-19-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "19/11/2021",
+      "CertificationExpirationDate": "19/11/2022",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "59c18d02-8d53-4088-bb8f-81d5e6b34189",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "27f7cec3-ea07-481a-98d9-a90f9fd62e25",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "b36318fc-efb1-45aa-92a2-f001f03506e8",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "c3ffb509-77bc-4409-a0cf-a7fd789a5bfe",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/03502961_API%20Test%202.0.1_business_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "31/10/2022",
+      "CertificationExpirationDate": "31/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "aa5cd444-0bc6-401d-abad-2bc021acd9e4",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e4fba3e2-b8a8-49af-bb2b-a94772f8b81d",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "06c40548-4533-499a-bb1e-60c963dfd533",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "3afc2dca-7da2-4aff-a1af-bab42eb4c972",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "79c2e761-6ae7-4436-ba08-a295460961a5",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "11640193-6cc9-4ba5-a16d-bf02621f2323",
+          "ApiEndpoint": "https://matls-api-openfinance.bancopsa.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/1.0.4/PSA_Banco_Stellantis-Financings-api-test-private_key_jwt-pushed-plain_response-xR8IxjXUTsf67-08-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "24/11/2021",
+      "CertificationExpirationDate": "24/11/2022",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "2387252c-4384-4948-a918-1a64a077c37a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d5e2f677-0c9f-4a91-89f8-27362beb5c9f",
+          "ApiEndpoint": "https://psa.api.santander.com.br/open-banking/channels/v1/branches"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "Presente no Brasil desde 1999, o Banco PSA disponibiliza uma grande variedade de produtos e serviços para que os clientes possam realizar seu sonho de ter um carro e dirigir os veículos das Marcas Peugeot, Citroën e DS.",
+  "CustomerFriendlyLogoUri": "https://www.bancopsa.com.br/media/1091/open-finance-logo.svg",
+  "CustomerFriendlyName": "Banco PSA Finance Brasil S.A",
+  "DeveloperPortalUri": "https://developers.bancopsa.com.br/",
+  "TermsOfServiceUri": "https://www.bancopsa.com.br/naoseaplica.html",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://auth-openfinance.bancopsa.com.br/.well-known/openid-configuration",
+  "Issuer": "https://auth-openfinance.bancopsa.com.br",
+  "PayloadSigningCertLocationUri": "https://auth-openfinance.bancopsa.com.br/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

@@ -1,0 +1,534 @@
+{
+  "OrganisationId": "e5b51083-adc2-5775-b0fc-02b263b1c40d",
+  "AuthorisationServerId": "b643fac9-f432-4c67-9e81-cc006c37b1e6",
+  "AutoRegistrationSupported": false,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "6e09c096-55ca-42f6-ad09-f667a50101d3",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "071c000a-05bd-4121-a891-831b74b31454",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Resources-api-test-mtls-pushed-jarm-aVFw5FG336KPM-13-Dec-2021.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "86a0a9e9-311e-4a61-804a-6220a43d73a7",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3346c1eb-0854-4391-80d2-7028090037b7",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "8e7affb2-c18d-45c0-85a4-bf9ca28b840d",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "4fe07289-f767-4b37-98ec-9812f5482d96",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "a16e47ce-da2b-4b49-b41b-93342110bbc3",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "81502ae2-676f-4455-ad6f-2d2e0fed2330",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/financings/1.0.4/Financings-api-test-mtls-pushed-jarm-6IrMzm81dGnlu-13-Dec-2021.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "dd96178f-e4dc-4743-9b76-ee0fd344c5ea",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7a51bba1-6729-4f68-9eb6-a33167e86500",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "a469a8d2-9dd1-44e8-97da-b1a5ea5d181a",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "8944b831-eb6c-4eb0-9cfe-38944129f668",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "3d9df968-ba38-44cf-8ce8-01397537dfa0",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "151028f3-1369-476e-ba2d-c776e55ef48e",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "598d4a00-fbd7-4726-95b6-bccb338866a0",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.0.1/35977097_Up.p%20Open%20Banking%201.0_accounts_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "3a8be647-8c6e-4209-a826-c70b5b0e73dc",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "650d98d2-b4de-4ac2-8369-e87443c290d3",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "038fbfe7-ec49-428d-ada2-8d77a05e2fa0",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "266b2cfe-92b3-49aa-b843-23d0c872a4c9",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/35977097_Up.p%20Open%20Banking%201.0_business_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "ea347df9-df1d-45cd-bc85-82863cdd25c1",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "244f38f0-3603-4d3f-9893-da29904f30cb",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "7d0c75ec-a54f-4e83-bc6d-7e4017917628",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "556cc7a1-5ff8-4557-8fce-39c4a260bcac",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Personal-Customer-Data-api-test-mtls-pushed-jarm-KYN4BECz0pcvc-13-Dec-2021.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "59f6e494-4155-4769-8a59-a0b4ec2bf9b8",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "850f4390-7b36-47c7-934d-3bf2700b38fc",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "4ef2eac0-fe58-4860-8ffb-02cbad2ce7fa",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "a5d819c6-03ac-4155-a5a7-473518709701",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "a4772983-ba55-439f-9406-98d47a976237",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "016c9ad3-a1b0-473e-834f-b1521ed19d40",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/35977097_Up.p%20Open%20Banking%201.0_loans_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "02e36778-4426-4dd2-9817-8d618c1356e3",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "26eb9e6f-0cab-492a-be29-86f55acda1ba",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "82122bac-8368-4556-8f9d-7110edbe61ad",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "e8d93e61-e5a0-48a3-ab65-f74ee71e537d",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "44c7a16c-9bf7-494a-b31e-4464dfd51d7f",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "7357662c-9550-436d-aca2-f74b432490c0",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "2e105c49-d766-4872-9b6e-09004be50a39",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v1/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/Business-Customer-Data-api-test-mtls-pushed-jarm-ZZscRBUU5EvYM-13-Dec-2021.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "9c4e540c-ce9f-4ea4-bce8-7435424b244c",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fb1a8be3-e92b-45ba-9145-4637eade748a",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "995c2f1a-2203-4e99-917b-fb0904920eea",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "29fa7f74-731c-4fb8-9264-501d12cd3296",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "1cd48c9a-1b3d-42ec-bfc6-a397c8cf1708",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "cfa09cde-63cc-40e9-8351-ff86e289f01f",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "be5a7a66-7f35-4353-82ab-9c91ec310323",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "42f3238f-4431-4be8-8593-f5acd62aacd3",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "53e40d97-8ea1-4d8d-986f-a9ce4e52bec7",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "2571e046-c131-4d60-b78a-053e9fbb1148",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Consents-api-test-mtls-pushed-jarm-Q9ZXbetHT0re8-13-Dec-2021.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "0794ed77-69c1-4dfa-a8a3-d747a8400cea",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1833f600-5ab6-4770-8acf-23643b017416",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "da5a8de9-eb7d-4b8c-b6ab-b0e0f58eca8d",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "4cb5a760-2c43-4097-82c1-d29cb08ddf2e",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "1930eb78-cf9a-4a88-84cd-3e782c13d256",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "e54a9363-4c00-4005-8fb0-e9e065c36224",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Loans-api-test-mtls-pushed-jarm-WBaBmxkgsFXqZ-13-Dec-2021.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "31eaa4d3-032d-41c1-80a3-6e6a574fbae5",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "bb190452-a64a-4126-8182-2c23bf552a14",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "0f27cd0e-e317-492e-8176-ca002c72a57e",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "8f57cedf-f30e-4768-b110-c2e41ceaa574",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "5c90a5ab-0d31-4bb7-8936-364054dbd7c4",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "84f4727d-7da5-4b57-8649-c329ba612d00",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/financings/2.0.1/35977097_Up.p%20Open%20Banking%201.0_financings_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "320fe169-f21f-4f09-9242-ee72074b88e5",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0aa55513-b430-409b-890a-aec79a8dbe33",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/consents/v2/consents/{consentId}"
+        },
+        {
+          "ApiDiscoveryId": "b85e0b34-c6e9-4df7-8e81-5f99fc6074a3",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/consents/v2/consents"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/35977097_Up.p%20Open%20Banking%201.0_consents_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "bd8dc1cc-3476-4a4a-81c4-26a6415d679b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "916a67b1-f89a-4ce5-a249-a72ac9673ef4",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/35977097_Up.p%20Open%20Banking%201.0_resources_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "651b7a76-269f-4811-b344-e303fa2e96bd",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "2db4a40b-afc8-41b1-898e-351a0117cbaf",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "499901d2-15bc-4063-bd85-9d2c302c0f44",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "f0ab5da1-240c-4997-8a97-d2a6b1b72d4c",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "afcb062f-ca0e-4247-824c-9d44155d4e97",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "ee143851-1d53-4565-87cb-fc425775cdb8",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Account-api-test-mtls-pushed-jarm-GpR72Ve9NRpGE-15-Dec-2021.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "87d22f56-797e-46c0-9b58-aa923817a201",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "78dfc6ad-22f2-4223-8722-41ee23bba8dd",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "ce945e7e-2c91-4715-b6ce-41c294e4934c",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "705c0836-4f16-4681-89f1-d99b63881519",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "03c45c2e-b912-41ba-9960-35928d802ac9",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "582a2c7e-eee2-4790-b497-be4ca45f9b69",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "21558b7f-c514-45d7-8a65-da08cc065ac9",
+          "ApiEndpoint": "https://open.upp.com.br/open-banking/products-services/v1/business-financings"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "b1c7a9b7-09aa-41e1-ad12-d02ea0843a52",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d7f54c90-3c5b-43c7-a784-ce0d6fe4573d",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "e94663d9-1987-4ef8-9dab-28ce7cd1d094",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v2/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "86092c6e-1697-49cb-9d42-1e9db7f54ce4",
+          "ApiEndpoint": "https://api-mtls.open.upp.com.br/open-banking/customers/v2/personal/identifications"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/35977097_Up.p%20Open%20Banking%201.0_personal_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "customers-personal"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "11/10/2022",
+      "CertificationExpirationDate": "11/10/2023",
+      "CertificationId": "97d6ffea-6b97-4be3-9d66-d457ec84a875",
+      "AuthorisationServerId": "b643fac9-f432-4c67-9e81-cc006c37b1e6",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 5,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Upp-Upp_Open_Finance-OP-BR-OB-FAPI-ADV-MTLS-11-OCT-2022.zip"
+    },
+    {
+      "CertificationStartDate": "11/10/2022",
+      "CertificationExpirationDate": "11/10/2023",
+      "CertificationId": "d0320bb9-d8c5-4dfd-ade6-24b3468a9878",
+      "AuthorisationServerId": "b643fac9-f432-4c67-9e81-cc006c37b1e6",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 5,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Upp-Upp_Open_Finance-OP-BR-OB-FAPI-ADV-PRIVATE-KEY-PAR-11-OCT-2022.zip"
+    },
+    {
+      "CertificationStartDate": "11/10/2022",
+      "CertificationExpirationDate": "11/10/2023",
+      "CertificationId": "1628f579-f414-419b-8cf8-075ddafe68b8",
+      "AuthorisationServerId": "b643fac9-f432-4c67-9e81-cc006c37b1e6",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 5,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Upp-Upp_Open_Finance-OP-BR-OB-FAPI-ADV-MTLS-PAR-11-OCT-2022.zip"
+    },
+    {
+      "CertificationStartDate": "11/10/2022",
+      "CertificationExpirationDate": "11/10/2023",
+      "CertificationId": "017a7023-24eb-47a7-aeee-2fd126373615",
+      "AuthorisationServerId": "b643fac9-f432-4c67-9e81-cc006c37b1e6",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS, PAR",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 5,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Upp-Upp_Open_Finance-OP-BR-OB-FAPI-ADV-PRIVATE-KEY-11-OCT-2022.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "A up.p é uma Sociedade de Empréstimo entre Pessoas 100% digital para que pessoas invistam em pessoas e nas ideias que movem o país",
+  "CustomerFriendlyLogoUri": "https://mais.upp.com.br/img/logo_blue.svg",
+  "CustomerFriendlyName": "Up.p SEP SA",
+  "DeveloperPortalUri": null,
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.open.upp.com.br/orgs/upp/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.open.upp.com.br/orgs/upp/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

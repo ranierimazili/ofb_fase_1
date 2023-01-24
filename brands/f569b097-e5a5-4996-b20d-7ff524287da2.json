@@ -1,0 +1,269 @@
+{
+  "OrganisationId": "0ca05092-025f-47c4-b878-4a03c150cccf",
+  "AuthorisationServerId": "f569b097-e5a5-4996-b20d-7ff524287da2",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "46bb03ab-644e-4ff9-9df9-a8b6974e9652",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e6b7ce8f-1ca1-4ac6-869e-3a58c5c99bac",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "84cdbdf0-a762-4d03-a6b9-b7972287fc8c",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "f2b940a1-5c72-4ad8-8ac4-5d3ba601a726",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "4fd9aac1-905c-447e-b1d4-76856a614545",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "2fdc19c6-4e20-420b-a572-93f3e96544d5",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/2.0.1/37763847_Geru%20Open%20Finance%20v2_personal_v2-OL_27-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "27/09/2022",
+      "CertificationExpirationDate": "27/09/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "94ac5b74-c029-4cd6-9456-1df111a9fc52",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a5e48b04-d72b-45ad-baaa-4a0b0f8bff81",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "3fb08e69-4b15-420b-89a7-e79335eb901d",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "19cb4f53-5819-4fd1-a7db-158784fca73f",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/2.0.1/37763847_Geru%20Open%20Finance%20v2_loans_v2-OL_26-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "26/09/2022",
+      "CertificationExpirationDate": "26/09/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "668976a1-786b-45f6-a11e-f0bac703bd9b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a591b0f0-cdbf-4398-9729-d853d10e6e4f",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/2.0.1/37763847_Geru%20Open%20Finance%20v2_resources_v2-OL_03-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "03/10/2022",
+      "CertificationExpirationDate": "03/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "2d7cd151-a360-4ff4-99fc-1a63c3d3b172",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "cda1ee03-a4bb-4aab-bb1b-79381eafc3e2",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/resources/1.0.2/Geru-Geru_Open_Finance-API-RESOURCES-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "693ca479-f383-4caf-a6e7-6110c914e990",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "36501670-6915-465d-be0c-9f3712388ac1",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "5bf873c7-09d0-4060-9691-0b06ef0ecfa8",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "9565d70d-f02a-4533-98fe-802d3b25e980",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "cb6bcc79-a15f-436e-a92c-f13270d37576",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "a2a0d930-1295-450f-afcd-7d1364497397",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/loans/1.0.4/Geru-Geru_Open_Finance-API-LOANS-19-Nov-2021.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "3a0784ca-14e2-439f-bc16-55b184600ece",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fd095fb9-337a-4919-bf53-b9664b6cb4ee",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "fb7a4315-fb47-443e-b5b4-08cb6a79c018",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "38465deb-b846-4bff-8580-f55aa3f3e928",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "dac8df8f-51f6-45ad-9c5a-cb4a2119aa7b",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "8d55dc16-99d5-41c8-a242-ce18784e76fb",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "86d191f6-8ca0-4c83-a0ae-91a1ce163961",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "573df41d-4eb8-4b68-987b-e076a886503f",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "0ac709bc-266e-4469-a953-1fe15ab8f75f",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "ca3a9927-c15d-42e9-8392-9e32278f007d",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/personal/1.0.3/Geru-Geru_Open_Finance-API-PERSONAL-CUSTOMER-DATA-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "c074f16a-2593-45f1-8432-893505f7d085",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b48f66a1-cc4a-48f1-a9f3-dfc457357a6e",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "8a251e49-3d17-4d1c-9a71-c064eb913cd6",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/2.0.1/37763847_Geru%20Open%20Finance%20v2_consents_v2-OL_26-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "26/09/2022",
+      "CertificationExpirationDate": "26/09/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "7879544c-eb1a-43f6-817f-cacc5455c0ba",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0c58aabd-f684-4f92-ad60-91fd707d3823",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "0dec605a-1f4f-4679-8a11-83fc60e75994",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/consents/1.0.3/Geru-Geru_Open_Finance-API-CONSENTS-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "6f4093ec-de9b-4357-ae8c-f20f29547d70",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "104fff6d-4d82-42cf-a3f6-f9320b5b6127",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "0b3521a2-516b-4c10-9189-71db9f4dbc75",
+          "ApiEndpoint": "https://api.platform.open-co.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "A Geru SCD atua desde 2022 como instituição financeira para a Geru.com.br, que possui o papel de correspondente bancário, oferecendo aos clientes oferta de crédito pessoal.",
+  "CustomerFriendlyLogoUri": "https://s3.amazonaws.com/prd.asset.platform.open-co.com.br/logo.svg",
+  "CustomerFriendlyName": "GERU SCD",
+  "DeveloperPortalUri": null,
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://openfinance.platform.open-co.com.br/orgs/openco/.well-known/openid-configuration",
+  "Issuer": "https://openfinance.platform.open-co.com.br/orgs/openco",
+  "PayloadSigningCertLocationUri": "https://openfinance.platform.open-co.com.br/orgs/openco/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

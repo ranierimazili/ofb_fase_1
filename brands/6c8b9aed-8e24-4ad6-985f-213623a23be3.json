@@ -1,0 +1,757 @@
+{
+  "OrganisationId": "0da3f6e5-a748-55d1-b39f-1653df146729",
+  "AuthorisationServerId": "6c8b9aed-8e24-4ad6-985f-213623a23be3",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "d60edf54-a512-49fc-a614-04f7a1e2fdea",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "11efbd36-adac-4f6d-9cd2-e0a1cdb4a323",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "0c253212-de19-413e-84a6-7c5cddd57475",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "45774721-1f38-4637-9861-79753a39e483",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "352a1722-258c-456a-8b9e-787f38b51ae0",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "48cbf241-e5d9-4df9-a36d-4db7db64456b",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "36c198b7-e838-4caf-830b-6d49c328aed0",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "8fff708f-173a-40c6-9992-3e393ea73e55",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Confederacao_das_Cooperativas_do_Sicredi-Confederacao_Sicredi-Open_Banking_1.0.2_Resources_API-06-Ago-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "c4f4fdee-f668-45c8-8690-d91c75d63632",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "84323d03-7157-47de-b5be-f46606dfe8f6",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "7ef95549-df73-43f5-9587-9942aa469c40",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "58b6675e-d7ce-4e0d-a0e4-98c70fc2c7f9",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/personal/2.0.1/01181521_Open%20Finance%202.0.1_personal_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "b38eade9-ad2a-4b14-82ae-9ad2ff35956f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ff354c73-e7f7-4f4b-8798-42a0aefb0c2f",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "73cb2fe5-b9cc-434a-81c7-576b5ff98e1f",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "e87c09c0-f491-4291-9220-9f6227ea9f20",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "37f3bb02-b2db-46bc-8849-e7576004c06a",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "87683a04-022f-4b94-bced-86007bae055b",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/financings/1.0.4/Confederacao_das_Cooperativas_do_Sicredi-Confederacao_Sicredi-Open_Banking_Financings_API_1.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "5c413165-5a6b-4dff-b3ab-b38e3392129a",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0a254293-a5b4-4c44-9e64-0e3e3eb64e06",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "48d0553a-5160-43a1-b113-a5337d56fd82",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "d6fbfc66-9881-4754-9d4c-baa06482821b",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "d351eba9-7ffd-40b9-a34b-19491e72f14f",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "b01f5758-59fc-4112-a0b0-e693f318b96c",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/invoice-financings/2.0.1/01181521_Open%20Finance%202.0.1_invoice-financings_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "cbfc032b-0ee2-4811-81c5-84e014192aee",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a586a4d0-d94d-49c4-acaf-6fb9835b2938",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "35684e70-a890-4ec1-882a-df7d9e89ddcf",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "27db332f-ab40-4b2c-871d-902cb2ec3723",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "c554dc86-74a8-4a21-8559-55eb8b31d129",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "5544c276-1df1-473c-8f41-5aec3e45bea2",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Confederacao_das_Cooperativas_do_Sicredi-Confederacao_Sicredi-Open_Banking_Loans_API_1.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "57b07761-e046-48f2-b78a-3da8f008f84b",
+      "ApiVersion": "1.0.4",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1ab20a45-6f03-4ed3-8580-98b8204e9a1c",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "5d169c64-960d-40c3-bb85-a74728542079",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "d15f414a-fd13-4b63-83d7-266506f74f8b",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "f67d9b7c-ac6a-4ee6-bc75-13f058ce44ef",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "1c591c45-da84-467f-8012-53f77551946c",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "36292d21-10ab-493d-81d7-bb82353d3001",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v1/accounts"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Confederacao_das_Cooperativas_do_Sicredi-Confederacao_Sicredi-Open_Banking_1.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "af3afc3d-a519-46c9-bf78-9609b221eaac",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "13295f25-8230-4fba-a6ad-dc3e2529b7ba",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "9433b414-9bac-4e02-bfae-44877e9a3dbd",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "219429cc-6f58-4483-b582-19f949d937f2",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "002521c8-c1c5-407a-8f02-9018b55f1000",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "a5346724-d460-4801-a6be-1a85696867e7",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c0125cee-19cf-417e-be01-867856defe30",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "213b717c-039e-4a70-b72a-0118c9e41683",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "3aa29fde-8cc8-44e4-8c0e-30a5acf5fe4c",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "0a324ae7-bdb7-4ac5-9cc7-6e02f78d3ace",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "7b979323-c630-4048-8a08-dd36d1129afe",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "195bb530-d0ae-4ef8-90e8-3bd610a54a41",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "c0d4c4f1-c466-43c3-992b-9173225a0949",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "13cbee02-8d51-44d6-b679-2068a72b93a9",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "69b2c8a2-3ac0-48c4-b198-701f0e8d11f0",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "3621004d-b18c-4367-bdf0-9472364d1638",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "5ec02b6e-0983-4f30-8745-cc911bb350a4",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "181c641d-f98a-4e96-b1ea-2b66829058e2",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "1b433014-fc68-4d90-bf16-df02716a3f3b",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5c481092-874b-47f9-923c-1cd2f59f3ac0",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "6d26a55a-82aa-4b48-910a-5397a2961d08",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "af3379b5-ec57-4abc-9fa9-943d5f4e7450",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "9db9f1ad-6d20-494e-80ae-4752ef478ae0",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "f80e9424-f031-4779-bbe1-fd3ea8c5da49",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/financings/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/financings/2.0.1/01181521_Open%20Finance%202.0.1_financings_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "7ccd5b1f-ef41-4aae-8c4e-0cbe2742f983",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "dabb1550-b405-4780-bf20-289aba747c32",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "49bdbd25-f245-4d47-9e9f-e600af15a2f0",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "4d465600-dc89-4a9c-a135-b517075fb4ad",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "1f1ec990-a934-4592-b8fb-2fe99d436fdd",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "4b89292e-ec9f-4504-94d3-9ab34a40abac",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "d1bcc15f-00ac-494a-be6c-336399c06eee",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "240a1fc0-f5be-4b8e-b02e-94244dd2289e",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/credit-card/2.0.1/01181521_Open%20Finance%202.0.1_credit-card_v2-OL_03-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "03/10/2022",
+      "CertificationExpirationDate": "03/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "0527ee27-4cb9-4891-ae2d-194c030e1acf",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a4d6a3d9-2023-40c2-a952-537faba164a1",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "44e537cf-d033-4b66-b3b3-1a203d62a779",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "97beadb8-5274-4abd-8cd4-5143dc925932",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "c2722c10-23b3-4d2d-b0eb-017b560e691c",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "e5358cea-9a9e-4d15-9905-381a603d8ba9",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "4224307c-6b19-44b6-8def-147468e6b0af",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/accounts/2.0.1/01181521_Open%20Finance%202.0.1_accounts_v2-OL_06-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "06/10/2022",
+      "CertificationExpirationDate": "06/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "2c967234-d41e-4cc6-bc74-e76a62b70e79",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1ed664d4-78ea-40d0-b8cc-957aa2983722",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "1253c974-5257-41de-86c4-e9e39c0d3f7e",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "c534f4ac-a392-47a0-89ca-0b6e5825c425",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c1a0fdb1-2e84-4c60-b9b5-af8a701c91b0",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "d8166681-7fb7-47a7-bb2f-f54599f98c0a",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Confederacao_das_Cooperativas_do_Sicredi-Confederacao_Sicredi-Open_Finance_1.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "ef665620-dced-4d9b-b1a6-c7743fea37e0",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "db1e6e5e-8126-4fa1-be8a-b4d7a28f305b",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v1/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "5738bafc-cb71-42c7-b36d-877a9f289b9d",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "aea9cc8c-c1ef-4d35-9194-cb00fac4899c",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v1/business/identifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "aa5904e8-6843-43aa-b23d-ac163377e781",
+      "ApiVersion": "1.0.3",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c8bc44b7-21d6-4724-8f56-02f9428d8c87",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "9f623a9d-07b7-4f90-825c-b1f89b8b3ac9",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "c53bb42a-6de3-4ab1-a08a-f2d9ddcd9ecf",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "bb769824-d41e-4828-80a6-760c887dc213",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a0f57b15-1b7d-44bc-b3e0-5ad44bb9961a",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/resources/2.0.1/01181521_Open%20Finance%202.0.1_resources_v2-OL_03-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "03/10/2022",
+      "CertificationExpirationDate": "03/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "139eec56-021b-4466-b1e0-5681a3a6434f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "617df9cd-8714-4554-a4f9-8d3c946b2fbf",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "643a7ee6-015c-430f-a94b-ac7ac9545961",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "3ddd4660-a55e-4042-bcf5-58eaaf4396ec",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "e4a843b6-5583-4601-93fd-c0f9e9161974",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "cebc206e-5a9a-4480-a6cd-c0412a98fc37",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/unarranged-overdraft/1.0.4/Confederacao_das_Cooperativas_do_Sicredi-Confederacao_Sicredi-Open_Banking_Unarranged-accounts-overdraft_1.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    },
+    {
+      "ApiResourceId": "cb684fbb-fbb3-4381-afa3-c51c300fc238",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d5dcfc71-a0b2-491c-b7d8-8a5f1578dd37",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "2b745c06-e8f0-4e4d-abee-cb27b3016f18",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "e3e3ea36-7347-4366-a194-581091c509e7",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "d6eadda4-49a1-4ff2-8459-91a16909616f",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "15957dde-9f76-4e7b-badd-e08cdf4b9ffe",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/loans/2.0.1/01181521_Open%20Finance%202.0.1_loans_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/09/2022",
+      "CertificationExpirationDate": "30/09/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "00d9b613-344e-478a-8cf5-fc8d7a176784",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "12a74cc0-6c40-4d65-a257-9955ca1f3491",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "95ed2416-2560-49e8-8b1b-8020a8e6d9bd",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9661e16d-423a-4f67-ad86-f48c06e01416",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "7ad73b06-c74c-4a93-b48b-2af0844096ac",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "1bca099a-44c4-422b-9d4d-3314c383430b",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "aedec643-4d56-462f-ad2f-d29b33e9ee30",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "250065ca-e0a6-4d82-aba1-8b2c11e203f3",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/invoice-financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/invoice-financings/1.0.4/Confederacao_das_Cooperativas_do_Sicredi-Confederacao_Sicredi-Open_Banking_Invoice-financings_API_1.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "invoice-financings"
+    },
+    {
+      "ApiResourceId": "80ae2ce1-0983-426a-aaa4-74f677b6387a",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1f60bcbe-13d4-47a5-a678-ced557fd01a7",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "49fabe5b-58c5-4e2f-b80d-2c91e2a44366",
+          "ApiEndpoint": "https://api.sicredi.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "e69d9146-83ea-4356-8670-4be76685af84",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "9fc9dbf5-c07d-4b59-9fb7-f3fba2be4dfc",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "c670369d-0fac-4421-93d5-e2a1e3698ed3",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/consents/2.0.1/01181521_Open%20Finance%202.0.1_consents_v2-OL_30-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "30/09/2022",
+      "CertificationExpirationDate": "30/09/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "8f402140-190c-41a8-8b86-b27af0a8b1dd",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "03c9c5e1-b860-4224-8b62-1e089393c626",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        },
+        {
+          "ApiDiscoveryId": "a1cb6049-8639-4586-9562-b5abca36dfd5",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/payments/v1/pix/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Confederacao_das_Cooperativas_do_Sicredi-Confederacao_Sicredi-Open_Finance_1.zip",
+      "CertificationStatus": "Awaiting Certification",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "5e529281-a4a2-43eb-bbf8-3c5a35de7857",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1c4e251e-38ee-4ccf-b640-6a3fd3004bfc",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "58906d01-a3d7-4a6c-8f50-b35ee344e5dc",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "554bd422-fd38-4554-9521-4558167bb133",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/business/2.0.1/01181521_Open%20Finance%202.0.1_business_v2-OL_28-09-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "28/09/2022",
+      "CertificationExpirationDate": "28/09/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "06cc40e5-b149-4b2e-a27e-fd6c3bd07083",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "47f72041-3133-4659-ab7a-324f97e7af96",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "0af29f30-e71f-4a1a-af32-8f9844c0c9c8",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "dec7694b-1c9c-4cd3-82e2-6e22b5d414f7",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "795ee48c-301e-4b2d-ab42-85f8f8951183",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/scheduled-instalments"
+        },
+        {
+          "ApiDiscoveryId": "2dec7cbb-788b-4c80-a412-b56baebe7ab6",
+          "ApiEndpoint": "https://matls-api.sicredi.com.br/open-banking/unarranged-accounts-overdraft/v2/contracts/{contractId}/payments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/milad-raidiam/conformance/blob/fde622f71bd5aa858c7b91fd4a948162aa177b49/submissions/functional/unarranged-overdraft/2.0.1/01181521_Open%20Finance%202.0.1_unarranged-overdraft_v2-OL_03-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "03/10/2022",
+      "CertificationExpirationDate": "03/10/2023",
+      "ApiFamilyType": "unarranged-accounts-overdraft"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "O Sicredi é uma instituição financeira cooperativa, há 120 anos valorizando o relacionamento, o crescimento em conjunto e a participação nos resultados. Facilitamos sua rotina com um atendimento próximo e soluções para você, sua empresa ou agronegócio.",
+  "CustomerFriendlyLogoUri": "https://www.sicredi.com.br/openbanking/app/assets/images/shared/logo/logo_sicredi_512.svg",
+  "CustomerFriendlyName": "Sicredi",
+  "DeveloperPortalUri": "https://developers.sicredi.com.br",
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.sicredi.com.br/jans-auth/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.sicredi.com.br/jans-auth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

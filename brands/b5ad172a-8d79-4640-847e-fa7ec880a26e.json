@@ -1,0 +1,153 @@
+{
+  "OrganisationId": "12b75f0d-43f5-54fb-a292-36da6141fceb",
+  "AuthorisationServerId": "b5ad172a-8d79-4640-847e-fa7ec880a26e",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "4026aa46-d224-44c6-bc00-2b1fbe27aed4",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "d7fc20d7-0ea0-4609-83d2-b989e4ab8013",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "7df76189-6bcf-4d74-836e-16d76c6f082c",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "5f1ad2a5-b82d-4ba2-9318-be0bdd4e7fd0",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c9cc86ef-5210-4be5-b32c-18c438ed85e7",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "391a808b-96f4-46c8-a101-072b309e938d",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "56d287e7-4cc4-480d-8f54-5abbdfd12bde",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "4bd96bd7-a0fb-4b47-9cb3-b4fcbe5a66d6",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "a202cca6-6c31-463e-8571-59970d76e52a",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "abecef9d-2b45-46d2-8042-0a19e4d0a3b3",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "91fc2202-285b-48ca-8bca-227bc79a4214",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "63c029bf-62bc-496a-86fa-1a4c856b1df3",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "5c1bf617-e969-4800-bdcf-bc5cf0acba50",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "31f7958c-6f1d-4852-a54f-cd36334cf935",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "a5b886d3-9ceb-40f2-8eac-38e435e83b46",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "818ae671-7768-4941-889f-d94ced47697e",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "30d2235d-7690-4ea9-88a0-b953de4d72be",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "df86fcc5-2d3c-4937-b26f-1dc6e4f7871b",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "20035305-f3e3-461d-b342-3c779447be52",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "7bcfb0c0-16b9-489a-89bc-5dc0715e0025",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "64e91b7d-d03c-4ead-a612-ea80260c3083",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "9fc435e0-55db-47ba-bc83-e25e57dfb7cf",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "1d62a65d-9007-4d09-b270-83d4e370afd0",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "7d774ec0-1a7e-45b6-8292-3c802d2aac1e",
+          "ApiEndpoint": "https://api.sulcredi.coop.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "A Sulcredi/São Miguel, é uma cooperativa de crédito independente que atua desde 2006, presta atendimento ao sócio com agências nas cidades de São Miguel do Oeste, Paraíso, São José do Cedro, Iraceminha, Flor do Sertão e Maravilha.",
+  "CustomerFriendlyLogoUri": "https://api.sulcredi.coop.br/logo.svg",
+  "CustomerFriendlyName": "SÃO MIGUEL DO OESTE",
+  "DeveloperPortalUri": "https://api.sulcredi.coop.br/open-banking/naoseaplica",
+  "TermsOfServiceUri": "https://api.sulcredi.coop.br/open-banking/naoseaplica",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.sulcredi.coop.br/open-banking/naoseaplica",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.sulcredismo.com.br/open-banking/naoseaplica",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

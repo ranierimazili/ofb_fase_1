@@ -1,0 +1,168 @@
+{
+  "OrganisationId": "d96d6def-7f8f-5623-b15a-0bb5910920d1",
+  "AuthorisationServerId": "4461caea-0ec0-4f90-a3f6-016d17b62f55",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "46639025-afea-47a0-851e-d4a32bce2352",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b6859d97-9c85-497c-899a-7478965b5082",
+          "ApiEndpoint": "https://api-open-finance.cielo.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "ecd7f8f6-3257-4fc3-9097-5f3d88e1b601",
+          "ApiEndpoint": "https://api-open-finance.cielo.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "8ca27988-41fd-4cae-add9-63f2ef072c81",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4e4c29f2-1b79-4607-a0a4-0707c9cc40a7",
+          "ApiEndpoint": "https://api-open-finance.cielo.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "8735abad-83fa-4904-b3d4-004ea2da625a",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c84cd3a5-8952-4add-b1f7-ddde026b672c",
+          "ApiEndpoint": "https://api-open-finance.cielo.com.br/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "bf79fa33-9203-406b-88d8-32b12becc641",
+          "ApiEndpoint": "https://api-open-finance.cielo.com.br/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "56bc9c96-2992-4a13-acf3-15a14616188b",
+      "ApiVersion": "1.0.2",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6bb98663-6c12-4d49-bd48-974cc9c56db7",
+          "ApiEndpoint": "https://api-open-finance.cielo.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "a8d7f068-6245-4487-adb0-1fa02f68e376",
+          "ApiEndpoint": "https://api-open-finance.cielo.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "85d495d1-bb31-4beb-a846-9fae8fa72a77",
+          "ApiEndpoint": "https://api-open-finance.cielo.com.br/open-banking/channels/v1/branches"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": null,
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "eaa94056-2e7c-461c-ae30-2dd02ff1ff31",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "69f0ca0e-ca95-46eb-93cd-d31bfa307fbf",
+          "ApiEndpoint": "https://mtls-api-open-finance.cielo.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "3e3a8753-b27d-464b-8cef-d96c2397abb5",
+          "ApiEndpoint": "https://mtls-api-open-finance.cielo.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Cielo-Payments_API_-_INIC_DICT_MANU_QRES_QRDN-mtls-by_value-JG3WQPDl5qFKM-15-Dec-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "21/12/2022",
+      "CertificationExpirationDate": "21/12/2023",
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "004371b4-27c8-431b-bca3-5bd21035a0cb",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "195a608f-29e7-478c-b43f-70ec7ed2f703",
+          "ApiEndpoint": "https://mtls-api-open-finance.cielo.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "2e2aefc1-ed6a-411a-b5ce-1a2bd43a82e5",
+          "ApiEndpoint": "https://mtls-api-open-finance.cielo.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Cielo-Payments_API_-_INIC_DICT_MANU_QRES_QRDN-mtls-by_value-JG3WQPDl5qFKM-15-Dec-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "21/12/2022",
+      "CertificationExpirationDate": "21/12/2023",
+      "ApiFamilyType": "payments-consents"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "07/12/2021",
+      "CertificationExpirationDate": "07/12/2022",
+      "CertificationId": "39dff4c2-3de1-486c-b3cf-a5970faf3d24",
+      "AuthorisationServerId": "4461caea-0ec0-4f90-a3f6-016d17b62f55",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/12/CIELO-CIELO_Open_Banking-BR-OB-Adv-OP-MTLS-07-Dec-2021.zip"
+    },
+    {
+      "CertificationStartDate": "07/12/2021",
+      "CertificationExpirationDate": "07/12/2022",
+      "CertificationId": "2fcc70f6-0778-4a50-9a1e-b76977b331aa",
+      "AuthorisationServerId": "4461caea-0ec0-4f90-a3f6-016d17b62f55",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/12/CIELO-CIELO_Open_Banking-BR-OB-Adv-OP-DCR-07-Dec-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "A Cielo é uma empresa de tecnologia e inovação, líder no segmento de pagamentos eletrônicos em toda América Latina, oferecendo soluções que contribuem com os mais de 1,5 milhão de clientes ativos, do pequeno empreendedor ao grande varejista.",
+  "CustomerFriendlyLogoUri": "https://www.cielo.com.br/_nuxt/img/logo_footer.6eaf9b6.svg",
+  "CustomerFriendlyName": "CIELO",
+  "DeveloperPortalUri": "https://desenvolvedores.cielo.com.br",
+  "TermsOfServiceUri": "https://www.cielo.com.br/termos-condicoes-de-uso/",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api-open-finance.cielo.com.br/jans-auth/.well-known/openid-configuration",
+  "Issuer": "https://api-open-finance.cielo.com.br/jans-auth",
+  "PayloadSigningCertLocationUri": "https://api-open-finance.cielo.com.br/jans-auth/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

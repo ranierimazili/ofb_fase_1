@@ -1,0 +1,562 @@
+{
+  "OrganisationId": "709138dd-6e9d-5f96-bfff-69a5b2cb3ec0",
+  "AuthorisationServerId": "bfd95599-61c0-45ca-90cb-5d6e71d4cf9a",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "06553f2a-2fd1-4c1b-ba00-f36966c3b6b5",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "742c857a-943e-405c-9728-be69c44bc2ae",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "21d93237-1e71-4e05-9aea-8d6d4d3ca80f",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Banco_Safra_SA-Safra_Open_Banking-API-PAYMENTS-private_key_jwt-10-nOV-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/11/2022",
+      "CertificationExpirationDate": "10/11/2023",
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "d630023c-1203-45c1-9dbc-857c99d9369d",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4e358e49-1296-4ba9-88cb-6e854d7c29cd",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "8fb14f5e-335a-4b3f-bfcf-5bed388988f8",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "a101de84-2949-4609-8c0c-34017a02a2bc",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "71394f72-1cf2-4472-ac9d-061846273e32",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "5941db2a-4ddf-4f91-88fd-86939eb163c9",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "9168b2c9-21f7-491a-8262-19b3b74729a3",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/transactions-current"
+        },
+        {
+          "ApiDiscoveryId": "dbe04eab-3793-4990-b59f-295656f6c9da",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v2/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/a383f0944dfcca75f927f45fb612130333b5e860/submissions/functional/credit-card/2.0.1/58160789_Safra%20Open%20Finance%202.0_credit-card_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "1e98dfb0-cbdb-499c-95e5-49c0366aa584",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "4be5fcfa-bd2d-4702-bcd1-d61aaad93c37",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "32571375-a298-430e-8037-19454042c836",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "84515473-2984-4a2c-b4fa-04f32170e1ba",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/customers/v1/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "2ae4aed7-010c-411a-b48c-388e0da19147",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "52157b4b-317d-4761-a116-6c1f81112330",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/customers/v1/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Banco_Safra_SA-Safra_Open_Banking-API-PERSONAL-CUSTOMERS-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "7ebebf6d-3f6a-482e-920c-3fa881954b13",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "308c7d19-9ea3-4dc4-a69f-e31598c87b9b",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "fe0680b8-9096-4937-90b9-8074c86a24f2",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "3ca4fa3f-9cd2-4990-9ef4-2336c99cda7f",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}"
+        },
+        {
+          "ApiDiscoveryId": "176b7d0b-602e-47f8-bb05-ed82ccbbb84e",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/limits"
+        },
+        {
+          "ApiDiscoveryId": "fa4e345a-0d5e-41f5-9e33-bd74fce58b3b",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills"
+        },
+        {
+          "ApiDiscoveryId": "5a9d9c68-e190-43aa-bd76-d69a6f886b72",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/credit-cards-accounts/v1/accounts/{creditCardAccountId}/bills/{billId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/credit-card/1.0.4/Banco_Safra_SA-Safra_Open_Banking-API-CREDIT-CARD-private_key_jwt-03-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "credit-cards-accounts"
+    },
+    {
+      "ApiResourceId": "e6c7475f-b31c-467f-beee-2c1ac0ba2dc9",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "82b4e74f-e04f-4312-8310-7e57ff256239",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "58471820-da4e-40d3-b2cd-4c808ce29503",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "e6fa79b0-e18d-4406-a4f2-711ce5f10d5b",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/personal-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "56fcea18-43a4-42e3-91b4-c8a1db6a4c01",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "e06d2685-b7af-48a6-8930-cdbf6f5548ef",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "279f3311-cf40-42a7-9006-193ff1e87931",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "b5743aa4-8685-49ec-a2ab-67bf4fccb42d",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "a19d5d37-e786-4162-91f2-4086c17b5363",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/business-financings"
+        },
+        {
+          "ApiDiscoveryId": "a247f76e-1ebc-4f8c-8795-1ec628767d7e",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/personal-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "d3315879-1022-4d3f-b7e6-a497135603c1",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/business-invoice-financings"
+        },
+        {
+          "ApiDiscoveryId": "d1dfffa2-b31b-483f-b3d0-d968b7751476",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/personal-unarranged-account-overdraft"
+        },
+        {
+          "ApiDiscoveryId": "50f54961-bf3a-4bc5-9bfb-85aec288dfa7",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/products-services/v1/business-unarranged-account-overdraft"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "3f1e5237-8e06-4a8f-aeba-6cb1b03bb6e2",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b0338240-c8f3-4250-ba82-ea720b383491",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "f2fe03ef-d226-4c42-9e3f-7e009e8393c4",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "37721083-981d-4dff-a395-48da13f8472f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fb2e2b05-f423-4a10-9432-f9e2d9384666",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v1/accounts"
+        },
+        {
+          "ApiDiscoveryId": "b5a7bc3c-3dd4-43c6-a52c-f08d729f140c",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v1/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "7f9817b7-e897-418b-b4ba-21abee30c325",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v1/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "35632c12-944b-4390-b5d7-08b76a8717e8",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v1/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "6b11a7bd-3873-414d-a2f7-d1022ac3416b",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v1/accounts/{accountId}/transactions"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/accounts/1.0.3/Banco_Safra_SA-Safra_Open_Banking-API-ACCOUNTS-private_key_jwt-03-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "6a0aecae-6b33-490a-9a46-f548507638ed",
+      "ApiVersion": "1.2.0",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "16972bf8-030a-46a9-b5e7-caa192eaab3f",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "47280105-9777-4cbd-b063-3e7a94e77ade",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Banco_Safra_SA-Safra_Open_Banking-API-PAYMENTS-private_key_jwt-10-nOV-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/11/2022",
+      "CertificationExpirationDate": "10/11/2023",
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "2ef5eeea-992f-4850-977f-7037cd30ef9d",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fcc20d0d-ac56-402a-bf0f-518d926f3b8c",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/a383f0944dfcca75f927f45fb612130333b5e860/submissions/functional/resources/2.0.1/58160789_Safra%20Open%20Finance%202.0_resources_v2_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "811153aa-5223-4391-90d6-712455f065a8",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "c26e50c7-d172-448d-a7e9-a4ac2d467448",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "7418de07-6c62-40b2-acaa-0cc5d2eb0448",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "012ba9bb-b0a9-41f4-bf11-e04581247c8c",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "10e2ffe3-15b9-4f46-b75b-4992ca2a8f65",
+          "ApiEndpoint": "https://api.safra.com.br/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "911daaa2-4185-4bae-9e43-cc7e0b05c583",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "31c57794-5ab8-4a0a-a7a7-48912d3bc75d",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v2/accounts"
+        },
+        {
+          "ApiDiscoveryId": "915628ed-f3c6-4bf6-9833-67f023d35c82",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v2/accounts/{accountId}"
+        },
+        {
+          "ApiDiscoveryId": "c7ac8121-a05a-4123-bfe2-5750ae5e2e93",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v2/accounts/{accountId}/balances"
+        },
+        {
+          "ApiDiscoveryId": "9cb5875b-18df-4089-96bb-6558e3001939",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v2/accounts/{accountId}/overdraft-limits"
+        },
+        {
+          "ApiDiscoveryId": "54043490-cce4-448e-b5fb-ee71e9347944",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions"
+        },
+        {
+          "ApiDiscoveryId": "7f0040f2-6ef0-4549-8009-07b769c67a80",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/accounts/v2/accounts/{accountId}/transactions-current"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/a383f0944dfcca75f927f45fb612130333b5e860/submissions/functional/accounts/2.0.1/58160789_Safra%20Open%20Finance%202.0_accounts_v2-OL_10-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "10/10/2022",
+      "CertificationExpirationDate": "10/10/2023",
+      "ApiFamilyType": "accounts"
+    },
+    {
+      "ApiResourceId": "4ababbc1-b065-4752-9261-fa5cd061f8b8",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1a8f8b30-683b-4100-ba0f-a3529b2a3d47",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "e991ea7d-eaac-4e17-9dd0-1e5e06677e42",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "3a9287e7-b702-4bbe-ad3c-eb6b1bf3b590",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "e20d17e5-2fea-4425-bb45-f15986e2c2c4",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "fcc250c8-fe5b-40a8-89e3-aff4d6bb23d1",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/a383f0944dfcca75f927f45fb612130333b5e860/submissions/functional/loans/2.0.1/58160789_Safra%20Open%20Finance%202.0_loans_v2_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "064993e4-0752-4b62-8502-73cc1b6c84e4",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "95503bb6-71f0-47a3-ba0a-daff070047c2",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Banco_Safra_SA-Safra_Open_Banking-API-RESOURCES-private_key_jwt-26-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "f2b35cdc-f159-47f8-84df-9a0b1d76bab6",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fd0d3215-3547-499a-ac6a-299274e715d8",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "da1291d1-0af8-4971-b0b5-0370dfa85976",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/a383f0944dfcca75f927f45fb612130333b5e860/submissions/functional/consents/2.0.1/58160789_Safra%20Open%20Finance%202.0_consents_v2-OL_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "91ebae49-851d-40a5-bf86-ee44cd750a38",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "51757d64-0b8b-4a50-9a7f-1f2f0cea9812",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "ded45597-7d45-4831-b115-f195852071a7",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "7e61e42e-c4f9-4855-9416-562487be9228",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/blob/a383f0944dfcca75f927f45fb612130333b5e860/submissions/functional/personal/2.0.1/58160789_Safra%20Open%20Finance%202.0_personal_v2_07-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "07/10/2022",
+      "CertificationExpirationDate": "07/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "e79b3e57-de58-44ba-a435-d5d027aab489",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "79ecd452-d169-47c6-a459-4de76a42ff22",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "d9ba62a7-5123-4cc9-9945-17f333f061a7",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "5ac1c536-73c0-47d9-a4bc-8c8ed06b9d03",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "49519e6b-f7a3-428f-a6d2-14a950a6a6e2",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "aa0b1677-791e-4ea8-9127-74a9d6a3dcac",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/loans/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/loans/1.0.4/Banco_Safra_SA-Safra_Open_Banking-API-LOANS-private_key_jwt-03-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "loans"
+    },
+    {
+      "ApiResourceId": "b9d6c9f8-25db-4604-aa66-61fd3f7df226",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "1c4275ff-27b9-4b7b-a25c-e4173cebdaf1",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "e35cd394-6de6-4363-9b78-f685ee58a2f0",
+          "ApiEndpoint": "https://api-mtls.safra.com.br/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Banco_Safra_SA-Safra_Open_Banking-API-CONSENTS-private_key_jwt-08-Dec-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "12/11/2021",
+      "CertificationExpirationDate": "12/11/2022",
+      "CertificationId": "c06f620f-9b70-4b6a-bdcf-f296b8e5320e",
+      "AuthorisationServerId": "bfd95599-61c0-45ca-90cb-5d6e71d4cf9a",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/BCO_SAFRA_SA-Safra_Open_Banking-BR-OB_Adv_OP_DCR-12-nov-2021.zip"
+    },
+    {
+      "CertificationStartDate": "31/07/2021",
+      "CertificationExpirationDate": "31/07/2022",
+      "CertificationId": "55c2b375-7567-49bc-ab96-310702de3b1f",
+      "AuthorisationServerId": "bfd95599-61c0-45ca-90cb-5d6e71d4cf9a",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/08/BCO_SAFRA_SA-Custom_Keycloak-BR-OB_Adv_OP_w_Private_Key-2-aug-2021.zip"
+    },
+    {
+      "CertificationStartDate": "17/10/2022",
+      "CertificationExpirationDate": "17/10/2023",
+      "CertificationId": "b09fa120-ebec-43e7-abf7-68b878fd2620",
+      "AuthorisationServerId": "bfd95599-61c0-45ca-90cb-5d6e71d4cf9a",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Signed payload - JWT",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Banco_Safra_SA-Safra_Open_Finance-Payments-BR-OB_Adv_OP_DCR-20-oct-2022.zip"
+    },
+    {
+      "CertificationStartDate": "17/10/2022",
+      "CertificationExpirationDate": "17/10/2023",
+      "CertificationId": "c6e173f6-f201-48df-ae3c-7c59f88fdfc2",
+      "AuthorisationServerId": "bfd95599-61c0-45ca-90cb-5d6e71d4cf9a",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ Private Key",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2022/10/Banco_Safra_SA-Safra_Open_Finance-Payments-BR-OB_Adv_OP_w_Private_Key-20-oct-2022.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "O Banco Safra S.A. é referência em tradição e segurança no mercado financeiro e oferece um portfólio de produtos e serviços completo para seus clientes.",
+  "CustomerFriendlyLogoUri": "https://www.safra.com.br/shared/assets/img/safra.svg",
+  "CustomerFriendlyName": "Safra PF",
+  "DeveloperPortalUri": null,
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api-mtls.safra.com.br/open-banking/auth/realms/SafraPF/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api-mtls.safra.com.br/open-banking/auth/realms/SafraPF/protocol/openid-connect/certs",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

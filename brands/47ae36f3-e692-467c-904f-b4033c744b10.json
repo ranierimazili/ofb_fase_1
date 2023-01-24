@@ -1,0 +1,149 @@
+{
+  "OrganisationId": "bb01915d-f4c1-5287-8d69-1ffb518d08e3",
+  "AuthorisationServerId": "47ae36f3-e692-467c-904f-b4033c744b10",
+  "AutoRegistrationSupported": false,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "f7d7e967-7cad-473a-8f60-f9237f199c4f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3c771a64-0746-4f97-b6fc-a9e1bc2c5754",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    },
+    {
+      "ApiResourceId": "7e0e995d-2662-4ba4-8be2-5113d7accea5",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "12e6775f-cfc0-4f15-ab18-93ab254f0cbd",
+          "ApiEndpoint": "https://mtls-auth.uniprimecentral.com.br/open-banking/payments/v1/pix/payments"
+        },
+        {
+          "ApiDiscoveryId": "3c645e53-2e5b-4a3c-bcea-40a26a43efa6",
+          "ApiEndpoint": "https://mtls-auth.uniprimecentral.com.br/open-banking/payments/v1/pix/payments/{paymentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Uniprime_Central-Uniprime_Central_Open_Banking_1_0_0-API-Payment-17-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "17/11/2021",
+      "CertificationExpirationDate": "17/11/2022",
+      "ApiFamilyType": "payments-pix"
+    },
+    {
+      "ApiResourceId": "27e8fdd8-6160-4a6d-b860-9bbad1d0fef9",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "fdfbd247-cd5f-4566-b39d-762e95468dff",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "a953565e-270e-4e7a-9e14-f60cdfbd208f",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "3f4da423-2e61-469a-a62c-82d51230cda5",
+          "ApiEndpoint": "https://mtls-auth.uniprimecentral.com.br/open-banking/payments/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "ab6836a1-cfe3-4660-98df-b5a8b891530e",
+          "ApiEndpoint": "https://mtls-auth.uniprimecentral.com.br/open-banking/payments/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/payments/1.0.1/Uniprime_Central-Uniprime_Central_Open_Banking_1_0_0-API-Payment-17-Nov-2021.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "17/11/2021",
+      "CertificationExpirationDate": "17/11/2022",
+      "ApiFamilyType": "payments-consents"
+    },
+    {
+      "ApiResourceId": "3e3ce839-c0e1-4030-a792-10d8eff83787",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "a04fa597-a50d-42f8-bc64-9d050764cd72",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "61ab27c0-04e0-4cb9-9f63-8bf8b2574a0c",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "63ec4d29-1122-454e-a8d6-922fc1055c6f",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/channels/v1/phone-channels"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "51f80f9d-8f13-4d01-8866-d40124dfe3af",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "7bc4ec14-02d4-4d0c-8338-3b473570be64",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/products-services/v1/business-accounts"
+        },
+        {
+          "ApiDiscoveryId": "e6500e8d-eaff-4607-8509-04d6eee8c55b",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/products-services/v1/business-credit-cards"
+        },
+        {
+          "ApiDiscoveryId": "96f45e36-ca8f-425e-b1ef-877642ef8368",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/products-services/v1/personal-accounts"
+        },
+        {
+          "ApiDiscoveryId": "e380ae6d-8295-43ad-916f-c96848d2b906",
+          "ApiEndpoint": "https://openb.uniprime.com.br/pioneira/open-banking/products-services/v1/personal-credit-cards"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "A Uniprime é uma Cooperativa de Crédito que atua há mais de 25 anos no mercado financeiro. Com foco em seus cooperados, a Uniprime preza por um relacionamento Prime, entregando valores sólidos e com segurança, através de negócios de alta performance.",
+  "CustomerFriendlyLogoUri": "https://www.uniprime.com.br/themes/oficial/images/logo-uniprime.svg",
+  "CustomerFriendlyName": "Uniprime Pioneira",
+  "DeveloperPortalUri": "https://developers.uniprime.com.br/",
+  "TermsOfServiceUri": "https://developers.uniprime.com.br/naoseaplica.html",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://www.uniprime.com.br/naoseaplica",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://www.uniprime.com.br/naoseaplica",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

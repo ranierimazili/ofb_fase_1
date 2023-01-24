@@ -1,0 +1,368 @@
+{
+  "OrganisationId": "21d26a33-f1bc-5a9e-956c-0bfe048608da",
+  "AuthorisationServerId": "1085e482-4aad-4761-9515-35f364f8f5f3",
+  "AutoRegistrationSupported": false,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": true,
+  "SupportsRedirect": true,
+  "ApiResources": [
+    {
+      "ApiResourceId": "a6c811dc-64a0-4b76-a723-3416c28120ca",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "ea99deee-b570-4f7b-b35a-515a56504aa8",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v1/contracts"
+        },
+        {
+          "ApiDiscoveryId": "c74f0c02-56a2-459b-b395-2fe1a8fd2ecb",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v1/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "08cd8f51-9ec6-4b73-ae63-13323827fc4d",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v1/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "f68e87c5-94f7-4365-a01d-bfbd9cdcbe79",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v1/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "9224e685-dd97-487b-9d3f-933469e20e70",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v1/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/financings/1.0.4/Bradesco_Financiamentos-BBFPF-API-FINANCINGS-25-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "6774d91b-9f71-472d-a63b-0a6bb85b7c1e",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "414fb03a-192f-437d-b4f9-6fc01b3bb485",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v2/personal/identifications"
+        },
+        {
+          "ApiDiscoveryId": "8a2de345-0553-4111-bc91-d946cb3e5505",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v2/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "28c24d63-698e-443f-a27a-27b18fcc78a3",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v2/personal/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/personal/2.0.1/07207996_Banco%20Bradesco%20Financiamentos%20-%20Open%20Finance%20Brazil%20v2.0_personal_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "f4d88481-539a-459b-a3e9-68dbccad5b36",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "0bd2924a-017c-4e95-b9e8-56667d7905a2",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v2/contracts"
+        },
+        {
+          "ApiDiscoveryId": "b6deb5b6-5b23-454f-905a-f125ae7ba18d",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v2/contracts/{contractId}"
+        },
+        {
+          "ApiDiscoveryId": "34c2e79f-8984-4848-8e3f-bea4992f0c63",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v2/contracts/{contractId}/warranties"
+        },
+        {
+          "ApiDiscoveryId": "fbf85325-8af4-4897-8481-aeac8824446d",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v2/contracts/{contractId}/payments"
+        },
+        {
+          "ApiDiscoveryId": "19a6a193-826b-47c4-967c-ae0702dd22c5",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/financings/v2/contracts/{contractId}/scheduled-instalments"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/financings/2.0.1/07207996_Banco%20Bradesco%20Financiamentos%20-%20Open%20Finance%20Brazil%20v2.0_financings_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "financings"
+    },
+    {
+      "ApiResourceId": "67ebc0e0-da28-4476-8573-44d78ff5469a",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "6260d711-211a-4ea0-8945-16f700f34c6d",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v2/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "4342cccd-504c-4040-bde3-fafe29c94b8f",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v2/business/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "e81196aa-cc8d-4049-8a09-9467047947b1",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v2/business/financial-relations"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/business/2.0.1/07207996_Banco%20Bradesco%20Financiamentos%20-%20Open%20Finance%20Brazil%20v2.0_business_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "eec7cc19-86a5-417b-99d9-70d7d6f3a132",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "21a36daf-4396-4efc-b4fa-409830ec4d17",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/products-services/v1/personal-loans"
+        },
+        {
+          "ApiDiscoveryId": "1fb83f46-b7b3-47a5-952d-0ea3ce5ab794",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/products-services/v1/business-loans"
+        },
+        {
+          "ApiDiscoveryId": "43b9ac37-f1fb-46f6-bbd5-da92d09334a3",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/products-services/v1/personal-financings"
+        },
+        {
+          "ApiDiscoveryId": "d853d235-2db5-450e-aff5-45563e04c2ed",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/products-services/v1/business-financings"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "products-services"
+    },
+    {
+      "ApiResourceId": "da67dcba-8356-4d93-a4ce-62828b95ba2e",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8e88479c-ada3-4762-a0d3-606a55a61238",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "77e228c3-ca78-46cf-91e5-42c972a707cb",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "baf815d2-9ede-42b1-8ae8-be71fb034efa",
+          "ApiEndpoint": "https://api.bradesco.com/bradesco_financiamentos/open-banking/consents/v2/consents"
+        },
+        {
+          "ApiDiscoveryId": "4a26205a-3ee3-4132-8f8e-71e7565b3b15",
+          "ApiEndpoint": "https://api.bradesco.com/bradesco_financiamentos/open-banking/consents/v2/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/consents/2.0.1/07207996_Banco%20Bradesco%20Financiamentos%20-%20Open%20Finance%20Brazil%20v2.0_consents_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "6183ec52-5512-4bff-8dcb-5d56e81a8c41",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "b0034ddb-fee2-4bb0-bc55-04a97e6a6010",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "ca17b135-2433-42ff-ba2c-fafaa8a88fc8",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "f637bd80-f063-46fd-9b81-8a1ddb6123b6",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/channels/v1/banking-agents"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "e706c92e-89a9-4ac0-9efa-0edbcb81c703",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "de757a8a-80f2-4617-97a4-624f8f0c4477",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/resources/v1/resources"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/resources/1.0.2/Bradesco_Financiamentos-BBFPF-API-RESOURCES-19-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "fe84fb35-f31c-41e7-9186-c74c18f4d178",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "86402b99-d62c-4635-bf74-53efff844562",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v1/business/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "9c3fcc1c-e4a8-4d1a-835d-bfcf3fde8ff0",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v1/business/identifications"
+        },
+        {
+          "ApiDiscoveryId": "fa52f296-4e1e-476a-96dc-b60785ecc25e",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v1/business/qualifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/business/1.0.3/BUSINESS-CUSTOMER.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-business"
+    },
+    {
+      "ApiResourceId": "9f62ddd3-bfe6-4de0-86d8-5751c7303ffc",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "8a15efbb-0c7d-4e2a-831f-6b83c7721174",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v1/personal/financial-relations"
+        },
+        {
+          "ApiDiscoveryId": "7f0e3d6a-062f-4df3-824f-1d901339120c",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v1/personal/qualifications"
+        },
+        {
+          "ApiDiscoveryId": "2931f30f-e0ec-41e7-96a1-456a21b6a8f6",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/customers/v1/personal/identifications"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/personal/1.0.3/Bradesco_Financiamentos-BBFPF-API-CUSTOMER-17-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "customers-personal"
+    },
+    {
+      "ApiResourceId": "a3d2fc80-745a-46bd-be96-86594c80342d",
+      "ApiVersion": "2.0.1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "e1af9386-cd92-4823-89b1-987db5bf7751",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/resources/v2/resources"
+        }
+      ],
+      "FamilyComplete": true,
+      "ApiCertificationUri": "https://github.com/OpenBanking-Brasil/conformance/raw/main/submissions/functional/resources/2.0.1/07207996_Banco%20Bradesco%20Financiamentos%20-%20Open%20Finance%20Brazil%20v2.0_resources_v2-OL_04-10-2022.zip",
+      "CertificationStatus": "Self-Certified",
+      "CertificationStartDate": "04/10/2022",
+      "CertificationExpirationDate": "04/10/2023",
+      "ApiFamilyType": "resources"
+    },
+    {
+      "ApiResourceId": "13464ea1-6bfa-45b8-83b0-352e44ce4178",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "36d594cb-4a6e-4aef-b314-645c996a8ba6",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/consents/v1/consents"
+        },
+        {
+          "ApiDiscoveryId": "aaa6fd47-21a7-4474-8981-12eaeab0f293",
+          "ApiEndpoint": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/consents/v1/consents/{consentId}"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": "https://openbanking-brasil.github.io/conformance/submissions/functional/consents/1.0.3/Bradesco_Financiamentos-BBFPF-API-CONSENTS-18-Nov-2021.zip",
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "consents"
+    },
+    {
+      "ApiResourceId": "8db9b901-c032-48e1-b466-ebe789efb579",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "80a524ba-195b-4916-8680-b7e2144be86a",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/discovery/v1/outages"
+        },
+        {
+          "ApiDiscoveryId": "0f5e9582-065e-424d-8b8b-f3e6c04470ad",
+          "ApiEndpoint": "https://api.bradesco.com/open-banking/discovery/v1/status"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    }
+  ],
+  "AuthorisationServerCertifications": [
+    {
+      "CertificationStartDate": "25/11/2021",
+      "CertificationExpirationDate": "25/11/2022",
+      "CertificationId": "21be4ab8-6232-4772-b4c0-866d9219ecf6",
+      "AuthorisationServerId": "1085e482-4aad-4761-9515-35f364f8f5f3",
+      "Status": "Self-Certified",
+      "ProfileVariant": "DCR Unsigned payload- JSON",
+      "ProfileType": "DCR",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/11/Bradesco_Financiamentos-BBF-OP-DCR-Advanced-Final-25-Nov-2021.zip"
+    },
+    {
+      "CertificationStartDate": "09/08/2021",
+      "CertificationExpirationDate": "09/08/2022",
+      "CertificationId": "6ccab31a-5594-44a6-bb8e-ccf30aac8ad8",
+      "AuthorisationServerId": "1085e482-4aad-4761-9515-35f364f8f5f3",
+      "Status": "Self-Certified",
+      "ProfileVariant": "FAPI Adv. OP w/ MTLS",
+      "ProfileType": "Redirect",
+      "ProfileVersion": 1,
+      "CertificationURI": "https://openid.net/wordpress-content/uploads/2021/08/Bradesco_Financiamentos-BBF-BR-OB-Adv_OP_MTLS-9-Aug-2021.zip"
+    }
+  ],
+  "CustomerFriendlyDescription": "O Bradesco Financiamentos oferece soluções especializadas em financiamentos de veículo para pessoa física ou jurídica. Pelo site e aplicativo, você acessa todas as informações de seus contratos, inclusive de parceiros como Harley Davidson, Jeep e Ford.",
+  "CustomerFriendlyLogoUri": "https://openbanking.losango.com.br/Openbanking/logo/bradesco-bbf.svg",
+  "CustomerFriendlyName": "Bradesco Financiamentos",
+  "DeveloperPortalUri": "https://developers.bradesco.com.br/",
+  "TermsOfServiceUri": null,
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.bradesco.com/Bradesco_financiamentos/open-banking/.well-known/openid-configuration",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.bradesco.com/bradesco_financiamentos/open-banking/jwks",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}

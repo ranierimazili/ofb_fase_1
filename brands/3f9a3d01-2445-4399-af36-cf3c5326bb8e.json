@@ -1,0 +1,93 @@
+{
+  "OrganisationId": "c7ef81e9-f8e9-54bb-a845-7439ac3f0b7f",
+  "AuthorisationServerId": "3f9a3d01-2445-4399-af36-cf3c5326bb8e",
+  "AutoRegistrationSupported": true,
+  "AutoRegistrationNotificationWebhook": null,
+  "SupportsCiba": false,
+  "SupportsDCR": false,
+  "SupportsRedirect": false,
+  "ApiResources": [
+    {
+      "ApiResourceId": "889a79d1-0355-41b9-9be6-f2c151080388",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "af6e61b4-8027-4471-aba5-64ea13d81d30",
+          "ApiEndpoint": "https://api.crediseara.coop.br/open-banking/channels/v1/branches"
+        },
+        {
+          "ApiDiscoveryId": "91c46ead-0b60-48f0-a53e-b960c2419c12",
+          "ApiEndpoint": "https://api.crediseara.coop.br/open-banking/channels/v1/electronic-channels"
+        },
+        {
+          "ApiDiscoveryId": "8abd9882-d8a4-4777-806a-51cb88263ccb",
+          "ApiEndpoint": "https://api.crediseara.coop.br/open-banking/channels/v1/phone-channels"
+        },
+        {
+          "ApiDiscoveryId": "8e535716-901f-4054-8f28-734a57d7ca07",
+          "ApiEndpoint": "https://api.crediseara.coop.br/open-banking/channels/v1/banking-agents"
+        },
+        {
+          "ApiDiscoveryId": "f2b40a8e-27d2-4d32-8d7a-496a168a75be",
+          "ApiEndpoint": "https://api.crediseara.coop.br/open-banking/channels/v1/shared-automated-teller-machines"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "channels"
+    },
+    {
+      "ApiResourceId": "b5839b0e-aeb5-44ac-9b73-a6bfdada1f23",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "acabd742-3f1a-430f-9c44-96e3bcdaf9c6",
+          "ApiEndpoint": "https://api.crediseara.coop.br/open-banking/admin/v1/metrics"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "admin"
+    },
+    {
+      "ApiResourceId": "2240bd9a-3feb-44e4-b2cf-824b5cc53018",
+      "ApiVersion": "1",
+      "ApiDiscoveryEndpoints": [
+        {
+          "ApiDiscoveryId": "12c4502a-f7c0-4fa0-8b82-07a4faa1cdcb",
+          "ApiEndpoint": "https://api.crediseara.coop.br/open-banking/discovery/v1/status"
+        },
+        {
+          "ApiDiscoveryId": "9bece32e-ad32-42cb-abe5-7c6ffc8399d6",
+          "ApiEndpoint": "https://api.crediseara.coop.br/open-banking/discovery/v1/outages"
+        }
+      ],
+      "FamilyComplete": false,
+      "ApiCertificationUri": null,
+      "CertificationStatus": null,
+      "CertificationStartDate": null,
+      "CertificationExpirationDate": null,
+      "ApiFamilyType": "discovery"
+    }
+  ],
+  "AuthorisationServerCertifications": [],
+  "CustomerFriendlyDescription": "A Crediseara, fundada em 1994, atua com diversas linhas de crédito. Disponibilizando produtos e serviços financeiros como Conta corrente, TED, Pix, Cartão de crédito/débito, Pagamento de contas, Aplicações financeiras e Sistema de recebimento de cobrança.",
+  "CustomerFriendlyLogoUri": "https://api.crediseara.coop.br/logo.svg",
+  "CustomerFriendlyName": "SEARA",
+  "DeveloperPortalUri": "https://api.crediseara.coop.br/open-banking/naoseaplica",
+  "TermsOfServiceUri": "https://api.crediseara.coop.br/open-banking/naoseaplica",
+  "NotificationWebhookAddedDate": null,
+  "OpenIDDiscoveryDocument": "https://api.crediseara.coop.br/open-banking/naoseaplica",
+  "Issuer": null,
+  "PayloadSigningCertLocationUri": "https://api.crediseara.coop.br/open-banking/naoseaplica",
+  "ParentAuthorisationServerId": null,
+  "DeprecatedDate": null,
+  "RetirementDate": null,
+  "SupersededByAuthorisationServerId": null
+}
