@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://open.upp.com.br/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/type",
+        "keyword": "type",
+        "params": {
+          "type": "array"
+        },
+        "message": "must be array",
+        "schema": "array",
+        "data": "NA"
+      }
+    ]
+  }
+]

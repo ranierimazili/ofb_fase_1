@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://api.sicredi.com.br/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/links/first",
+        "schemaPath": "#/properties/links/properties/first/type",
+        "keyword": "type",
+        "params": {
+          "type": "string"
+        },
+        "message": "must be string",
+        "schema": "string",
+        "data": null
+      },
+      {
+        "instancePath": "/links/last",
+        "schemaPath": "#/properties/links/properties/last/type",
+        "keyword": "type",
+        "params": {
+          "type": "string"
+        },
+        "message": "must be string",
+        "schema": "string",
+        "data": null
+      }
+    ]
+  }
+]

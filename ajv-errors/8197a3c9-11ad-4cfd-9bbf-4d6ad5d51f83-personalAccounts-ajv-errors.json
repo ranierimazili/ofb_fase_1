@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://api.itau/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/data/brand/companies/1/personalAccounts/0/fees/priorityServices",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/minItems",
+        "keyword": "minItems",
+        "params": {
+          "limit": 1
+        },
+        "message": "must NOT have fewer than 1 items",
+        "schema": 1,
+        "data": []
+      },
+      {
+        "instancePath": "/data/brand/companies/1/personalAccounts/0/serviceBundles",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/minItems",
+        "keyword": "minItems",
+        "params": {
+          "limit": 1
+        },
+        "message": "must NOT have fewer than 1 items",
+        "schema": 1,
+        "data": []
+      }
+    ]
+  }
+]

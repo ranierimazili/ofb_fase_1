@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://api-openbanking.bancopan.com.br/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/additionalInfo",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/additionalInfo/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 100
+        },
+        "message": "must NOT have more than 100 characters",
+        "schema": 100,
+        "data": "A abertura de conta é realizada somente via processo no Aplicativo do Banco Digital ou Whatsapp. O APP do Banco Digital é o canal para solicitação do Encerramento de contas. *temos a possibilidade da solicitação partir via central de atendimento. mas só para casos de exceção."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1916 @@
+[
+  {
+    "url": "https://resources.openbanking.picpay.com/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "incomeRate"
+        },
+        "message": "must have required property 'incomeRate'",
+        "schema": [
+          "type",
+          "fees",
+          "serviceBundles",
+          "openingClosingChannels",
+          "transactionMethods",
+          "termsConditions",
+          "incomeRate"
+        ],
+        "data": {
+          "type": "CONTA_PAGAMENTO_PRE_PAGA",
+          "fees": {
+            "priorityServices": [
+              {
+                "name": "CONFECCAO_CADASTRO_INICIO_RELACIONAMENTO",
+                "code": "CADASTRO",
+                "chargingTriggerInfo": "Consulta e validação dos dados informados para o início de relacionamento decorrente da abertura de conta de pagamento pré-paga ou contratação de operação de crédito.",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "FORNECIMENTO_2_VIA_CARTAO_FUNCAO_DEBITO",
+                "code": "2_VIA_CARTAO_DEBITO",
+                "chargingTriggerInfo": "Confecção e emissão de novo cartão com função débito, restrito a casos de pedidos de reposição formulados pelo detentor da conta, decorrente de perda, roubo, furto, danificação e outros motivos não imputáveis à instituição emitente.",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "9.90",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "1.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "TRANSFERENCIA_TED_INTERNET",
+                "code": "TED_INTERNET",
+                "chargingTriggerInfo": "Realização de transferência de recursos por meio de TED pela internet. Nas 'contas eletrônicas' não sendo cobrada tarifa para este canal de entrega.",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "TRANSFERENCIA_DOC_TED_INTERNET",
+                "code": "DOC_TED_AGENDADO_I",
+                "chargingTriggerInfo": "Realização de transferência agendada de recursos por meio de DOC ou TED pela internet. Nas 'contas eletrônicas' não sendo cobrada tarifa para este canal de entrega.",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "TRANSFERENCIA_ENTRE_CONTAS_PROPRIA_INSTITUICAO_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS_INCLUSIVE_INTERNET",
+                "code": "TRANSF_RECURSO_E",
+                "chargingTriggerInfo": "Realização de transferência de recursos entre contas da própria instituição via aplicativo eletrônico utilizando a identificação única do usuário junto a instituição. Não sendo cobrada tarifa para este canal de entrega.",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+                "code": "SAQUE_CARTAO_BRASIL",
+                "chargingTriggerInfo": "Utilização de canais de atendimento retirada em espécie no Brasil.",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "6.90",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "1.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+                "code": "EMISSAO_SEGUNDA_VIA",
+                "chargingTriggerInfo": "Confecção e emissão de novo cartão com função crédito, restrito a casos de pedidos de reposição formulados pelo detentor da conta, decorrente de perda, roubo, furto, danificação e outros motivos não imputáveis à instituição emitente.",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "ORDEM_PAGAMENTO",
+                "code": "ORDEM_PAGAMENTO",
+                "chargingTriggerInfo": "Boleto Registrado",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "3.99",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "1.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "ORDEM_PAGAMENTO",
+                "code": "ORDEM_PAGAMENTO",
+                "chargingTriggerInfo": "Boleto de Utilidades",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "3.09",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "1.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+                "code": "TARIFA_PAGAMENTO_CONTAS",
+                "chargingTriggerInfo": "Pix com cartão",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "3.99",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "1.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+                "code": "TARIFA_PAGAMENTO_CONTAS",
+                "chargingTriggerInfo": "P2P com cartão de crédito",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "3.99",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "1.0000"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "SMS",
+                "code": "SMS",
+                "chargingTriggerInfo": "Serviço de SMS",
+                "prices": [
+                  {
+                    "interval": "1_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "2_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "3_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  },
+                  {
+                    "interval": "4_FAIXA",
+                    "value": "0.00",
+                    "currency": "BRL",
+                    "customers": {
+                      "rate": "0.0000"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "serviceBundles": [
+            {
+              "name": "NA",
+              "services": [
+                {
+                  "code": "NA",
+                  "chargingTriggerInfo": "NA",
+                  "eventLimitQuantity": "0",
+                  "freeEventQuantity": "0"
+                }
+              ],
+              "prices": [
+                {
+                  "interval": "1_FAIXA",
+                  "monthlyFee": "NA",
+                  "currency": "BRL",
+                  "customers": {
+                    "rate": "NA"
+                  }
+                },
+                {
+                  "interval": "2_FAIXA",
+                  "monthlyFee": "NA",
+                  "currency": "BRL",
+                  "customers": {
+                    "rate": "NA"
+                  }
+                },
+                {
+                  "interval": "3_FAIXA",
+                  "monthlyFee": "NA",
+                  "currency": "BRL",
+                  "customers": {
+                    "rate": "NA"
+                  }
+                },
+                {
+                  "interval": "4_FAIXA",
+                  "monthlyFee": "NA",
+                  "currency": "BRL",
+                  "customers": {
+                    "rate": "NA"
+                  }
+                }
+              ],
+              "minimum": {
+                "value": "NA",
+                "currency": "BRL"
+              },
+              "maximum": {
+                "value": "NA",
+                "currency": "BRL"
+              }
+            }
+          ],
+          "openingClosingChannels": [
+            "INTERNET_BANKING",
+            "MOBILE_BANKING"
+          ],
+          "transactionMethods": [
+            "MOVIMENTACAO_ELETRONICA",
+            "MOVIMENTACAO_CARTAO",
+            "MOVIMENTACAO_PRESENCIAL"
+          ],
+          "termsConditions": {
+            "minimumBalance": {
+              "value": "0.00",
+              "currency": "BRL"
+            },
+            "elegibilityCriteriaInfo": "https://www.picpay.com/app_webviews/terms/",
+            "closingProcessInfo": "https://meajuda.picpay.com/hc/pt-br/articles/4407302956819-Como-encerro-minha-conta-do-PicPay-"
+          }
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "CONFECCAO_CADASTRO_INICIO_RELACIONAMENTO",
+          "code": "CADASTRO",
+          "chargingTriggerInfo": "Consulta e validação dos dados informados para o início de relacionamento decorrente da abertura de conta de pagamento pré-paga ou contratação de operação de crédito.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "CONFECCAO_CADASTRO_INICIO_RELACIONAMENTO",
+          "code": "CADASTRO",
+          "chargingTriggerInfo": "Consulta e validação dos dados informados para o início de relacionamento decorrente da abertura de conta de pagamento pré-paga ou contratação de operação de crédito.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "FORNECIMENTO_2_VIA_CARTAO_FUNCAO_DEBITO",
+          "code": "2_VIA_CARTAO_DEBITO",
+          "chargingTriggerInfo": "Confecção e emissão de novo cartão com função débito, restrito a casos de pedidos de reposição formulados pelo detentor da conta, decorrente de perda, roubo, furto, danificação e outros motivos não imputáveis à instituição emitente.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "9.90",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "FORNECIMENTO_2_VIA_CARTAO_FUNCAO_DEBITO",
+          "code": "2_VIA_CARTAO_DEBITO",
+          "chargingTriggerInfo": "Confecção e emissão de novo cartão com função débito, restrito a casos de pedidos de reposição formulados pelo detentor da conta, decorrente de perda, roubo, furto, danificação e outros motivos não imputáveis à instituição emitente.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "9.90",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "TRANSFERENCIA_TED_INTERNET",
+          "code": "TED_INTERNET",
+          "chargingTriggerInfo": "Realização de transferência de recursos por meio de TED pela internet. Nas 'contas eletrônicas' não sendo cobrada tarifa para este canal de entrega.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "TRANSFERENCIA_TED_INTERNET",
+          "code": "TED_INTERNET",
+          "chargingTriggerInfo": "Realização de transferência de recursos por meio de TED pela internet. Nas 'contas eletrônicas' não sendo cobrada tarifa para este canal de entrega.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/3",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "TRANSFERENCIA_DOC_TED_INTERNET",
+          "code": "DOC_TED_AGENDADO_I",
+          "chargingTriggerInfo": "Realização de transferência agendada de recursos por meio de DOC ou TED pela internet. Nas 'contas eletrônicas' não sendo cobrada tarifa para este canal de entrega.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/3",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "TRANSFERENCIA_DOC_TED_INTERNET",
+          "code": "DOC_TED_AGENDADO_I",
+          "chargingTriggerInfo": "Realização de transferência agendada de recursos por meio de DOC ou TED pela internet. Nas 'contas eletrônicas' não sendo cobrada tarifa para este canal de entrega.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/4",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "TRANSFERENCIA_ENTRE_CONTAS_PROPRIA_INSTITUICAO_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS_INCLUSIVE_INTERNET",
+          "code": "TRANSF_RECURSO_E",
+          "chargingTriggerInfo": "Realização de transferência de recursos entre contas da própria instituição via aplicativo eletrônico utilizando a identificação única do usuário junto a instituição. Não sendo cobrada tarifa para este canal de entrega.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/4",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "TRANSFERENCIA_ENTRE_CONTAS_PROPRIA_INSTITUICAO_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS_INCLUSIVE_INTERNET",
+          "code": "TRANSF_RECURSO_E",
+          "chargingTriggerInfo": "Realização de transferência de recursos entre contas da própria instituição via aplicativo eletrônico utilizando a identificação única do usuário junto a instituição. Não sendo cobrada tarifa para este canal de entrega.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/5",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+          "code": "SAQUE_CARTAO_BRASIL",
+          "chargingTriggerInfo": "Utilização de canais de atendimento retirada em espécie no Brasil.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "6.90",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/5",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+          "code": "SAQUE_CARTAO_BRASIL",
+          "chargingTriggerInfo": "Utilização de canais de atendimento retirada em espécie no Brasil.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "6.90",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/6",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+          "code": "EMISSAO_SEGUNDA_VIA",
+          "chargingTriggerInfo": "Confecção e emissão de novo cartão com função crédito, restrito a casos de pedidos de reposição formulados pelo detentor da conta, decorrente de perda, roubo, furto, danificação e outros motivos não imputáveis à instituição emitente.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/6",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+          "code": "EMISSAO_SEGUNDA_VIA",
+          "chargingTriggerInfo": "Confecção e emissão de novo cartão com função crédito, restrito a casos de pedidos de reposição formulados pelo detentor da conta, decorrente de perda, roubo, furto, danificação e outros motivos não imputáveis à instituição emitente.",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/7",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "ORDEM_PAGAMENTO",
+          "code": "ORDEM_PAGAMENTO",
+          "chargingTriggerInfo": "Boleto Registrado",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "3.99",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/7",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "ORDEM_PAGAMENTO",
+          "code": "ORDEM_PAGAMENTO",
+          "chargingTriggerInfo": "Boleto Registrado",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "3.99",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/8",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "ORDEM_PAGAMENTO",
+          "code": "ORDEM_PAGAMENTO",
+          "chargingTriggerInfo": "Boleto de Utilidades",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "3.09",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/8",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "ORDEM_PAGAMENTO",
+          "code": "ORDEM_PAGAMENTO",
+          "chargingTriggerInfo": "Boleto de Utilidades",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "3.09",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/9",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+          "code": "TARIFA_PAGAMENTO_CONTAS",
+          "chargingTriggerInfo": "Pix com cartão",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "3.99",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/9",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+          "code": "TARIFA_PAGAMENTO_CONTAS",
+          "chargingTriggerInfo": "Pix com cartão",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "3.99",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/10",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+          "code": "TARIFA_PAGAMENTO_CONTAS",
+          "chargingTriggerInfo": "P2P com cartão de crédito",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "3.99",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/10",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+          "code": "TARIFA_PAGAMENTO_CONTAS",
+          "chargingTriggerInfo": "P2P com cartão de crédito",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "3.99",
+              "currency": "BRL",
+              "customers": {
+                "rate": "1.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/11",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "minimum"
+        },
+        "message": "must have required property 'minimum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "SMS",
+          "code": "SMS",
+          "chargingTriggerInfo": "Serviço de SMS",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/11",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "maximum"
+        },
+        "message": "must have required property 'maximum'",
+        "schema": [
+          "name",
+          "code",
+          "chargingTriggerInfo",
+          "prices",
+          "minimum",
+          "maximum"
+        ],
+        "data": {
+          "name": "SMS",
+          "code": "SMS",
+          "chargingTriggerInfo": "Serviço de SMS",
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.00",
+              "currency": "BRL",
+              "customers": {
+                "rate": "0.0000"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,568 @@
+[
+  {
+    "url": "https://api-openfinance.original.com.br/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/prices/1/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/prices/1/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.1"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/14/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.099"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/14/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/14/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/15/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/15/prices/1/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00402"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/15/prices/1/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00402"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/15/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/15/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/5/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/5/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/5/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/6/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/7/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/8/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/8/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/8/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/9/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/9/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/9/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/10/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.001"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/11/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/11/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/11/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/12/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/12/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/12/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/13/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/13/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/13/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/14/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/14/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/14/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/15/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/15/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/15/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/16/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/16/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/16/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/17/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/17/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/17/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/18/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/18/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/18/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/19/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.99"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/19/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/maxLength",
+        "keyword": "maxLength",
+        "params": {
+          "limit": 6
+        },
+        "message": "must NOT have more than 6 characters",
+        "schema": 6,
+        "data": "0.00018"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/1/fees/priorityServices/19/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00018"
+      }
+    ]
+  }
+]

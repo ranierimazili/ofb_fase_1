@@ -1,0 +1,73 @@
+[
+  {
+    "url": "https://openb.uniprime.com.br/pioneira/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/minItems",
+        "keyword": "minItems",
+        "params": {
+          "limit": 1
+        },
+        "message": "must NOT have fewer than 1 items",
+        "schema": 1,
+        "data": []
+      },
+      {
+        "instancePath": "/links/self",
+        "schemaPath": "#/properties/links/properties/self/type",
+        "keyword": "type",
+        "params": {
+          "type": "string"
+        },
+        "message": "must be string",
+        "schema": "string",
+        "data": null
+      },
+      {
+        "instancePath": "/links/first",
+        "schemaPath": "#/properties/links/properties/first/type",
+        "keyword": "type",
+        "params": {
+          "type": "string"
+        },
+        "message": "must be string",
+        "schema": "string",
+        "data": null
+      },
+      {
+        "instancePath": "/links/last",
+        "schemaPath": "#/properties/links/properties/last/type",
+        "keyword": "type",
+        "params": {
+          "type": "string"
+        },
+        "message": "must be string",
+        "schema": "string",
+        "data": null
+      },
+      {
+        "instancePath": "/meta/totalRecords",
+        "schemaPath": "#/properties/meta/properties/totalRecords/type",
+        "keyword": "type",
+        "params": {
+          "type": "integer"
+        },
+        "message": "must be integer",
+        "schema": "integer",
+        "data": null
+      },
+      {
+        "instancePath": "/meta/totalPages",
+        "schemaPath": "#/properties/meta/properties/totalPages/type",
+        "keyword": "type",
+        "params": {
+          "type": "integer"
+        },
+        "message": "must be integer",
+        "schema": "integer",
+        "data": null
+      }
+    ]
+  }
+]

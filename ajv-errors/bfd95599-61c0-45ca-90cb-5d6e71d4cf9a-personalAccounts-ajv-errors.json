@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://api.safra.com.br/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "",
+        "schemaPath": "#/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "data"
+        },
+        "message": "must have required property 'data'",
+        "schema": [
+          "data",
+          "links",
+          "meta"
+        ],
+        "data": {
+          "errors": [
+            {
+              "code": "[invalid field]",
+              "title": "Falha inesperada.",
+              "detail": "Ocorreu um erro inesperado. Por favor, tente novamente."
+            }
+          ],
+          "meta": {
+            "totalRecords": 1,
+            "totalPages": 1,
+            "requestDateTime": "2023-01-23T20:09:52Z"
+          }
+        }
+      },
+      {
+        "instancePath": "",
+        "schemaPath": "#/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "links"
+        },
+        "message": "must have required property 'links'",
+        "schema": [
+          "data",
+          "links",
+          "meta"
+        ],
+        "data": {
+          "errors": [
+            {
+              "code": "[invalid field]",
+              "title": "Falha inesperada.",
+              "detail": "Ocorreu um erro inesperado. Por favor, tente novamente."
+            }
+          ],
+          "meta": {
+            "totalRecords": 1,
+            "totalPages": 1,
+            "requestDateTime": "2023-01-23T20:09:52Z"
+          }
+        }
+      }
+    ]
+  }
+]

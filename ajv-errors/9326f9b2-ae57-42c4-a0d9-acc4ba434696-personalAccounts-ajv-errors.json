@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://api.mercadopago.com/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "4.9"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/services/0/eventLimitQuantity",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/services/items/properties/eventLimitQuantity/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\d{1,6}){1}$"
+        },
+        "message": "must match pattern \"^(\\d{1,6}){1}$\"",
+        "schema": "^(\\d{1,6}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/services/0/freeEventQuantity",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/services/items/properties/freeEventQuantity/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\d{1,6}){1}$"
+        },
+        "message": "must match pattern \"^(\\d{1,6}){1}$\"",
+        "schema": "^(\\d{1,6}){1}$",
+        "data": "NA"
+      }
+    ]
+  }
+]

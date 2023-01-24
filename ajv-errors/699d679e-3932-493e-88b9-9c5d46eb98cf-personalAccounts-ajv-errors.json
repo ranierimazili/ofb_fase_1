@@ -1,0 +1,744 @@
+[
+  {
+    "url": "https://btgpactualwm.openbanking.btgpactual.com/open-banking/products-services/v1/personal-accounts",
+    "errors": [
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/prices/0/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/prices/1/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/prices/2/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/prices/3/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/0/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1/prices/0/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1/prices/1/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1/prices/2/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1/prices/3/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/1/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2/prices/0/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2/prices/1/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2/prices/2/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2/prices/3/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/2/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/3/prices/0/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/3/prices/1/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/3/prices/2/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/3/prices/3/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/3/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/3/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/4/prices/0/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/4/prices/1/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/4/prices/2/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/4/prices/3/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/4/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/4/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/5/prices/0/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/5/prices/1/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/5/prices/2/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/5/prices/3/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/5/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/5/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/6/prices/0/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/6/prices/1/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/6/prices/2/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/6/prices/3/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/6/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/6/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/7/prices/0/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/7/prices/1/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/7/prices/2/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/7/prices/3/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/prices/items/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/7/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/priorityServices/7/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/priorityServices/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/otherServices/0/prices/0/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/otherServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/otherServices/0/prices/1/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/otherServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/otherServices/0/prices/2/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/otherServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/fees/otherServices/0/prices/3/customers/rate",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/fees/properties/otherServices/items/properties/prices/items/properties/customers/properties/rate/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "(^[0-9](\\.[0-9]{4})$|^NA$)"
+        },
+        "message": "must match pattern \"(^[0-9](\\.[0-9]{4})$|^NA$)\"",
+        "schema": "(^[0-9](\\.[0-9]{4})$|^NA$)",
+        "data": "0.00"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/services/0/eventLimitQuantity",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/services/items/properties/eventLimitQuantity/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\d{1,6}){1}$"
+        },
+        "message": "must match pattern \"^(\\d{1,6}){1}$\"",
+        "schema": "^(\\d{1,6}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/services/0/freeEventQuantity",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/services/items/properties/freeEventQuantity/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\d{1,6}){1}$"
+        },
+        "message": "must match pattern \"^(\\d{1,6}){1}$\"",
+        "schema": "^(\\d{1,6}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/prices/0/monthlyFee",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/prices/items/properties/monthlyFee/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/prices/0/currency",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/prices/items/properties/currency/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\w{3}){1}$"
+        },
+        "message": "must match pattern \"^(\\w{3}){1}$\"",
+        "schema": "^(\\w{3}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/prices/1/monthlyFee",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/prices/items/properties/monthlyFee/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/prices/1/currency",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/prices/items/properties/currency/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\w{3}){1}$"
+        },
+        "message": "must match pattern \"^(\\w{3}){1}$\"",
+        "schema": "^(\\w{3}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/prices/2/monthlyFee",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/prices/items/properties/monthlyFee/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/prices/2/currency",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/prices/items/properties/currency/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\w{3}){1}$"
+        },
+        "message": "must match pattern \"^(\\w{3}){1}$\"",
+        "schema": "^(\\w{3}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/prices/3/monthlyFee",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/prices/items/properties/monthlyFee/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/prices/3/currency",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/prices/items/properties/currency/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\w{3}){1}$"
+        },
+        "message": "must match pattern \"^(\\w{3}){1}$\"",
+        "schema": "^(\\w{3}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/minimum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/minimum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/minimum/currency",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/minimum/properties/currency/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\w{3}){1}$"
+        },
+        "message": "must match pattern \"^(\\w{3}){1}$\"",
+        "schema": "^(\\w{3}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/maximum/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/maximum/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0.0000"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/serviceBundles/0/maximum/currency",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/serviceBundles/items/properties/maximum/properties/currency/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^(\\w{3}){1}$"
+        },
+        "message": "must match pattern \"^(\\w{3}){1}$\"",
+        "schema": "^(\\w{3}){1}$",
+        "data": "NA"
+      },
+      {
+        "instancePath": "/data/brand/companies/0/personalAccounts/0/termsConditions/minimumBalance/value",
+        "schemaPath": "#/properties/data/properties/brand/properties/companies/items/properties/personalAccounts/items/properties/termsConditions/properties/minimumBalance/properties/value/pattern",
+        "keyword": "pattern",
+        "params": {
+          "pattern": "^((\\d{1,9}\\.\\d{2}){1}|NA)$"
+        },
+        "message": "must match pattern \"^((\\d{1,9}\\.\\d{2}){1}|NA)$\"",
+        "schema": "^((\\d{1,9}\\.\\d{2}){1}|NA)$",
+        "data": "0"
+      }
+    ]
+  }
+]
